@@ -2,7 +2,7 @@
 
 <h1 align='center'> HackOdisha </h1>
 
-<p align='center'>Hack Odisha brings you an enterprising platform where you can showcase your unique ideas and expand your boundaries with your creativity and proficiency. Webwiz a technical club of NIT Rourkela is proud to host its very first hackathon online and strives to make it exciting, edifying and educational. Hack Odisha is a 36-hour hackathon and whether you are having a formidable team or you are a lone-wolf, do grab this opportunity to take home some exciting prizes and certificates. Buckle up to unite with us and make your talent count.</p>
+<p align='center'>Hackodisha brings an enterprising platform where hackers can showcase their unique ideas and expand boundaries with their creativity and proficiency. Webwiz, the technical club of NIT Rourkela is proud to host the hackathon on the eve of the diamond jubilee celebration of NIT Rourkela and strives to make it exciting, edifying, and educational. We will also be having many Pre-hack events for around a month where multiple communities will be organizing workshops and competitions. In this 36 hours </p>
 
 <img src='HackOdishaBanner.jpeg' height='400'>
 
