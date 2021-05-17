@@ -143,12 +143,20 @@ function home2() {
         </Heading>
       </Container>
       <Logos>
-        <Logo src={require("../assets/images/postman.173f0764.png").default} />
-        <Logo src={require("../assets/images/MLSA.png").default} />
-        <Logo src={require("../assets/images/sticker-mule.svg").default} />
-        <Logo
-          src={require("../assets/images/NITR diamondjubilee logo.png").default}
-        />
+        <a href="https://www.postman.com/">
+          <Logo src={require("../assets/images/postman.173f0764.png").default}/>
+        </a>
+        <a href="https://studentambassadors.microsoft.com/">
+          <Logo src={require("../assets/images/MLSA.png").default} />
+        </a>
+        <a href="https://www.stickermule.com/">
+          <Logo src={require("../assets/images/sticker-mule.svg").default} />
+        </a>
+        <a href="https://www.nitrkl.ac.in/">
+          <Logo
+            src={require("../assets/images/NITR diamondjubilee logo.png").default} 
+          />
+        </a>
       </Logos>
     </Raisebox>
   );
