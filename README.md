@@ -4,7 +4,7 @@
 
 <p align='center'>Hackodisha brings an enterprising platform where hackers can showcase their unique ideas and expand boundaries with their creativity and proficiency. Webwiz, the technical club of NIT Rourkela is proud to host the hackathon on the eve of the diamond jubilee celebration of NIT Rourkela and strives to make it exciting, edifying, and educational. We will also be having many Pre-hack events for around a month where multiple communities will be organizing workshops and competitions. In this 36 hours </p>
 
-<img src='HackOdishaBanner.jpeg' height='400'>
+<img src='HackOdishaBanner.jpeg' >
 
 [![Starware](https://img.shields.io/badge/⭐-Starware-f5a91a?labelColor=black)](https://github.com/zepfietje/starware)
 
