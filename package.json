@@ -19,7 +19,7 @@
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.2",
     "styled-components": "^5.2.3",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
