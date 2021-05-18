@@ -13,7 +13,8 @@ const data1 = {
       content: `The team can be of size 1-4 members`,
     },
     {
-      title: "Does one have to be online and available for the entire duration of the Hackathon?",
+      title:
+        "Does one have to be online and available for the entire duration of the Hackathon?",
       content: `No. You only have to be online during some specific time which will be informed beforehand on discord`,
     },
     {
@@ -57,11 +58,12 @@ export const Raisebox = styled.div`
   min-height: 70vh;
   width: 90vw;
   margin: auto;
-  background: #191919;
-  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.5);
+  background: #18191a;
+  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  margin-top: -10%;
 
-  @media only screen and (max-width: 320px){
+  @media only screen and (max-width: 320px) {
     margin-left: -15%;
   }
   @media only screen and (min-width: 321px) and (max-width: 360px) {
@@ -73,22 +75,17 @@ export const Raisebox = styled.div`
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     margin-left: -5%;
   }
-  @media only screen and (min-width:1024px){
-    margin-top: 10%;
-  }
 `;
 
-
-export const Div1 = styled.div`
-`;
+export const Div1 = styled.div``;
 
 export const Div2 = styled.div`
-margin-top: -10%;
-display: grid;
+  margin-top: -10%;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   padding: 5%;
-  text-align:left;
+  text-align: left;
   @media only screen and (max-width: 786px) {
     display: grid;
     grid-template-columns: 1fr;
@@ -102,7 +99,7 @@ display: grid;
 `;
 
 export const Heading = styled.h1`
-font-weight: 900;
+  font-weight: 900;
   letter-spacing: -0.07em;
   background: #fff;
   background-clip: text;
@@ -114,7 +111,7 @@ font-weight: 900;
   margin-top: 10%;
   margin-left: 1%;
 
-  @media only screen and (max-width: 340px){
+  @media only screen and (max-width: 340px) {
     font-size: 3rem;
     margin-left: -5%;
   }
@@ -150,13 +147,15 @@ font-weight: 900;
 function home2() {
   return (
     <Raisebox>
-        <Div1>
-        <Heading>Have any <span style={{ color: "#ff0000" }}> questions?</span></Heading>
-        </Div1>
-        <Div2>
-          <Faq data={data1} styles={styles} />
-          <Faq data={data2} styles={styles} />
-        </Div2>
+      <Div1>
+        <Heading>
+          Have any <span style={{ color: "#ff0000" }}> questions?</span>
+        </Heading>
+      </Div1>
+      <Div2>
+        <Faq data={data1} styles={styles} />
+        <Faq data={data2} styles={styles} />
+      </Div2>
     </Raisebox>
   );
 }

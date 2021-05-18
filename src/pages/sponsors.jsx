@@ -2,16 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 export const Raisebox = styled.div`
-  display: flex;
-  flex-direction: row;
   min-height: 70vh;
   width: 90vw;
   margin: auto;
-  background: #191919;
-  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.5);
+  background: #18191a;
+  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  margin-top: -10%;
 
-  @media only screen and (max-width: 320px){
+  @media only screen and (max-width: 320px) {
     margin-left: -15%;
   }
   @media only screen and (min-width: 321px) and (max-width: 360px) {
@@ -23,15 +22,6 @@ export const Raisebox = styled.div`
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     margin-left: -5%;
   }
-  @media only screen and (max-width: 1024px) {
-    flex-direction: column;
-  }
-`;
-
-export const Container = styled.div`
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
 `;
 
 export const Heading = styled.h1`
@@ -41,12 +31,18 @@ export const Heading = styled.h1`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  padding: 1rem;
+  padding: 3rem;
   line-height: 0.8em;
   font-size: 5rem;
   margin-top: 10%;
   margin-left: 1%;
-  @media only screen and (max-width: 360px) {
+
+  @media only screen and (max-width: 340px) {
+    font-size: 3rem;
+    margin-left: -5%;
+  }
+
+  @media only screen and (min-width: 341px) and (max-width: 360px) {
     font-size: 3rem;
     text-align: center;
     margin: 0 auto;
@@ -65,9 +61,36 @@ export const Heading = styled.h1`
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     text-align: center;
     margin: 0 auto;
-    margin-top: 0;
+    margin-top: -5%;
   }
 
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    font-size: 5rem;
+    margin-top: 10%;
+  }
+`;
+
+export const Logos = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  padding-bottom: 10%;
+  @media only screen and (max-width: 360px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @media only screen and (min-width: 361px) and (max-width: 480px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     font-size: 4rem;
     margin-top: 10%;
@@ -78,6 +101,7 @@ export const Logo = styled.img`
   max-width: 400px;
   max-height: 150px;
   margin: 0 auto;
+  padding: 20px;
   @media only screen and (max-width: 360px) {
     max-width: 200px;
     max-height: 150px;
@@ -100,74 +124,68 @@ export const Logo = styled.img`
   }
 `;
 
-export const Logos = styled.div`
-  margin-top: 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  margin-bottom: 5%;
-
-  @media only screen and (max-width: 360px) {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  @media only screen and (min-width: 361px) and (max-width: 480px) {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  @media only screen and (min-width: 481px) and (max-width: 767px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    font-size: 4rem;
-    margin-top: 10%;
-  }
-`;
-
 function home2() {
   return (
     <div>
-    <Raisebox>
-      <Container>
+      <Raisebox>
         <Heading>
           Hackathon
-          <br />
-          <span style={{ color: "#ff0000" }}> Sponsors </span>{" "}
+          <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
-      </Container>
-      <Logos>
-        <Logo src={require("../assets/images/postman.173f0764.png").default} />
-        <Logo src={require("../assets/images/MLSA.png").default} />
-        <Logo src={require("../assets/images/sticker-mule.svg").default} />
-        <Logo
-          src={require("../assets/images/NITR diamondjubilee logo.png").default}
-        />
-      </Logos>
-    </Raisebox>
-    <Raisebox style={{marginTop:"10%"}}>
-      <Container>
-        <Heading>
-          Hackathon
-          <br />
-          <span style={{ color: "#ff0000" }}> Sponsors </span>{" "}
-        </Heading>
-      </Container>
-      <Logos>
-        <Logo src={require("../assets/images/postman.173f0764.png").default} />
-        <Logo src={require("../assets/images/MLSA.png").default} />
-        <Logo src={require("../assets/images/sticker-mule.svg").default} />
-        <Logo
-          src={require("../assets/images/NITR diamondjubilee logo.png").default}
-        />
-      </Logos>
-    </Raisebox>
+        <Logos>
+          <a href="https://www.nitrkl.ac.in/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/diamondjubilee.png").default}
+              alt="NITR Diamond Jubilee"
+            />
+          </a>
+          <a href="https://www.postman.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/postman.png").default}
+              alt="Postman"
+            />
+          </a>
+          <a href="https://studentambassadors.microsoft.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/MLSA.png").default}
+              alt="MLSA"
+            />
+          </a>
+          <a href="https://www.echoar.xyz/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/echoar-removebg-preview.png")
+                  .default
+              }
+              alt="Echo AR"
+            />
+          </a>
+          <a href="https://hoverrobotix.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/hoverRobotix.png").default}
+              alt="Hover Robotix"
+            />
+          </a>
+          <a href="https://rosenfeldmedia.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/Rosenfeld.png").default}
+              alt="Rosenfeld"
+            />
+          </a>
+          <a href="https://www.stickermule.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/sticker-mule.svg").default}
+              alt="StickerMule"
+            />
+          </a>
+          <a href="https://www.taskade.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/taskade.png").default}
+              alt="Taskade"
+            />
+          </a>
+        </Logos>
+      </Raisebox>
     </div>
   );
 }
