@@ -186,6 +186,20 @@ function home2() {
           </a>
         </Logos>
       </Raisebox>
+      <Raisebox style={{marginTop:"2%"}}>
+        <Heading>
+          Hackathon
+          <span style={{ color: "#ff0000" }}> Sponsors </span>
+        </Heading>
+        <Logos>
+          <a href="https://www.framer.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/framer.png").default}
+              alt="Framer"
+            />
+          </a>
+        </Logos>
+      </Raisebox>
     </div>
   );
 }
