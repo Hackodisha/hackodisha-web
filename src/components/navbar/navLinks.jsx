@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 const NavLinksContainer = styled.div`
   height: 100%;

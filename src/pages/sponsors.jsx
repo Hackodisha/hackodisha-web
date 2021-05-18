@@ -10,7 +10,6 @@ export const Raisebox = styled.div`
   background: #191919;
   box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  margin-top: 2%;
 
   @media only screen and (max-width: 320px){
     margin-left: -15%;
@@ -134,6 +133,7 @@ export const Logos = styled.div`
 
 function home2() {
   return (
+    <div>
     <Raisebox>
       <Container>
         <Heading>
@@ -151,6 +151,24 @@ function home2() {
         />
       </Logos>
     </Raisebox>
+    <Raisebox style={{marginTop:"10%"}}>
+      <Container>
+        <Heading>
+          Hackathon
+          <br />
+          <span style={{ color: "#ff0000" }}> Sponsors </span>{" "}
+        </Heading>
+      </Container>
+      <Logos>
+        <Logo src={require("../assets/images/postman.173f0764.png").default} />
+        <Logo src={require("../assets/images/MLSA.png").default} />
+        <Logo src={require("../assets/images/sticker-mule.svg").default} />
+        <Logo
+          src={require("../assets/images/NITR diamondjubilee logo.png").default}
+        />
+      </Logos>
+    </Raisebox>
+    </div>
   );
 }
 

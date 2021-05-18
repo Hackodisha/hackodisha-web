@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Accessibility } from "./accessibility";
 import { MenuToggle } from "./menuToggle";
 
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 const NavLinksContainer = styled.div`
   height: 100%;
