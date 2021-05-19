@@ -21,6 +21,10 @@ export const Raisebox = styled.div`
   }
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     margin-left: -5%;
+    margin-top: 5%;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-top: 10%;
   }
 `;
 
@@ -48,9 +52,12 @@ export const Heading = styled.h1`
     margin: 0 auto;
   }
   @media only screen and (min-width: 361px) and (max-width: 480px) {
-    font-size: 4rem;
+    display: block;
     text-align: center;
     margin: 0 auto;
+    margin-top: -5%;
+    font-size: 4rem;
+    margin-left: -11%;
   }
   @media only screen and (min-width: 481px) and (max-width: 767px) {
     font-size: 4.5rem;
@@ -116,7 +123,7 @@ export const Logo = styled.img`
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    max-width: 250px;
+    max-width: 235px;
     max-height: 150px;
   }
 
@@ -151,13 +158,11 @@ function home2() {
               alt="MLSA"
             />
           </a>
-          <a href="https://www.echoar.xyz/" target="_blank">
+          <a href="https://replit.com/" target="_blank">
             <Logo
-              src={
-                require("../assets/sponsors/echoar-removebg-preview.png")
-                  .default
-              }
-              alt="Echo AR"
+              src={require("../assets/sponsors/Replit.jpg").default}
+              style={{width: '250px'}}
+              alt="replit"
             />
           </a>
           <a href="https://hoverrobotix.com/" target="_blank">
@@ -166,10 +171,10 @@ function home2() {
               alt="Hover Robotix"
             />
           </a>
-          <a href="https://rosenfeldmedia.com/" target="_blank">
+          <a href="https://www.taskade.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/Rosenfeld.png").default}
-              alt="Rosenfeld"
+              src={require("../assets/sponsors/taskade.png").default}
+              alt="Taskade"
             />
           </a>
           <a href="https://www.stickermule.com/" target="_blank">
@@ -178,15 +183,17 @@ function home2() {
               alt="StickerMule"
             />
           </a>
-          <a href="https://www.taskade.com/" target="_blank">
+          <a href="https://rosenfeldmedia.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/taskade.png").default}
-              alt="Taskade"
+              src={require("../assets/sponsors/Rosenfeld.png").default}
+              style={{width: '250px'}}
+              alt="Rosenfeld"
             />
           </a>
         </Logos>
       </Raisebox>
-      <Raisebox style={{marginTop:"2%"}}>
+
+      <Raisebox style={{marginTop:"20%"}}>
         <Heading>
           Hackathon
           <span style={{ color: "#ff0000" }}> Sponsors </span>
@@ -196,6 +203,37 @@ function home2() {
             <Logo
               src={require("../assets/sponsors/framer.png").default}
               alt="Framer"
+            />
+          </a>
+          <a href="https://nostarch.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/nostarch.PNG").default}
+              style={{width: '300px'}}
+              alt="nostarch"
+            />
+          </a>
+          <a href="https://www.echoar.xyz/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/echoar.png")
+                  .default
+              }
+              style={{width: '250px'}}
+              alt="Echo AR"
+            />
+          </a>
+          <a href="https://draftbit.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/draftbit.png").default}
+              style={{width: '300px'}}
+              alt="draftbit"
+            />
+          </a>
+          <a href="https://www.roostoo.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/rostoo.png").default}
+              style={{width: '300px'}}
+              alt="Rostoo"
             />
           </a>
         </Logos>

@@ -74,6 +74,10 @@ export const Raisebox = styled.div`
   }
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     margin-left: -5%;
+    margin-top: 5%;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-top: 10%;
   }
 `;
 
@@ -125,6 +129,7 @@ export const Heading = styled.h1`
     font-size: 4rem;
     text-align: center;
     margin: 0 auto;
+    margin-left: -2%;
   }
   @media only screen and (min-width: 481px) and (max-width: 767px) {
     font-size: 4.5rem;
