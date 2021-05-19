@@ -21,10 +21,39 @@ export const Raisebox = styled.div`
   }
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     margin-left: -5%;
-    margin-top: 5%;
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    margin-top: 10%;
+    
+  }
+`;
+
+export const Raisebox2 = styled.div`
+  min-height: 70vh;
+  width: 90vw;
+  margin: auto;
+  background: #18191a;
+  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin-top: 10%;
+
+  @media only screen and (max-width: 320px) {
+    margin-left: -15%;
+    margin-top: 20%;
+  }
+  @media only screen and (min-width: 321px) and (max-width: 360px) {
+    margin-left: -11%;
+    margin-top: 20%;
+  }
+  @media only screen and (min-width: 361px) and (max-width: 480px) {
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    margin-left: -5%;
+    margin-top: 20%;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-top: 15%;
   }
 `;
 
@@ -195,7 +224,7 @@ function home2() {
         </Logos>
       </Raisebox>
 
-      <Raisebox style={{marginTop:"2%"}}>
+      <Raisebox2>
         <Heading>
           Hackathon
           <span style={{ color: "#ff0000" }}> Sponsors </span>
@@ -228,7 +257,7 @@ function home2() {
             <Logo
               src={require("../assets/sponsors/roostoo.png").default}
               
-              alt="Rostoo"
+              alt="Roostoo"
             />
           </a>
           <a href="https://draftbit.com/" target="_blank">
@@ -238,9 +267,8 @@ function home2() {
               alt="draftbit"
             />
           </a>
-          
         </Logos>
-      </Raisebox>
+      </Raisebox2>
     </div>
   );
 }
