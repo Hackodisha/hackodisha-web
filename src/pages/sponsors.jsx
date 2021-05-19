@@ -56,7 +56,7 @@ export const Heading = styled.h1`
     text-align: center;
     margin: 0 auto;
     margin-top: -5%;
-    font-size: 4rem;
+    font-size: 3.8rem;
     margin-left: -11%;
   }
   @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -123,11 +123,13 @@ export const Logo = styled.img`
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    max-width: 235px;
+    max-width: 250px;
     max-height: 150px;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    max-width: 250px;
+    max-height: 150px;
   }
 `;
 
@@ -160,8 +162,8 @@ function home2() {
           </a>
           <a href="https://replit.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/Replit.jpg").default}
-              style={{width: '250px'}}
+              src={require("../assets/sponsors/replit.svg").default}
+              
               alt="replit"
             />
           </a>
@@ -186,14 +188,14 @@ function home2() {
           <a href="https://rosenfeldmedia.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/Rosenfeld.png").default}
-              style={{width: '250px'}}
+              
               alt="Rosenfeld"
             />
           </a>
         </Logos>
       </Raisebox>
 
-      <Raisebox style={{marginTop:"20%"}}>
+      <Raisebox style={{marginTop:"2%"}}>
         <Heading>
           Hackathon
           <span style={{ color: "#ff0000" }}> Sponsors </span>
@@ -207,35 +209,36 @@ function home2() {
           </a>
           <a href="https://nostarch.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/nostarch.PNG").default}
-              style={{width: '300px'}}
+              src={require("../assets/sponsors/nostarch1.png").default}
+              
               alt="nostarch"
             />
           </a>
           <a href="https://www.echoar.xyz/" target="_blank">
             <Logo
               src={
-                require("../assets/sponsors/echoar.png")
+                require("../assets/sponsors/echoAR.png")
                   .default
               }
-              style={{width: '250px'}}
+              
               alt="Echo AR"
-            />
-          </a>
-          <a href="https://draftbit.com/" target="_blank">
-            <Logo
-              src={require("../assets/sponsors/draftbit.png").default}
-              style={{width: '300px'}}
-              alt="draftbit"
             />
           </a>
           <a href="https://www.roostoo.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/rostoo.png").default}
-              style={{width: '300px'}}
+              src={require("../assets/sponsors/roostoo.png").default}
+              
               alt="Rostoo"
             />
           </a>
+          <a href="https://draftbit.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/draftbit2.png").default}
+              
+              alt="draftbit"
+            />
+          </a>
+          
         </Logos>
       </Raisebox>
     </div>
