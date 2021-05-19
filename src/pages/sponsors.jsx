@@ -214,11 +214,11 @@ function home2() {
               alt="StickerMule"
             />
           </a>
-          <a href="https://rosenfeldmedia.com/" target="_blank">
+
+          <a href="https://www.framer.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/Rosenfeld.png").default}
-              
-              alt="Rosenfeld"
+              src={require("../assets/sponsors/framer.png").default}
+              alt="Framer"
             />
           </a>
         </Logos>
@@ -230,12 +230,20 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <Logos>
-          <a href="https://www.framer.com/" target="_blank">
+          
+        <a href="https://www.echoar.xyz/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/framer.png").default}
-              alt="Framer"
+              src={
+                require("../assets/sponsors/echoar.png")
+                  .default
+              }
+              
+              alt="Echo AR"
             />
           </a>
+
+        
+
           <a href="https://nostarch.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/nostarch1.png").default}
@@ -243,16 +251,7 @@ function home2() {
               alt="nostarch"
             />
           </a>
-          <a href="https://www.echoar.xyz/" target="_blank">
-            <Logo
-              src={
-                require("../assets/sponsors/echoAR.png")
-                  .default
-              }
-              
-              alt="Echo AR"
-            />
-          </a>
+          
           <a href="https://www.roostoo.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/roostoo.png").default}
@@ -267,6 +266,40 @@ function home2() {
               alt="draftbit"
             />
           </a>
+
+          <a href="https://interviewbuddy.in/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/interviewBuddy.png").default}
+              
+              alt="Interview Buddy"
+            />
+          </a>
+
+          <a href="https://testmail.app/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/testmail.svg").default}
+              
+              alt="testmail app"
+            />
+          </a>
+
+          <a href="https://aichamp.in/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/aichamp.png").default}
+              
+              alt="Aichamp"
+            />
+          </a>
+            
+          <a href="https://rosenfeldmedia.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/Rosenfeld.png").default}
+              
+              alt="Rosenfeld"
+            />
+          </a>
+          
+
         </Logos>
       </Raisebox2>
     </div>
