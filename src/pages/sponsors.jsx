@@ -23,7 +23,7 @@ export const Raisebox = styled.div`
     margin-left: -5%;
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    
+    margin-top: 5%;
   }
 `;
 
@@ -176,14 +176,15 @@ export const Logo = styled.img`
     max-width: 200px;
     max-height: 150px;
   }
-  @media only screen and (min-width: 481px) and (max-width: 767px) {
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
     max-width: 200px;
     max-height: 150px;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    max-width: 250px;
-    max-height: 150px;
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    max-width: 280px;
+    max-height: 180px;
+    margin-top: 10%;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -222,7 +223,7 @@ function home2() {
           <a href="https://replit.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/replit.svg").default}
-              
+
               alt="replit"
             />
           </a>
@@ -260,75 +261,76 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <Logos>
-          
+
         <a href="https://www.echoar.xyz/" target="_blank">
             <Logo
               src={
                 require("../assets/sponsors/echoar.png")
                   .default
               }
-              
+
               alt="Echo AR"
             />
           </a>
 
-        
-
           <a href="https://nostarch.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/nostarch1.png").default}
-              
+              src={require("../assets/sponsors/nostarchpress.jpg").default}
+
               alt="nostarch"
+              style={{width: '150px', height: '150px'}}
             />
           </a>
-          
+
           <a href="https://www.roostoo.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/roostoo.png").default}
-              
-              alt="Roostoo"
-            />
-          </a>
-          <a href="https://draftbit.com/" target="_blank">
-            <Logo
-              src={require("../assets/sponsors/draftbit2.png").default}
-              
-              alt="draftbit"
-            />
-          </a>
 
-          <a href="https://interviewbuddy.in/" target="_blank">
-            <Logo
-              src={require("../assets/sponsors/interviewBuddy.png").default}
-              
-              alt="Interview Buddy"
+              alt="Roostoo"
             />
           </a>
 
           <a href="https://testmail.app/" target="_blank">
             <Logo
               src={require("../assets/sponsors/testmail.svg").default}
-              
+
               alt="testmail app"
+              style={{width: '350px', height: '150px'}}
+            />
+          </a>
+
+          <a href="https://interviewbuddy.in/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/interviewBuddy.png").default}
+
+              alt="Interview Buddy"
+            />
+          </a>
+
+          <a href="https://draftbit.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/draftbit2.png").default}
+
+              alt="draftbit"
             />
           </a>
 
           <a href="https://aichamp.in/" target="_blank">
             <Logo
               src={require("../assets/sponsors/aichamp.png").default}
-              
+
               alt="Aichamp"
             />
           </a>
-            
+
           <a href="https://rosenfeldmedia.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/Rosenfeld.png").default}
-              
+
               alt="Rosenfeld"
             />
           </a>
-          
+
 
         </Logos>
       </Raisebox2>
@@ -339,14 +341,14 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <Logos>
-          
+
         <a href="https://www.jetbrains.com/" target="_blank">
             <Logo
               src={
                 require("../assets/sponsors/jetbrains.png")
                   .default
               }
-              
+
               alt="Jet Brains"
             />
           </a>
@@ -357,7 +359,7 @@ function home2() {
                 require("../assets/sponsors/balsamiq.png")
                   .default
               }
-              
+
               alt="Balsamiq"
             />
           </a>
