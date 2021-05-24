@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a6da7227.chunk.css",
-    "main.js": "/static/js/main.f59060c3.chunk.js",
-    "main.js.map": "/static/js/main.f59060c3.chunk.js.map",
+    "main.js": "/static/js/main.2c966205.chunk.js",
+    "main.js.map": "/static/js/main.2c966205.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4b7cdae6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4b7cdae6.js.map",
     "static/js/2.3f2eb759.chunk.js": "/static/js/2.3f2eb759.chunk.js",
@@ -34,7 +34,7 @@
     "static/media/open.5305c932.png": "/static/media/open.5305c932.png",
     "static/media/postman.png": "/static/media/postman.32e4c216.png",
     "static/media/replit.svg": "/static/media/replit.1df60403.svg",
-    "static/media/script.webp": "/static/media/script.f966f005.webp",
+    "static/media/script.png": "/static/media/script.17bfa1fa.png",
     "static/media/security.9606bb1a.png": "/static/media/security.9606bb1a.png",
     "static/media/sticker-mule.svg": "/static/media/sticker-mule.fe700e6f.svg",
     "static/media/taskade.png": "/static/media/taskade.e388ffc9.png",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.4b7cdae6.js",
     "static/js/2.3f2eb759.chunk.js",
     "static/css/main.a6da7227.chunk.css",
-    "static/js/main.f59060c3.chunk.js"
+    "static/js/main.2c966205.chunk.js"
   ]
 }
