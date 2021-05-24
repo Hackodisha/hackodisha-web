@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a6da7227.chunk.css",
-    "main.js": "/static/js/main.150650d0.chunk.js",
-    "main.js.map": "/static/js/main.150650d0.chunk.js.map",
+    "main.js": "/static/js/main.f59060c3.chunk.js",
+    "main.js.map": "/static/js/main.f59060c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4b7cdae6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4b7cdae6.js.map",
     "static/js/2.3f2eb759.chunk.js": "/static/js/2.3f2eb759.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/MLSA.png": "/static/media/MLSA.28764784.png",
     "static/media/Map1.png": "/static/media/Map1.9fa57e20.png",
     "static/media/aichamp.png": "/static/media/aichamp.4d9b979c.png",
-    "static/media/codingblocks.png": "/static/media/codingblocks.f553e92d.png",
+    "static/media/codingblocks.png": "/static/media/codingblocks.055599df.png",
     "static/media/date.png": "/static/media/date.fc61212a.png",
     "static/media/diamondjubilee.png": "/static/media/diamondjubilee.d35f7cd0.png",
     "static/media/disaster.d1841bd9.png": "/static/media/disaster.d1841bd9.png",
@@ -30,21 +30,21 @@
     "static/media/interviewBuddy.png": "/static/media/interviewBuddy.b2687fac.png",
     "static/media/jetbrains.png": "/static/media/jetbrains.aa24b18c.png",
     "static/media/karoverify2.png": "/static/media/karoverify2.1e115b94.png",
-    "static/media/nostarchpress.jpg": "/static/media/nostarchpress.83aa7819.jpg",
+    "static/media/nostarch.png": "/static/media/nostarch.5c901057.png",
     "static/media/open.5305c932.png": "/static/media/open.5305c932.png",
     "static/media/postman.png": "/static/media/postman.32e4c216.png",
     "static/media/replit.svg": "/static/media/replit.1df60403.svg",
-    "static/media/scriptfoundation2.png": "/static/media/scriptfoundation2.4ec35834.png",
+    "static/media/script.webp": "/static/media/script.f966f005.webp",
     "static/media/security.9606bb1a.png": "/static/media/security.9606bb1a.png",
     "static/media/sticker-mule.svg": "/static/media/sticker-mule.fe700e6f.svg",
     "static/media/taskade.png": "/static/media/taskade.e388ffc9.png",
     "static/media/testmail.svg": "/static/media/testmail.73f55bd9.svg",
-    "static/media/xyzdomain.png": "/static/media/xyzdomain.4b5f8dac.png"
+    "static/media/xyzdomain.png": "/static/media/xyzdomain.88298d23.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4b7cdae6.js",
     "static/js/2.3f2eb759.chunk.js",
     "static/css/main.a6da7227.chunk.css",
-    "static/js/main.150650d0.chunk.js"
+    "static/js/main.f59060c3.chunk.js"
   ]
 }

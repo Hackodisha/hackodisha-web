@@ -275,10 +275,10 @@ function home2() {
 
           <a href="https://nostarch.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/nostarchpress.jpg").default}
+              src={require("../assets/sponsors/nostarch.png").default}
 
               alt="nostarch"
-              style={{width: '150px', height: '150px'}}
+            
             />
           </a>
 
@@ -372,6 +372,18 @@ function home2() {
             />
           </a>
 
+          <a href="https://www.scriptindia.org/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/script.webp")
+                  .default
+              }
+              alt="Script Foundation"
+              style={{height:'400px'}}
+            />
+          </a>
+
+
           <a href="https://gen.xyz/" target="_blank">
             <Logo
               src={
@@ -392,16 +404,7 @@ function home2() {
             />
           </a>
 
-          <a href="https://www.scriptindia.org/" target="_blank">
-            <Logo
-              src={
-                require("../assets/sponsors/scriptfoundation2.png")
-                  .default
-              }
-              alt="Script Foundation"
-            />
-          </a>
-
+       
           <a href="https://codingblocks.com/" target="_blank">
             <Logo
               src={
