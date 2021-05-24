@@ -270,6 +270,7 @@ function home2() {
               }
 
               alt="Echo AR"
+              style={{width: '350px', height: '100px'}}
             />
           </a>
 
@@ -278,7 +279,7 @@ function home2() {
               src={require("../assets/sponsors/nostarch.png").default}
 
               alt="nostarch"
-            
+              style={{width: '300px', height: '100px'}}
             />
           </a>
 
@@ -295,7 +296,7 @@ function home2() {
               src={require("../assets/sponsors/testmail.svg").default}
 
               alt="testmail app"
-              style={{width: '350px', height: '150px'}}
+              style={{width: '320px', height: '120px'}}
             />
           </a>
 
@@ -328,9 +329,9 @@ function home2() {
               src={require("../assets/sponsors/Rosenfeld.png").default}
 
               alt="Rosenfeld"
+              style={{width: '320px', height: '140px'}}
             />
           </a>
-
 
         </Logos>
       </Raisebox2>
@@ -342,13 +343,14 @@ function home2() {
         </Heading>
         <Logos>
 
-        <a href="https://www.jetbrains.com/" target="_blank">
+
+          <a href="https://www.jetbrains.com/" target="_blank">
             <Logo
               src={
                 require("../assets/sponsors/jetbrains.png")
                   .default
-              }
-              alt="Jet Brains"
+                }
+                alt="Jet Brains"
             />
           </a>
 
@@ -375,11 +377,10 @@ function home2() {
           <a href="https://www.scriptindia.org/" target="_blank">
             <Logo
               src={
-                require("../assets/sponsors/script.webp")
+                require("../assets/sponsors/script.png")
                   .default
               }
               alt="Script Foundation"
-              style={{height:'400px'}}
             />
           </a>
 
@@ -404,7 +405,7 @@ function home2() {
             />
           </a>
 
-       
+
           <a href="https://codingblocks.com/" target="_blank">
             <Logo
               src={
