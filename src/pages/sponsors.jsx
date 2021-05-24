@@ -348,7 +348,6 @@ function home2() {
                 require("../assets/sponsors/jetbrains.png")
                   .default
               }
-
               alt="Jet Brains"
             />
           </a>
@@ -359,8 +358,57 @@ function home2() {
                 require("../assets/sponsors/balsamiq.png")
                   .default
               }
-
               alt="Balsamiq"
+            />
+          </a>
+
+          <a href="http://karoverify.xyz/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/karoverify2.png")
+                  .default
+              }
+              alt="Karo Verify"
+            />
+          </a>
+
+          <a href="https://gen.xyz/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/xyzdomain.png")
+                  .default
+              }
+              alt="XYZ .Domain"
+            />
+          </a>
+
+          <a href="https://www.hackathonsinternational.com/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/HackathonsInternational.png")
+                  .default
+              }
+              alt="Hackathons International"
+            />
+          </a>
+
+          <a href="https://www.scriptindia.org/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/scriptfoundation2.png")
+                  .default
+              }
+              alt="Script Foundation"
+            />
+          </a>
+
+          <a href="https://codingblocks.com/" target="_blank">
+            <Logo
+              src={
+                require("../assets/sponsors/codingblocks.png")
+                  .default
+              }
+              alt="Coding Blocks"
             />
           </a>
 
