@@ -29,7 +29,7 @@ function App() {
   return (
       loading ?
         <HashLoader
-         color={"#ffffff"}
+         color={"#ff0000"}
          loading={loading}
          css={loadercss}
          size={80}
