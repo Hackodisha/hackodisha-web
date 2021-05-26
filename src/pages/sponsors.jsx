@@ -208,12 +208,6 @@ function home2() {
               alt="NITR Diamond Jubilee"
             />
           </a>
-          <a href="https://hackclub.com/" target="_blank">
-            <Logo
-              src="https://assets.hackclub.com/flag-orpheus-left.svg"
-              alt="hack club"
-            />
-          </a>
           <a href="https://www.postman.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/postman.png").default}
@@ -249,6 +243,12 @@ function home2() {
             <Logo
               src={require("../assets/sponsors/framer.png").default}
               alt="Framer"
+            />
+          </a>
+          <a href="https://gen.xyz/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/xyzdomain.png").default}
+              alt="XYZ .Domain"
             />
           </a>
         </Logos>
@@ -300,13 +300,13 @@ function home2() {
               alt="1 password"
             />
           </a>
-          <a href="https://gen.xyz/" target="_blank">
+          
+          <a href="https://draftbit.com/" target="_blank">
             <Logo
-              src={require("../assets/sponsors/xyzdomain.png").default}
-              alt="XYZ .Domain"
+              src={require("../assets/sponsors/draftbit.png").default}
+              alt="draftbit"
             />
           </a>
-
           <a href="https://testmail.app/" target="_blank">
             <Logo
               src={require("../assets/sponsors/testmail.svg").default}
@@ -380,20 +380,6 @@ function home2() {
               src={require("../assets/sponsors/Rosenfeld.png").default}
               alt="Rosenfeld"
               style={{ width: "320px", height: "140px" }}
-            />
-          </a>
-        </Logos>
-      </Raisebox3>
-      <Raisebox3>
-        <Heading>
-          Hackathon
-          <span style={{ color: "#ff0000" }}> Sponsors </span>
-        </Heading>
-        <Logos>
-          <a href="https://draftbit.com/" target="_blank">
-            <Logo
-              src={require("../assets/sponsors/draftbit.png").default}
-              alt="draftbit"
             />
           </a>
         </Logos>
