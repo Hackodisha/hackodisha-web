@@ -14,6 +14,13 @@ const loadercss = css`
  padding-top: 560px;
  margin-left: 48%;
  text-align: center;
+
+ @media only screen and (max-width: 320px) {
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 600px){
+    margin: 0 auto;
+  }
 `
 
 function App() {
