@@ -40,34 +40,50 @@ export const Heading = styled.h1`
   -webkit-background-clip: text;
   color: transparent;
   padding: 1rem;
-  line-height: 1em;
+  line-height: 1.2em;
   font-size: 5rem;
   margin-top: 10%;
   margin-left: 1%;
+  
   @media only screen and (max-width: 360px) {
     font-size: 3rem;
     text-align: center;
     margin: 0 auto;
   }
-  @media only screen and (min-width: 361px) and (max-width: 480px) {
-    font-size: 4rem;
+  @media only screen and (min-width: 361px) and (max-width: 410px) {
+    font-size: 3rem;
     text-align: center;
     margin: 0 auto;
-  }
-  @media only screen and (min-width: 481px) and (max-width: 767px) {
-    font-size: 4rem;
-    text-align: center;
-    margin: 0 auto;
-    margin-left: 9%;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 411px) and (max-width: 480px) {
+    font-size: 3rem;
     text-align: center;
     margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 595px) {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    ${'' /* margin-left: 9%; */}
+  }
+
+  @media only screen and (min-width: 596px) and (max-width: 747px) {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    ${'' /* margin-left: 15%; */}
+  }
+
+  @media only screen and (min-width: 748px) and (max-width: 1024px) {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4.5rem;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-top: 10%;
   }
 `;
