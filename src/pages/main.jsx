@@ -4,6 +4,7 @@ import Tracks from "./tracks";
 import About from "./about";
 import Home from "./home";
 import Faq from "./faq";
+import Events from "./events";
 
 function Main() {
   return (
@@ -16,6 +17,9 @@ function Main() {
       </div>
       <div id="tracks" className="container">
         <Tracks />
+      </div>
+      <div id="events" className="container">
+        <Events />
       </div>
       <div id="sponsors" className="container">
         <Sponsors />
