@@ -539,7 +539,7 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <LogosGold>
-          <a href="https://www.postman.com/" target="_blank">
+        {/*  <a href="https://www.postman.com/" target="_blank">
             <LogoMedium
               src={require("../assets/sponsors/postman.png").default}
               alt="Postman"
@@ -552,7 +552,7 @@ function home2() {
               alt="MLSA"
               style={{ width: "210px" }}
             />
-          </a>
+          </a>*/}
           <a href="https://devfolio.co/home/" target="_blank">
             <LogoMedium
               src={require("../assets/sponsors/devfolio1.png").default}
