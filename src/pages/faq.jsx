@@ -110,7 +110,7 @@ export const Heading = styled.h1`
   -webkit-background-clip: text;
   color: transparent;
   padding: 3rem;
-  line-height: 0.8em;
+  line-height: 1.0em;
   font-size: 5rem;
   margin-top: 10%;
   margin-left: 1%;
@@ -126,7 +126,7 @@ export const Heading = styled.h1`
     margin: 0 auto;
   }
   @media only screen and (min-width: 361px) and (max-width: 480px) {
-    font-size: 4rem;
+    font-size: 3.2rem;
     text-align: center;
     margin: 0 auto;
     margin-left: -2%;
@@ -141,6 +141,7 @@ export const Heading = styled.h1`
     text-align: center;
     margin: 0 auto;
     margin-top: -5%;
+    font-size: 4.5rem;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
