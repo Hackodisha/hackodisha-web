@@ -341,7 +341,7 @@ export const LogosPlatinum = styled.div`
 
 export const LogosGold = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-content: space-between;
   padding-bottom: 10%;
   @media only screen and (max-width: 360px) {
@@ -557,7 +557,7 @@ function home2() {
             <LogoMedium
               src={require("../assets/sponsors/devfolio1.png").default}
               alt="Devfolio"
-              style={{ width: "420px" }}
+              style={{ width: "420px"}}
             />
           </a>
         </LogosGold>
@@ -754,7 +754,6 @@ function home2() {
 
       <Raisebox2>
         <Heading>
-          Partners
         </Heading>
         <LogosPartner>
         <div>

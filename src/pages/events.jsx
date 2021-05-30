@@ -42,8 +42,8 @@ export const Heading = styled.h1`
   padding: 3rem;
   line-height: 0.8em;
   font-size: 5rem;
-  margin-top: 10%;
-  margin-left: 1%;
+  margin-top: 1%;
+  margin-left: 20%;
 
   @media only screen and (max-width: 340px) {
     font-size: 3rem;
@@ -85,7 +85,8 @@ function home2() {
       <Container>
         <Heading>
           HACK <span style={{ color: "#ff0000" }}> EVENTS </span>
-      </Heading>
+       </Heading>
+       <h1 style={{color: "white"}}>To be revealed soon....</h1>
       {/*<section class="cd-horizontal-timeline loaded" style="padding-top: 0px;">
   <div class="timeline">
     <div class="events-wrapper">
