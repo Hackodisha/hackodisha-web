@@ -3,8 +3,6 @@
   background: url("../src/assets/images/hackodishabg.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
-  
 }
 
   .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
@@ -15,6 +13,7 @@
 .main{
   overflow-x: hidden;
 }
+
 
 @media screen and (max-width:992px) {
   .App{
