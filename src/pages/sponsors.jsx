@@ -8,7 +8,7 @@ export const Raisebox = styled.div`
   background: #18191a;
   box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  margin-top: -15%;
+  margin-top: -10%;
 
   @media only screen and (max-width: 320px) {
     margin-left: -15%;
@@ -160,7 +160,7 @@ export const Heading2 = styled.h2`
   background: #fff;
   -webkit-background-clip: text;
   color: transparent;
-  line-height: 0.8em;
+  line-height: 1.1em;
   font-size: 3rem;
   margin-top:0;
 
@@ -221,6 +221,7 @@ export const LogosBronze = styled.div`
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   padding-bottom: 10%;
+
   @media only screen and (max-width: 360px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -274,23 +275,31 @@ export const LogosSilver = styled.div`
 
 export const LogosPartner = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
-  padding-bottom: 10%;
+  grid-auto-flow: column;
+  margin-right: 5%;
+  margin-top: -5%;
+  padding-bottom: 8%;
+
+
   @media only screen and (max-width: 360px) {
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
   }
   @media only screen and (min-width: 361px) and (max-width: 480px) {
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
   }
   @media only screen and (min-width: 481px) and (max-width: 767px) {
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     display: grid;
+    grid-auto-flow: row;
+    margin-top: 5%;
     grid-template-columns: repeat(1, 1fr);
   }
   @media only screen and (min-width: 1025px) and (max-width: 1316px) {
@@ -305,7 +314,9 @@ export const LogosPlatinum = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: space-between;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  margin-top: -5%;
+
   @media only screen and (max-width: 360px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -356,50 +367,51 @@ export const LogosGold = styled.div`
 `;
 
 export const Logo = styled.img`
-  max-width: 200px;
-  ${'' /* max-height: 150px; */}
+  max-width: 290px;
+  max-height: 150px;
   margin: 0 auto;
   padding: 20px;
+
   @media only screen and (max-width: 360px) {
-    max-width: 175px;
+    max-width: 190px;
     ${'' /* max-height: 150px; */}
   }
   @media only screen and (min-width: 361px) and (max-width: 480px) {
-    max-width: 175px;
+    max-width: 190px;
     ${'' /* max-height: 150px; */}
   }
   @media only screen and (min-width: 481px) and (max-width: 768px) {
-    max-width: 175px;
+    max-width: 190px;
     ${'' /* max-height: 150px; */}
   }
 
   @media only screen and (min-width: 769px) and (max-width: 900px) {
-    max-width: 175px;
+    max-width: 220px;
     ${'' /* max-height: 165px; */}
   }
 
   @media only screen and (min-width: 900px) and (max-width: 1024px) {
-    max-width: 175px;
+    max-width: 250px;
     ${'' /* max-height: 170px; */}
     ${'' /* margin-top: 10%; */}
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    max-width: 200px;
+    max-width: 250px;
     ${'' /* max-height: 140px; */}
   }
 
   @media only screen and (min-width: 1201px) and (max-width: 1222px) {
-    max-width: 200px;
+    max-width: 300px;
     ${'' /* max-height: 150px; */}
   }s
 
   @media only screen and (min-width: 1222px) and (max-width: 1350px) {
-    max-width: 200px;
+    max-width: 300px;
     ${'' /* max-height: 200px; */}
   }
 
-  
+
 `;
 
 export const LogoBig = styled.img`
@@ -407,7 +419,7 @@ export const LogoBig = styled.img`
   ${'' /* max-height: 350px; */}
   margin: 0 auto;
   padding: 20px;
-  
+
   @media only screen and (max-width: 360px) {
     max-width: 250px;
     ${'' /* max-height: 180px; */}
@@ -450,7 +462,7 @@ export const LogoBig = styled.img`
     ${'' /* max-height: 250px; */}
   }
 
-  
+
 `;
 
 export const LogoMedium = styled.img`
@@ -500,7 +512,7 @@ export const LogoMedium = styled.img`
     ${'' /* max-height: 230px; */}
   }
 
-  
+
 `;
 
 function home2() {
@@ -637,12 +649,12 @@ function home2() {
               style={{ width: "150px" }}
             />
           </a>
-          
+
           <a href="https://draftbit.com/" target="_blank">
             <Logo
               src={require("../assets/sponsors/draftbit.png").default}
               alt="draftbit"
-              // style={{ width: "340px", height: "100px" }}
+              // style={{ width: "350px", height: "100px" }}
             />
           </a>
           <a href="https://testmail.app/" target="_blank">
@@ -656,7 +668,7 @@ function home2() {
             <Logo
               src={require("../assets/sponsors/image.png").default}
               alt="nostarch"
-              
+
             />
           </a>
 
@@ -733,15 +745,17 @@ function home2() {
             <Logo
               src={require("../assets/sponsors/xyzdomain.png").default}
               alt="XYZ .Domain"
-              
+
             />
           </a>
 
         </LogosBronze>
       </Raisebox2>
-  
+
       <Raisebox2>
-      <Heading></Heading>
+        <Heading>
+          Partners
+        </Heading>
         <LogosPartner>
         <div>
 
