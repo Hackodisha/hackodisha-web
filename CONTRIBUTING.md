@@ -23,7 +23,7 @@ Please note we have a CODE_OF_CONDUCT.md, please follow it in all your interacti
 # Clone the repo
 $ git clone https://github.com/<User-Name>/<Repo-Name>.git
 # Add upstream remote
-$ git remote add upstream https://github.com/Webwiznitr/MilkERP.git
+$ git remote add upstream https://github.com/Hackodisha/hackodisha-web.git
 # Fetch and merge with upstream/master
 $ git fetch upstream
 $ git merge upstream/master
