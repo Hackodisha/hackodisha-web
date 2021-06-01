@@ -21,6 +21,9 @@ function Main() {
       <div id="tracks" className="container">
         <Tracks />
       </div>
+      <div id="sponsors" className="container">
+        <Sponsors />
+      </div>
       <div id="schedule" className="container">
         <Schedule />
       </div>
@@ -29,9 +32,6 @@ function Main() {
       </div>
       <div id="prizes" className="container">
         <Prizes />
-      </div>
-      <div id="sponsors" className="container">
-        <Sponsors />
       </div>
       <div id="faq" className="container">
         <Faq />
