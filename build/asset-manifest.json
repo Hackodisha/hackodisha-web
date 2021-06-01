@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b828fb4a.chunk.css",
-    "main.js": "/static/js/main.88e01722.chunk.js",
-    "main.js.map": "/static/js/main.88e01722.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1f3561c1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1f3561c1.js.map",
-    "static/js/2.636b4151.chunk.js": "/static/js/2.636b4151.chunk.js",
-    "static/js/2.636b4151.chunk.js.map": "/static/js/2.636b4151.chunk.js.map",
-    "static/js/3.03c00e01.chunk.js": "/static/js/3.03c00e01.chunk.js",
-    "static/js/3.03c00e01.chunk.js.map": "/static/js/3.03c00e01.chunk.js.map",
+    "main.js": "/static/js/main.9a20a5ad.chunk.js",
+    "main.js.map": "/static/js/main.9a20a5ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7b9b201.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7b9b201.js.map",
+    "static/js/2.350c9f66.chunk.js": "/static/js/2.350c9f66.chunk.js",
+    "static/js/2.350c9f66.chunk.js.map": "/static/js/2.350c9f66.chunk.js.map",
+    "static/js/3.ab812f92.chunk.js": "/static/js/3.ab812f92.chunk.js",
+    "static/js/3.ab812f92.chunk.js.map": "/static/js/3.ab812f92.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.b828fb4a.chunk.css.map": "/static/css/main.b828fb4a.chunk.css.map",
-    "static/js/2.636b4151.chunk.js.LICENSE.txt": "/static/js/2.636b4151.chunk.js.LICENSE.txt",
+    "static/js/2.350c9f66.chunk.js.LICENSE.txt": "/static/js/2.350c9f66.chunk.js.LICENSE.txt",
     "static/media/HackathonsInternational1.png": "/static/media/HackathonsInternational1.4fc888e0.png",
     "static/media/Map1.png": "/static/media/Map1.9fa57e20.png",
     "static/media/celo1.png": "/static/media/celo1.0d0999b5.png",
@@ -31,6 +31,7 @@
     "static/media/interviewBuddy.png": "/static/media/interviewBuddy.b2687fac.png",
     "static/media/jetbrains.png": "/static/media/jetbrains.aa24b18c.png",
     "static/media/karoverify2.png": "/static/media/karoverify2.1e115b94.png",
+    "static/media/linode.png": "/static/media/linode.13ef14b8.png",
     "static/media/open.5305c932.png": "/static/media/open.5305c932.png",
     "static/media/poly1.png": "/static/media/poly1.5f4aecb9.png",
     "static/media/portisnew.png": "/static/media/portisnew.1135346f.png",
@@ -45,9 +46,9 @@
     "static/media/xyzdomain.png": "/static/media/xyzdomain.88298d23.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f3561c1.js",
-    "static/js/2.636b4151.chunk.js",
+    "static/js/runtime-main.d7b9b201.js",
+    "static/js/2.350c9f66.chunk.js",
     "static/css/main.b828fb4a.chunk.css",
-    "static/js/main.88e01722.chunk.js"
+    "static/js/main.9a20a5ad.chunk.js"
   ]
 }
