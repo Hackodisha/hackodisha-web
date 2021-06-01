@@ -249,6 +249,7 @@ export const LogosSilver = styled.div`
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   padding-bottom: 5%;
+
   @media only screen and (max-width: 360px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -269,7 +270,7 @@ export const LogosSilver = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 4rem;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 `;
 
@@ -343,7 +344,8 @@ export const LogosGold = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: space-between;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+
   @media only screen and (max-width: 360px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -362,7 +364,7 @@ export const LogosGold = styled.div`
   }
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     font-size: 4rem;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 `;
 

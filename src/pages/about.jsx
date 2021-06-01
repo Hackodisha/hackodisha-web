@@ -42,7 +42,7 @@ export const Heading = styled.h1`
   line-height: 0.8em;
   font-size: 5rem;
   margin-top: 20%;
-  margin-left: 1%;
+  margin-left: 2%;
 
   @media only screen and (max-width: 360px) {
     font-size: 3rem;
@@ -83,8 +83,9 @@ export const Content = styled.h1`
   font-size: 1.3rem;
   padding-left: 50%;
   padding-right: 4%;
-  padding-top:10%;
+  padding-top: 10%;
   margin-top: -40%;
+
   @media only screen and (max-width: 360px) {
     text-align: left;
     font-size: 0.8em;
