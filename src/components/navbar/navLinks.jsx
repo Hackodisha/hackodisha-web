@@ -82,6 +82,18 @@ export function NavLinks(props) {
         <LinkItem>
           <Links
             activeClass="active"
+            to="schedule"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            Schedule
+          </Links>
+        </LinkItem>
+        <LinkItem>
+          <Links
+            activeClass="active"
             to="events"
             spy={true}
             smooth={true}
@@ -89,6 +101,18 @@ export function NavLinks(props) {
             duration={500}
           >
             Events
+          </Links>
+        </LinkItem>
+        <LinkItem>
+          <Links
+            activeClass="active"
+            to="prizes"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            Prizes
           </Links>
         </LinkItem>
         <LinkItem>
