@@ -748,6 +748,13 @@ function home2() {
 
             />
           </a>
+          <a href="https://www.linode.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/linode.png").default}
+              alt="Linode"
+
+            />
+          </a>
 
         </LogosBronze>
       </Raisebox2>
