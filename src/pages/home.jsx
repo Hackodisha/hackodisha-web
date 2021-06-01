@@ -40,7 +40,7 @@ export const Content = styled.h1`
   color: transparent;
   line-height: 1.5em;
   font-size: 1.7rem;
-  margin-top:-45%;
+  margin-top:-43%;
   padding-left:50%;
   padding-right:5%;
 
@@ -53,8 +53,8 @@ export const Content = styled.h1`
   }
 
   @media only screen and (min-width: 361px) and (max-width: 440px) {
-    padding-left: 30%;
-    margin-left: -24%;
+    padding-left: 33%;
+    margin-left: -22%;
     display: block;
     padding-right: 49%;
     font-size: 1.2rem;
@@ -149,7 +149,7 @@ export const Date = styled.img`
   @media only screen and (min-width: 361px) and (max-width: 480px) {
     height: 14vh;
     margin-top: 0;
-    margin-left: 4%;
+    margin-left: 6%;
 
   }
   @media only screen and (min-width: 441px) and (max-width: 540px) {
