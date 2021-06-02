@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavLinksContainer = styled.div`
   height: 100%;
@@ -25,10 +25,23 @@ const LinkItem = styled.li`
   align-items: center;
   justify-content: center;
   display: flex;
+  position: relative;
 
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    border-bottom: 6px solid #ff0000;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #f00;
+    transform: scaleY(0);
+    transition: transform 0.3s;
+    transform-origin: 50% 100%;
+  }
+
+  &:hover::after {
+    transform: scaleY(1);
   }
 `;
 
