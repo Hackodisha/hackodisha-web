@@ -519,6 +519,8 @@ export const LogoMedium = styled.img`
 
 function home2() {
   return (
+    <>
+    <meta name="description" content="sponsors" />
     <div>
             <Raisebox>
         <Heading>
@@ -798,6 +800,7 @@ function home2() {
         </LogosPartner>
       </Raisebox2>
     </div>
+    </>
   );
 }
 

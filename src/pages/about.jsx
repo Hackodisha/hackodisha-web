@@ -120,6 +120,10 @@ export const Content = styled.h1`
 
 function home2() {
   return (
+    <>
+      <meta name="description" content="Hack Odisha brings you an enterprising platform where you can showcase
+      your unique ideas and expand your boundaries with your creativity and
+      proficiency" />
     <Raisebox>
       <Container>
         <Heading>
@@ -138,6 +142,7 @@ function home2() {
         </Content>
       </Container>
     </Raisebox>
+    </>
   );
 }
 

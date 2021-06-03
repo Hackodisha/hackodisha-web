@@ -44,7 +44,7 @@ export const Heading = styled.h1`
   font-size: 5rem;
   margin-top: 10%;
   margin-left: 1%;
-  
+
   @media only screen and (max-width: 360px) {
     font-size: 3rem;
     text-align: center;
@@ -140,6 +140,8 @@ export const Tracks = styled.div`
 
 function home2() {
   return (
+    <>
+    <meta name="description" content="Lets solve the problems of Odisha" />
     <Raisebox>
       <Container>
         <Heading>
@@ -152,6 +154,7 @@ function home2() {
         </Tracks>
       </Container>
     </Raisebox>
+    </>
   );
 }
 

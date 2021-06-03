@@ -152,6 +152,8 @@ export const Heading = styled.h1`
 
 function home2() {
   return (
+    <>
+    <meta name="description" content="Do I need to pay any money to register for the Hackathon?" />
     <Raisebox>
       <Div1>
         <Heading>
@@ -163,6 +165,7 @@ function home2() {
         <Faq data={data2} styles={styles} />
       </Div2>
     </Raisebox>
+    </>
   );
 }
 
