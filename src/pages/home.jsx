@@ -216,6 +216,8 @@ export const Date = styled.img`
 
 function home2() {
   return (
+    <>
+      <meta name="description" content="Give life to your innovative ideas that can be solutions to the problems of today" />
     <Raisebox>
       <Container>
       <Image src={require("../assets/images/Map1.png").default} />
@@ -229,6 +231,7 @@ function home2() {
         </Buttons> */}
       </Container>
     </Raisebox>
+    </>
   );
 }
 
