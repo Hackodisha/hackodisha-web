@@ -375,25 +375,25 @@ export const Logo = styled.img`
   padding: 20px;
 
   @media only screen and (max-width: 360px) {
-    max-width: 190px;
+    max-width: 240px;
     ${'' /* max-height: 150px; */}
   }
   @media only screen and (min-width: 361px) and (max-width: 480px) {
-    max-width: 190px;
+    max-width: 250px;
     ${'' /* max-height: 150px; */}
   }
   @media only screen and (min-width: 481px) and (max-width: 768px) {
-    max-width: 190px;
+    max-width: 230px;
     ${'' /* max-height: 150px; */}
   }
 
   @media only screen and (min-width: 769px) and (max-width: 900px) {
-    max-width: 220px;
+    max-width: 310px;
     ${'' /* max-height: 165px; */}
   }
 
   @media only screen and (min-width: 900px) and (max-width: 1024px) {
-    max-width: 250px;
+    max-width: 310px;
     ${'' /* max-height: 170px; */}
     ${'' /* margin-top: 10%; */}
   }
@@ -756,7 +756,12 @@ function home2() {
             <Logo
               src={require("../assets/sponsors/linode.png").default}
               alt="Linode"
-
+            />
+          </a>
+          <a href="https://www.wolframalpha.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/Wolfram.png").default}
+              alt="Wolfram"
             />
           </a>
 
