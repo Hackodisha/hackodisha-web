@@ -136,7 +136,7 @@ export const Image = styled.img`
 export const Date = styled.img`
   height: 28vh;
   margin-left: 48%;
-  margin-top: -25%;
+  margin-top: -28%;
 
   @media only screen and (max-width: 360px){
     height: 13vh;
@@ -178,41 +178,69 @@ export const Date = styled.img`
   }
 `;
 
-// export const Buttons = styled.div`
-//   margin-left: 54%;
-//   margin-top: -13%;
+ export const Buttons = styled.div`
+   margin-left: 45%;
+   margin-top: -7%;
 
-//   @media screen and (max-width: 960px) {
-//     width: 450px;
-//     margin-left: -20%;
-//     margin-top: 99%;
-//   }
-// `;
+   @media screen and (max-width: 960px) {
+     width: 450px;
+     margin-left: -20%;
+     margin-top: 99%;
+   }
+ `;
 
-// export const Button = styled.button`
-//   padding: 15px;
-//   width: 180px;
-//   font-size: 1.3rem;
-//   border-radius: 10px;
-//   border: none;
-//   margin-left: 10px;
-//   background-color: white;
-//   margin-top:-5%;
-//   transition: all 240ms ease-in-out;
-//   &:hover {
-//     color: #fff;
-//     background-color: #ff0000;
-//   }
-//   @media only screen and (max-width: 768px) {
-//     width: 120px;
-//     padding: 15px;
-//     height: 30px;
-//     font-size: 1rem;
-//     margin-right: -1%;
-//     font-weight: 500;
-//     padding-bottom: 28px;
-//   }
-// `;
+ export const Button1 = styled.button`
+   padding: 9px;
+   width: 230px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   font-size: 2.6em;
+   font-weight: 500;
+   margin-left: 20px;
+   background-color: #0360DE;
+   margin-top:-5%;
+   @media only screen and (max-width: 768px) {
+     width: 120px;
+     padding: 15px;
+     height: 30px;
+     margin-right: -1%;
+     padding-bottom: 28px;
+   }
+ `;
+
+ export const Button2 = styled.button`
+   padding: 15px;
+   width: 220px;
+   border-radius: 10px;
+   border: none;
+   margin-left: 25px;
+   background-color: black;
+   margin-top:-5%;
+   @media only screen and (max-width: 768px) {
+     width: 120px;
+     padding: 15px;
+     height: 30px;
+     margin-right: -1%;
+     padding-bottom: 28px;
+   }
+ `;
+
+ export const Discord = styled.img`
+   height: 70px;
+   width: 200px;
+   margin-top: -7%;
+   margin-bottom: -12%;
+   margin-left: -3%;
+  `;
+
+  export const Register = styled.img`
+    height: 80px;
+    width: 80px;
+    margin-top: -13%;
+    margin-bottom: -12%;
+    margin-left: -10%;
+   `;
 
 function home2() {
   return (
@@ -225,10 +253,12 @@ function home2() {
           Give life to your innovative ideas that can be solutions to the problems of today with <span style={{fontWeight:"700",fontSize:"2rem"}}>HACKODISHA!</span>
         </Content>
         <Date src={require("../assets/images/date.png").default} />
-        {/* <Buttons>
-          <Button>JOIN DISCORD</Button>
-          <Button>REGISTER</Button>
-        </Buttons> */}
+         <Buttons>
+          <Button1><Register src={require("../assets/images/devfolio.png").default} />Apply</Button1>
+          <Button2>
+            <Discord src={require("../assets/images/discord.png").default} />
+          </Button2>
+        </Buttons>
       </Container>
     </Raisebox>
     </>
