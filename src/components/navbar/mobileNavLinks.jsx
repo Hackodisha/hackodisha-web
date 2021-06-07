@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Accessibility } from "./accessibility";
 import { MenuToggle } from "./menuToggle";
 
-import { Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavLinksContainer = styled.div`
   height: 100%;
@@ -42,9 +42,23 @@ const Links = styled(Link)`
   color: inherit;
   font-size: inherit;
   cursor: pointer;
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    border-bottom: 2px solid #ff0000;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f00;
+    transform: scaleY(0);
+    transition: transform 0.3s;
+    transform-origin: 50% 100%;
+  }
+
+  &:hover::after {
+    transform: scaleY(1);
   }
 `;
 const Marginer = styled.div`
