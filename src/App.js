@@ -5,7 +5,7 @@ import HashLoader from "react-spinners/HashLoader";
 import Footer from './components/footer/footer'
 import "./App.css";
 import { Navbar } from "./components/navbar";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Main from "./pages/main";
 import NotFound from "./pages/404"
 
@@ -48,8 +48,10 @@ function App() {
         <div className="App">
           <Navbar />
           <div className="main">
+          <Switch>
             <Route path="/" exact component={Main} />
-            <Route path="*" component={NotFound}/>
+            <Route component={NotFound}/>
+            </Switch>
           </div>
         <MessengerCustomerChat
           pageId="104646555139813"

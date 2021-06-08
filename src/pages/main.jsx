@@ -15,7 +15,7 @@ function Main() {
       <div id="home" className="container">
         <Home />
       </div>
-      <div id="about" className="container">
+      <div id="about">
         <About />
       </div>
       <div id="tracks" className="container">

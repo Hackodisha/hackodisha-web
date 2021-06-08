@@ -1,105 +1,32 @@
 .about_h2{
 font-weight: 900;
-background: #fff;
-background-clip: text;
 text-align: left;
--webkit-background-clip: text;
-color: transparent;
-padding: 1rem;
+color: #fff;
 line-height: 2em;
-font-size: 1.3rem;
-padding-left: 50%;
-padding-right: 4%;
-padding-top: 10%;
-margin-top: -40%;
+font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 360px) {
-    .about_h2{
-  text-align: left;
-  font-size: 0.8em;
-  margin-left: -40%;
-  margin-top: 0%;
-    }
-}
-@media only screen and (min-width: 361px) and (max-width: 480px) {
-    .about_h2{
-    text-align: left;
-  font-size: 1em;
-  margin-left: -40%;
-  margin-top: 0%;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    .about_h2{
-    text-align: left;
-  font-size: 1em;
-  margin-left: -40%;
-  margin-top: 0%;
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .about_h2{
-    text-align: left;
-  font-size: 1.2rem;
-  margin-left: -40%;
-  margin-top:0%;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    .about_h2{
-    margin-top:-40%;
-    }
-}
 .about_h1{
-font-weight: 900;
-  letter-spacing: -0.07em;
-  background: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  padding: 1rem;
-  line-height: 0.8em;
+  font-weight: 900;
+  color: #fff;
   font-size: 5rem;
-  margin-top: 20%;
-  margin-left: 2%;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
 }
-  @media only screen and (max-width: 360px) {
-    .about_h1{
-    font-size: 3rem;
-    text-align: center;
-    margin: 0 auto;
-    }
-  }
-  @media only screen and (min-width: 361px) and (max-width: 480px) {
-    .about_h1{
+
+.about_heading {
+  height: 100%; 
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:576px)  {
+  .about_h2{
+    font-size: 1.2rem;
+  }  
+  .about_h1{
     font-size: 4rem;
-    text-align: center;
-    margin: 0 auto;
-    }
   }
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .about_h1{
-    font-size: 4.5rem;
-    text-align: center;
-    margin: 0 auto;
-    }
-  }
-
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .about_h1{
-    text-align: center;
-    margin: 0 auto;
-    }
-  }
-
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    .about_h1{
-    font-size: 4rem;
-    margin-top: 20%;
-    }
-  }
-
+}
