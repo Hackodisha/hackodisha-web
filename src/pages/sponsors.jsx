@@ -764,6 +764,12 @@ function home2() {
               alt="Wolfram bronze sponsor for Hackodisha"
             />
           </a>
+          <a href="https://www.codingminutes.com/" target="_blank">
+            <Logo
+              src={require("../assets/sponsors/codingminutes.png").default}
+              alt="Coding Minutes"
+            />
+          </a>
 
         </LogosBronze>
       </Raisebox2>
