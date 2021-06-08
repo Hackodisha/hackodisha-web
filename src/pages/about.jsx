@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import './about.css';
 
 export const Raisebox = styled.div`
   display: flex;
@@ -126,10 +127,10 @@ function home2() {
       proficiency" />
     <Raisebox>
       <Container>
-        <Heading>
+        <h1 class="about_h1">
           HACK <span style={{ color: "#ff0000" }}> ODISHA </span>{" "}
-        </Heading>
-        <Content>
+        </h1>
+        <h2 class="about_h2">
           Hack Odisha brings you an enterprising platform where you can showcase
           your unique ideas and expand your boundaries with your creativity and
           proficiency. Webwiz, the official web development club of NIT Rourkela
@@ -139,7 +140,7 @@ function home2() {
           are having a formidable team or you are a lone-wolf, do grab this
           opportunity to take home some exciting prizes and certificates. Buckle
           up to unite with us and make your talent count.
-        </Content>
+        </h2>
       </Container>
     </Raisebox>
     </>
