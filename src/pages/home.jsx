@@ -208,15 +208,7 @@ export const Date = styled.img`
    cursor: pointer;
 
 
-   @media only screen and (width: 360px){
-    height: 20px;
-    width: 120px;
-    padding: 15px;
-    margin-right: -10%;
-    padding-bottom:2-8px;
-   }
-
-   @media only screen and (max-width: 768px) {
+   @media only screen and (max-width: 361px){
      display: inline-flex;
      width: 120px;
      padding: 15px;
@@ -224,6 +216,20 @@ export const Date = styled.img`
      margin-right: -1%;
      padding-bottom: 35px;
      font-size: 1.5em;
+     margin-left: -20%;
+   }
+
+   @media only screen and (min-device-width: 375px) 
+                      and (max-device-width: 812px) 
+                      and (-webkit-min-device-pixel-ratio: 3) {
+     display: inline-flex;
+     width: 120px;
+     padding: 15px;
+     height: 30px;
+     margin-right: -1%;
+     padding-bottom: 35px;
+     font-size: 1.5em;
+     margin-left: 20%;
    }
 
  `;
@@ -239,15 +245,17 @@ export const Date = styled.img`
    cursor: pointer;
 
 
-   @media only screen and (min-width: 321px) and (width: 360px){
-    height: 40px;
-    width: 130px;
-    padding: 15px;
-    margin-right: -1%;
-    padding-bottom:28px;
+   @media only screen and (min-width: 321px) and (max-width: 361px){
+     width: 130px;
+     padding: 15px;
+     height: 40px;
+     margin-right: -20%;
+     padding-bottom: 35px;
    }
 
-   @media only screen and (max-width: 768px) {
+   @media only screen and (min-device-width: 375px) 
+                      and (max-device-width: 812px) 
+                      and (-webkit-min-device-pixel-ratio: 3){
      width: 130px;
      padding: 15px;
      height: 40px;
