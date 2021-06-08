@@ -26,10 +26,10 @@ function Main() {
       <div id="schedule" className="container">
         <Schedule />
       </div>
-      <div id="events" className="container">
+      <div id="events">
         <Events />
       </div>
-      <div id="prizes" className="container">
+      <div id="prizes">
         <Prizes />
       </div>
       <div id="faq">

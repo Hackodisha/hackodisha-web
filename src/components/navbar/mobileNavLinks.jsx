@@ -68,7 +68,7 @@ const Marginer = styled.div`
 
 export function MobileNavLinks(props) {
   const [isOpen, setOpen] = useState(false);
-
+  const closeMobileMenu = () => setOpen(!isOpen);
   return (
     <NavLinksContainer>
       <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
@@ -82,6 +82,7 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               Home
             </Links>
@@ -94,6 +95,7 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               About Us
             </Links>
@@ -106,8 +108,22 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               Tracks
+            </Links>
+          </LinkItem>
+          <LinkItem>
+            <Links
+              activeClass="active"
+              to="sponsors"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onClick={closeMobileMenu}
+            >
+              Sponsors
             </Links>
           </LinkItem>
           <LinkItem>
@@ -118,6 +134,7 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               Schedule
             </Links>
@@ -130,6 +147,7 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               Events
             </Links>
@@ -142,20 +160,9 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               Prizes
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="sponsors"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              Sponsors
             </Links>
           </LinkItem>
           <LinkItem>
@@ -166,6 +173,7 @@ export function MobileNavLinks(props) {
               smooth={true}
               offset={-50}
               duration={500}
+              onClick={closeMobileMenu}
             >
               FAQ
             </Links>

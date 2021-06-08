@@ -74,7 +74,7 @@ export function NavLinks(props) {
             to="about"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
           >
             About Us
@@ -95,6 +95,18 @@ export function NavLinks(props) {
         <LinkItem>
           <Links
             activeClass="active"
+            to="sponsors"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            Sponsors
+          </Links>
+        </LinkItem>
+        <LinkItem>
+          <Links
+            activeClass="active"
             to="schedule"
             spy={true}
             smooth={true}
@@ -110,7 +122,7 @@ export function NavLinks(props) {
             to="events"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
           >
             Events
@@ -122,22 +134,10 @@ export function NavLinks(props) {
             to="prizes"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
           >
             Prizes
-          </Links>
-        </LinkItem>
-        <LinkItem>
-          <Links
-            activeClass="active"
-            to="sponsors"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-          >
-            Sponsors
           </Links>
         </LinkItem>
         <LinkItem>
