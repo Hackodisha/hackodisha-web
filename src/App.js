@@ -7,7 +7,6 @@ import "./App.css";
 import { Navbar } from "./components/navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./pages/main";
-import { Helmet } from 'react-helmet';
 
 const loadercss = css`
  display: block;
@@ -45,13 +44,6 @@ function App() {
 
       :
       <Router>
-
-        <Helmet>
-          <meta charSet="UTF-8" />
-          <meta name="viewport" content="width= device width , initial-scale=1" />
-          <meta name="keywords" content="Hackodisha,Hackathon,NIT Rourkela, Odisha, Hackathon2021,India, Developers , Webwiz"/>
-        </Helmet>
-
         <div className="App">
           <Navbar />
           <div className="main">

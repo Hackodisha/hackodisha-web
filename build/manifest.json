@@ -9,6 +9,11 @@
   "description": "Hackodisha a 36 hours community focused online Hackathon of Odisha organized by Webwiz NIT Rourkela on the occassion of diamond jubliee. Enjoy mutiple workshops , coding contents , movie night , scribble and a lot more",
   "theme_color": "#000000",
   "prefer_related_applications": true,
+  "icons": [{
+    "src": "logo_48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }],
   "related_applications": [
     {
       "platform": "facebook",
