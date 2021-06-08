@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b828fb4a.chunk.css",
-    "main.js": "/static/js/main.8328586e.chunk.js",
-    "main.js.map": "/static/js/main.8328586e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.debbe7b8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.debbe7b8.js.map",
-    "static/js/2.743fd6bc.chunk.js": "/static/js/2.743fd6bc.chunk.js",
-    "static/js/2.743fd6bc.chunk.js.map": "/static/js/2.743fd6bc.chunk.js.map",
-    "static/js/3.19c9fb2e.chunk.js": "/static/js/3.19c9fb2e.chunk.js",
-    "static/js/3.19c9fb2e.chunk.js.map": "/static/js/3.19c9fb2e.chunk.js.map",
+    "main.css": "/static/css/main.278905bd.chunk.css",
+    "main.js": "/static/js/main.9911dcf3.chunk.js",
+    "main.js.map": "/static/js/main.9911dcf3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e4a4cfb2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e4a4cfb2.js.map",
+    "static/js/2.92812bbf.chunk.js": "/static/js/2.92812bbf.chunk.js",
+    "static/js/2.92812bbf.chunk.js.map": "/static/js/2.92812bbf.chunk.js.map",
+    "static/js/3.02fc779d.chunk.js": "/static/js/3.02fc779d.chunk.js",
+    "static/js/3.02fc779d.chunk.js.map": "/static/js/3.02fc779d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b828fb4a.chunk.css.map": "/static/css/main.b828fb4a.chunk.css.map",
-    "static/js/2.743fd6bc.chunk.js.LICENSE.txt": "/static/js/2.743fd6bc.chunk.js.LICENSE.txt",
+    "static/css/main.278905bd.chunk.css.map": "/static/css/main.278905bd.chunk.css.map",
+    "static/js/2.92812bbf.chunk.js.LICENSE.txt": "/static/js/2.92812bbf.chunk.js.LICENSE.txt",
     "static/media/HackathonsInternational1.png": "/static/media/HackathonsInternational1.4fc888e0.png",
     "static/media/Map1.png": "/static/media/Map1.9fa57e20.png",
     "static/media/Wolfram.png": "/static/media/Wolfram.0fe385b6.png",
     "static/media/celo1.png": "/static/media/celo1.0d0999b5.png",
     "static/media/codingblocks.png": "/static/media/codingblocks.055599df.png",
+    "static/media/codingminutes.png": "/static/media/codingminutes.e34c4098.png",
     "static/media/date.png": "/static/media/date.fc61212a.png",
     "static/media/devfolio1.png": "/static/media/devfolio1.fc4a452d.png",
     "static/media/diamondnit.png": "/static/media/diamondnit.a813fcbe.png",
@@ -47,9 +48,9 @@
     "static/media/xyzdomain.png": "/static/media/xyzdomain.88298d23.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.debbe7b8.js",
-    "static/js/2.743fd6bc.chunk.js",
-    "static/css/main.b828fb4a.chunk.css",
-    "static/js/main.8328586e.chunk.js"
+    "static/js/runtime-main.e4a4cfb2.js",
+    "static/js/2.92812bbf.chunk.js",
+    "static/css/main.278905bd.chunk.css",
+    "static/js/main.9911dcf3.chunk.js"
   ]
 }
