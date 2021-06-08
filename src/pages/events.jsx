@@ -11,7 +11,7 @@ box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
 border-radius: 10px;
 `;
 
-function home2() {
+function Events() {
   return (
     <Raisebox>
       <div className="events_container">
@@ -163,4 +163,4 @@ function home2() {
   );
 }
 
-export default home2;
+export default Events;

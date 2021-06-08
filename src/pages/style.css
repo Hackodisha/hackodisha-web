@@ -34,6 +34,39 @@
   }
 }
 
+/*Schedule Section*/
+.schedule_container {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.schedule_h1 {
+  font-weight: 900;
+  padding-top: 5%;
+  color: #fff;
+  font-size: 6rem;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
+}
+
+.schedule_h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .schedule_h1 {
+    font-size: 3.2rem;
+  }
+  .schedule_h2 {
+    font-size: 2rem;
+  }
+}
+
+
 /*Events Section*/
 .events_container {
   height: 100%;

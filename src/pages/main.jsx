@@ -23,7 +23,7 @@ function Main() {
       <div id="sponsors" className="container">
         <Sponsors />
       </div>
-      <div id="schedule" className="container">
+      <div id="schedule">
         <Schedule />
       </div>
       <div id="events">
