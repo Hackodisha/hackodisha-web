@@ -528,10 +528,10 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <LogosPlatinum>
-          <a href="https://www.nitrkl.ac.in/" target="_blank">
+          <a href="https://www.nitrkl.ac.in/" target="_blank" rel="noopener noreferrer">
             <LogoBig
               src={require("../assets/sponsors/diamondnit.png").default}
-              alt="NITR Diamond Jubilee"
+              alt="NITR Diamond Jubilee platinum sponsor of Hackodisha"
               style={{ width: "400px" }}
             />
           </a>
@@ -543,24 +543,24 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <LogosGold>
-        {/*  <a href="https://www.postman.com/" target="_blank">
+        {/*  <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/postman.png").default}
               alt="Postman"
               style={{ width: "420px" }}
             />
           </a>
-          <a href="https://studentambassadors.microsoft.com/" target="_blank">
+          <a href="https://studentambassadors.microsoft.com/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/MLSA.png").default}
               alt="MLSA"
               style={{ width: "210px" }}
             />
           </a>*/}
-          <a href="https://devfolio.co/home/" target="_blank">
+          <a href="https://devfolio.co/home/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/devfolio1.png").default}
-              alt="Devfolio"
+              alt="Devfolio gold sponsor for Hackodisha"
               style={{ width: "420px"}}
             />
           </a>
@@ -573,31 +573,31 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <LogosSilver>
-          <a href="https://www.portis.io/" target="_blank">
+          <a href="https://www.portis.io/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/portisnew.png").default}
-              alt="Portis"
+              alt="Portis silver sponsor for Hackodisha"
               style={{ width: "310px"}}
             />
           </a>
-          <a href="https://celo.org/" target="_blank">
+          <a href="https://celo.org/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/celo1.png").default}
-              alt="Celo"
+              alt="Celo silver sponsor for Hackodisha"
               style={{ width: "300px"}}
             />
           </a>
-          <a href="https://tezos.com/" target="_blank">
+          <a href="https://tezos.com/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/tezos.png").default}
-              alt="Tezos"
+              alt="Tezos silver sponsor for Hackodisha"
               style={{ width: "300px", height: "120px" }}
             />
           </a>
-          <a href="https://polygon.technology/" target="_blank">
+          <a href="https://polygon.technology/" target="_blank" rel="noopener noreferrer">
             <LogoMedium
               src={require("../assets/sponsors/poly1.png").default}
-              alt="Polygon"
+              alt="Polygon silver sponsor for Hackodisha"
             />
           </a>
         </LogosSilver>
@@ -609,159 +609,159 @@ function home2() {
           <span style={{ color: "#ff0000" }}> Sponsors </span>
         </Heading>
         <LogosBronze>
-          <a href="https://www.echoar.xyz/" target="_blank">
+          <a href="https://www.echoar.xyz/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/echoar.png").default}
-              alt="Echo AR"
+              alt="Echo AR bronze sponsor for Hackodisha"
               // style={{ width: "350px", height: "100px" }}
             />
           </a>
-          <a href="https://www.jetbrains.com/" target="_blank">
+          <a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/jetbrains.png").default}
-              alt="Jet Brains"
+              alt="Jet Brains bronze sponsor for Hackodisha"
               style={{ width: "150px" }}
 
             />
           </a>
 
-          <a href="https://balsamiq.com/" target="_blank">
+          <a href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/balsamiq.png").default}
-              alt="Balsamiq"
+              alt="Balsamiq bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="https://www.taskade.com/" target="_blank">
+          <a href="https://www.taskade.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/taskade.png").default}
-              alt="Taskade"
+              alt="Taskade bronze sponsor for Hackodisha"
               style={{ width: "150px" }}
             />
           </a>
-          <a href="https://codingblocks.com/" target="_blank">
+          <a href="https://codingblocks.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/codingblocks.png").default}
-              alt="Coding Blocks"
+              alt="Coding Blocks bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="https://1password.com/" target="_blank">
+          <a href="https://1password.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/1password.png").default}
-              alt="1 password"
+              alt="1 password bronze sponsor for Hackodisha"
               style={{ width: "150px" }}
             />
           </a>
 
-          <a href="https://draftbit.com/" target="_blank">
+          <a href="https://draftbit.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/draftbit.png").default}
-              alt="draftbit"
+              alt="draftbit bronze sponsor for Hackodisha"
               // style={{ width: "350px", height: "100px" }}
             />
           </a>
-          <a href="https://testmail.app/" target="_blank">
+          <a href="https://testmail.app/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/testmail.svg").default}
-              alt="testmail app"
+              alt="testmail app bronze sponsor for Hackodisha"
               // style={{ width: "320px", height: "120px" }}
             />
           </a>
-          <a href="https://nostarch.com/" target="_blank">
+          <a href="https://nostarch.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/image.png").default}
-              alt="nostarch"
+              alt="nostarch bronze sponsor for Hackodisha"
 
             />
           </a>
 
-          <a href="https://www.roostoo.com/" target="_blank">
+          <a href="https://www.roostoo.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/roostoo.png").default}
-              alt="Roostoo"
+              alt="Roostoo bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="https://hoverrobotix.com/" target="_blank">
+          <a href="https://hoverrobotix.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/hoverRobotix.png").default}
-              alt="Hover Robotix"
+              alt="Hover Robotix bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="https://www.hackathonsinternational.com/" target="_blank">
+          <a href="https://www.hackathonsinternational.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={
                 require("../assets/sponsors/HackathonsInternational1.png")
                   .default
               }
-              alt="Hackathons International"
+              alt="Hackathons International bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="https://interviewbuddy.in/" target="_blank">
+          <a href="https://interviewbuddy.in/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/interviewBuddy.png").default}
-              alt="Interview Buddy"
+              alt="Interview Buddy bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="https://aichamp.in/" target="_blank">
+          <a href="https://aichamp.in/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/download.png").default}
-              alt="Aichamp"
+              alt="Aichamp bronze sponsor for Hackodisha"
             />
           </a>
 
-          <a href="http://karoverify.xyz/" target="_blank">
+          <a href="http://karoverify.xyz/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/karoverify2.png").default}
-              alt="Karo Verify"
+              alt="Karo Verify bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://rosenfeldmedia.com/" target="_blank">
+          <a href="https://rosenfeldmedia.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/Rosenfeld.png").default}
-              alt="Rosenfeld"
+              alt="Rosenfeld bronze sponsor for Hackodisha"
               // style={{ width: "320px", height: "140px" }}
             />
           </a>
-          <a href="https://www.stickermule.com/" target="_blank">
+          <a href="https://www.stickermule.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/sticker-mule.svg").default}
-              alt="StickerMule"
+              alt="StickerMule bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://replit.com/" target="_blank">
+          <a href="https://replit.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/replit.svg").default}
-              alt="replit"
+              alt="replit bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://www.framer.com/" target="_blank">
+          <a href="https://www.framer.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/framer.png").default}
-              alt="Framer"
+              alt="Framer bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://gen.xyz/" target="_blank">
+          <a href="https://gen.xyz/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/xyzdomain.png").default}
-              alt="XYZ .Domain"
+              alt="XYZ domain bronze sponsor for Hackodisha"
 
             />
           </a>
-          <a href="https://www.linode.com/" target="_blank">
+          <a href="https://www.linode.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/linode.png").default}
-              alt="Linode"
+              alt="Linode bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://www.wolframalpha.com/" target="_blank">
+          <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
             <Logo
               src={require("../assets/sponsors/Wolfram.png").default}
-              alt="Wolfram"
+              alt="Wolfram bronze sponsor for Hackodisha"
             />
           </a>
 
@@ -774,10 +774,10 @@ function home2() {
         <LogosPartner>
         <div>
 
-        <a href="https://www.scriptindia.org/" target="_blank">
+        <a href="https://www.scriptindia.org/" target="_blank" rel="noopener noreferrer">
             <LogoBig
               src={require("../assets/sponsors/script.png").default}
-              alt="Script Foundation"
+              alt="Script Foundation education partner for Hackodisha"
               style={{ width: "380px" }}
               />
                 </a>
@@ -788,17 +788,17 @@ function home2() {
         </div>
         <div>
 
-        <a href="https://webwiz-portfolio.web.app/" target="_blank">
+        <a href="https://webwiz-portfolio.web.app/" target="_blank" rel="noopener noreferrer">
             <LogoBig
               src={require("../assets/sponsors/webwizlogo.png").default}
-              alt="Webwiz"
+              alt="Webwiz the lead organizing team of Hackodisha"
               style={{ width: "300px" }}
             />
           </a>
 
           <Heading2>
-          Community
-        <span style={{ color: "#ff0000" }}> Partner </span>
+          Organizing
+        <span style={{ color: "#ff0000" }}> Team </span>
         </Heading2>
 
         </div>

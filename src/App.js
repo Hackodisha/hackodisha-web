@@ -48,8 +48,6 @@ function App() {
 
         <Helmet>
           <meta charSet="UTF-8" />
-          <title>Hackodisha 2021 hackathon by Webwiz NIT Rourkela</title>
-          <meta name="description" content="Hackodisha 2021 hackathon organized by Webwiz NIT Rourkela" />
           <meta name="viewport" content="width= device width , initial-scale=1" />
           <meta name="keywords" content="Hackodisha,Hackathon,NIT Rourkela, Odisha, Hackathon2021,India, Developers , Webwiz"/>
         </Helmet>

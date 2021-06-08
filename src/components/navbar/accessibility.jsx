@@ -33,7 +33,7 @@ const LoginButton = styled.button`
 export function Accessibility(props) {
   return (
     <AccessibilityContainer>
-      <Link to={{ pathname: "" }} target="_blank">
+      <Link to={{ pathname: "" }} target="_blank" rel="noopener noreferrer">
         <LoginButton>Register</LoginButton>
       </Link>
     </AccessibilityContainer>
