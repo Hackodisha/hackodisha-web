@@ -11,6 +11,7 @@ export const Raisebox = styled.div`
   border-radius: 10px;
 
   @media only screen and (max-width: 320px){
+    height: 110vh;
     margin-left: -15%;
   }
   @media only screen and (min-width: 321px) and (max-width: 360px) {
@@ -182,10 +183,14 @@ export const Date = styled.img`
    margin-left: 45%;
    margin-top: -7%;
 
+   @media screen and (max-width: 360px){
+          margin-left: -25%;
+   }
+
    @media screen and (max-width: 960px) {
      width: 450px;
      margin-left: -20%;
-     margin-top: 99%;
+     margin-top: 9%;
    }
  `;
 
@@ -196,33 +201,58 @@ export const Date = styled.img`
    border: none;
    color: white;
    font-size: 2.6em;
-   font-weight: 500;
+   font-weight: 400;
    margin-left: 20px;
    background-color: #0360DE;
    margin-top:-5%;
+   cursor: pointer;
+
+
+   @media only screen and (width: 360px){
+    height: 20px;
+    width: 120px;
+    padding: 15px;
+    margin-right: -10%;
+    padding-bottom:2-8px;
+   }
+
    @media only screen and (max-width: 768px) {
+     display: inline-flex;
      width: 120px;
      padding: 15px;
      height: 30px;
      margin-right: -1%;
-     padding-bottom: 28px;
+     padding-bottom: 35px;
+     font-size: 1.5em;
    }
+
  `;
 
  export const Button2 = styled.button`
-   padding: 15px;
-   width: 220px;
+   padding: 18px;
+   width: 250px;
    border-radius: 10px;
    border: none;
    margin-left: 25px;
    background-color: black;
    margin-top:-5%;
+   cursor: pointer;
+
+
+   @media only screen and (min-width: 321px) and (width: 360px){
+    height: 40px;
+    width: 130px;
+    padding: 15px;
+    margin-right: -1%;
+    padding-bottom:28px;
+   }
+
    @media only screen and (max-width: 768px) {
-     width: 120px;
+     width: 130px;
      padding: 15px;
-     height: 30px;
-     margin-right: -1%;
-     padding-bottom: 28px;
+     height: 40px;
+     margin-right: -15%;
+     padding-bottom: 35px;
    }
  `;
 
@@ -232,14 +262,33 @@ export const Date = styled.img`
    margin-top: -7%;
    margin-bottom: -12%;
    margin-left: -3%;
+
+   @media only screen and (max-width: 768px) {
+     height: 60px;
+     width: 120px;
+     margin-top: -10%;
+     margin-left: -12%;
+     margin-bottom: -1%;
+     padding-bottom: 15px;
+   }
   `;
 
-  export const Register = styled.img`
+  export const Apply = styled.img`
     height: 80px;
     width: 80px;
     margin-top: -13%;
     margin-bottom: -12%;
     margin-left: -10%;
+
+
+   @media only screen and (max-width: 768px) {
+     height: 60px;
+     width: 50px;
+     margin-top: -12%;
+     margin-bottom: -10%;
+     margin-left: -20%;
+     padding-bottom: 18px;
+   }
    `;
 
 function home2() {
@@ -254,7 +303,10 @@ function home2() {
         </Content>
         <Date src={require("../assets/images/date.png").default} />
          <Buttons>
-          <Button1><Register src={require("../assets/images/devfolio.png").default} />Apply</Button1>
+          <Button1 class = "Apply">
+           <Apply src={require("../assets/images/devfolio.png").default} />
+            Apply
+          </Button1>
           <Button2>
             <Discord src={require("../assets/images/discord.png").default} />
           </Button2>
