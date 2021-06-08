@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Faq from "react-faq-component";
+import { Container, Row, Col } from "react-grid-system";
 
 const data1 = {
   rows: [
@@ -57,114 +58,34 @@ const styles = {
 export const Raisebox = styled.div`
   min-height: 70vh;
   width: 90vw;
-  margin: auto;
+  margin: 0 auto;
   background: #18191a;
   box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  margin-top: -10%;
-
-  @media only screen and (max-width: 320px) {
-    margin-left: -15%;
-  }
-  @media only screen and (min-width: 321px) and (max-width: 360px) {
-    margin-left: -11%;
-  }
-  @media only screen and (min-width: 361px) and (max-width: 480px) {
-    margin-left: -10%;
-  }
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    margin-left: -5%;
-    margin-top: 5%;
-  }
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    margin-top: 10%;
-  }
-`;
-
-export const Div1 = styled.div``;
-
-export const Div2 = styled.div`
-  margin-top: -10%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  padding: 5%;
-  text-align: left;
-  @media only screen and (max-width: 786px) {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  @media only screen and (max-width: 1024px) {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: -5%;
-  }
-`;
-
-export const Heading = styled.h1`
-  font-weight: 900;
-  letter-spacing: -0.07em;
-  background: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  padding: 3rem;
-  line-height: 1.0em;
-  font-size: 5rem;
-  margin-top: 10%;
-  margin-left: 1%;
-
-  @media only screen and (max-width: 340px) {
-    font-size: 3rem;
-    margin-left: -5%;
-  }
-
-  @media only screen and (min-width: 341px) and (max-width: 360px) {
-    font-size: 3rem;
-    text-align: center;
-    margin: 0 auto;
-  }
-  @media only screen and (min-width: 361px) and (max-width: 480px) {
-    font-size: 3.2rem;
-    text-align: center;
-    margin: 0 auto;
-    margin-left: -2%;
-  }
-  @media only screen and (min-width: 481px) and (max-width: 767px) {
-    font-size: 4.5rem;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: -5%;
-    font-size: 4.5rem;
-  }
-
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    font-size: 5rem;
-    margin-top: 10%;
-  }
 `;
 
 function home2() {
   return (
     <>
-    <meta name="description" content="Do I need to pay any money to register for the Hackathon?" />
-    <Raisebox>
-      <Div1>
-        <Heading>
+      <meta
+        name="description"
+        content="Do I need to pay any money to register for the Hackathon?"
+      />
+      <Raisebox>
+        <h1 className="faq_heading">
           Have any <span style={{ color: "#ff0000" }}> questions?</span>
-        </Heading>
-      </Div1>
-      <Div2>
-        <Faq data={data1} styles={styles} />
-        <Faq data={data2} styles={styles} />
-      </Div2>
-    </Raisebox>
+        </h1>
+        <Container>
+          <Row className="faq_content">
+            <Col sm={12} md={12} lg={6} xl={6}>
+              <Faq data={data1} styles={styles} />
+            </Col>
+            <Col sm={12} md={12} lg={6} xl={6}>
+              <Faq data={data2} styles={styles} />
+            </Col>
+          </Row>
+        </Container>
+      </Raisebox>
     </>
   );
 }

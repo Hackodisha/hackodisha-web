@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import styled from "styled-components";
-import "./about.css";
+import "./style.css";
 
 const Raisbox = styled.div`
   display: flex;
@@ -30,11 +30,12 @@ function About() {
               <h2 className="about_h2">
                 Hackodisha brings you an enterprising platform where you can
                 showcase your unique ideas and expand your boundaries with your
-                creativity and proficiency. Webwiz NIT Rourkela is proud to host 
-                the hackathon on the occasion of the diamond jubilee celebration 
-                of NIT Rourkela. Hackodisha is a 36-hour hackathon and whether you are having a
-                formidable team or you are a lone-wolf, do grab this opportunity
-                to take home some exciting prizes, goodies and certificates and MEMORIES!
+                creativity and proficiency. Webwiz NIT Rourkela is proud to host
+                the hackathon on the occasion of the diamond jubilee celebration
+                of NIT Rourkela. Hackodisha is a 36-hour hackathon and whether
+                you are having a formidable team or you are a lone-wolf, do grab
+                this opportunity to take home some exciting prizes, goodies and
+                certificates and MEMORIES!
               </h2>
             </Col>
           </Row>

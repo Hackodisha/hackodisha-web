@@ -8,7 +8,6 @@ import Events from "./events";
 import Prizes from "./prizes";
 import Schedule from "./schedule";
 
-
 function Main() {
   return (
     <div>
@@ -33,7 +32,7 @@ function Main() {
       <div id="prizes" className="container">
         <Prizes />
       </div>
-      <div id="faq" className="container">
+      <div id="faq">
         <Faq />
       </div>
     </div>
