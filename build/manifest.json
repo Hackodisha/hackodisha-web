@@ -1,25 +1,30 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
+  "name": "Hackodisha celebrating diamond jubliee of NIT Rourkela | Hackathon",
+  "short_name": "Hackodisha",
+  "start_url": "https://hackodisha.xyz",
   "display": "standalone",
+  "lang":"en",
+  "categories": ["Hackodisha","Hackathon","NIT Rourkela", "Odisha", "Hackathon2021","India", "Developers" , "Webwiz"],
+  "background_color": "#000",
+  "description": "Hackodisha a 36 hours community focused online Hackathon of Odisha organized by Webwiz NIT Rourkela on the occassion of diamond jubliee. Enjoy mutiple workshops , coding contents , movie night , scribble and a lot more",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/hackodisha/",
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/webwiz.nitr/"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/hackodisha"
+    },
+    {
+      "platform": "linkedIn",
+      "url": "https://www.linkedin.com/company/hack-odisha/"
+    }
+  ]
 }
