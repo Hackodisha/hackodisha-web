@@ -1,5 +1,5 @@
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, crea } from "react";
 import { css } from "@emotion/react";
 import HashLoader from "react-spinners/HashLoader";
 import Footer from './components/footer/footer'
@@ -7,6 +7,7 @@ import "./App.css";
 import { Navbar } from "./components/navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./pages/main";
+import NotFound from "./pages/404"
 
 const loadercss = css`
  display: block;
@@ -30,7 +31,7 @@ function App() {
     setLoading(true);
     setTimeout(() =>{
       setLoading(false);
-    }, 4000)
+    }, 2500)
   }, [])
 
   return (
@@ -48,6 +49,7 @@ function App() {
           <Navbar />
           <div className="main">
             <Route path="/" exact component={Main} />
+            <Route path="*" component={NotFound}/>
           </div>
         <MessengerCustomerChat
           pageId="104646555139813"
