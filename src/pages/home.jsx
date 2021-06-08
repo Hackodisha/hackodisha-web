@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Raisebox = styled.div`
   display: flex;
-  min-height: 80vh;
+  min-height: 8vh;
   width: 90vw;
   margin: auto;
   background: #18191a;
@@ -182,10 +182,26 @@ export const Date = styled.img`
    margin-left: 45%;
    margin-top: -7%;
 
-   @media screen and (max-width: 960px) {
-     width: 450px;
-     margin-left: -20%;
-     margin-top: 99%;
+   @media only screen and (max-width: 360px){
+     display: none;
+   }
+   @media only screen and (min-width: 361px) and (max-width: 440px) {
+     display: none;
+   }
+   @media only screen and (min-width: 441px) and (max-width: 540px) {
+     display: none;
+   }
+   @media only screen and (min-width: 541px) and (max-width: 768px) {
+     display: none;
+   }
+   @media only screen and (min-width: 769px) and (max-width: 936px) {
+     display: none;
+   }
+   @media only screen and (min-width: 937px) and (max-width: 1024px) {
+     display: none;
+   }
+   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+     display: none;
    }
  `;
 
@@ -200,12 +216,27 @@ export const Date = styled.img`
    margin-left: 20px;
    background-color: #0360DE;
    margin-top:-5%;
-   @media only screen and (max-width: 768px) {
-     width: 120px;
-     padding: 15px;
-     height: 30px;
-     margin-right: -1%;
-     padding-bottom: 28px;
+
+   @media only screen and (max-width: 360px){
+     display: none;
+   }
+   @media only screen and (min-width: 361px) and (max-width: 440px) {
+     display: none;
+   }
+   @media only screen and (min-width: 441px) and (max-width: 540px) {
+     display: none;
+   }
+   @media only screen and (min-width: 541px) and (max-width: 768px) {
+     display: none;
+   }
+   @media only screen and (min-width: 769px) and (max-width: 936px) {
+     display: none;
+   }
+   @media only screen and (min-width: 937px) and (max-width: 1024px) {
+     display: none;
+   }
+   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+     display: none;
    }
  `;
 
@@ -217,14 +248,31 @@ export const Date = styled.img`
    margin-left: 25px;
    background-color: black;
    margin-top:-5%;
-   @media only screen and (max-width: 768px) {
-     width: 120px;
-     padding: 15px;
-     height: 30px;
-     margin-right: -1%;
-     padding-bottom: 28px;
+
+   @media only screen and (max-width: 360px){
+     display: none;
+     margin: 0;
+   }
+   @media only screen and (min-width: 361px) and (max-width: 440px) {
+     display: none;
+   }
+   @media only screen and (min-width: 441px) and (max-width: 540px) {
+     display: none;
+   }
+   @media only screen and (min-width: 541px) and (max-width: 768px) {
+     display: none;
+   }
+   @media only screen and (min-width: 769px) and (max-width: 936px) {
+     display: none;
+   }
+   @media only screen and (min-width: 937px) and (max-width: 1024px) {
+     display: none;
+   }
+   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+     display: none;
    }
  `;
+
 
  export const Discord = styled.img`
    height: 70px;
