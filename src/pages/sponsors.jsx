@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export const Raisebox = styled.div`
-  min-height: 20vh;
+  min-height: 70vh;
   width: 90vw;
   margin: auto;
   background: #18191a;

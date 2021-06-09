@@ -4,7 +4,7 @@ import "./style.css";
 import { Row, Col } from "react-grid-system";
 
 export const Raisebox = styled.div`
-  min-height: 70vh;
+  min-height: 20vh;
   width: 90vw;
   margin: 10vh auto;
   background: #18191a;
