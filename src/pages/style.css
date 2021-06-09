@@ -84,7 +84,6 @@
 
 /*Sponsors Section*/
 .sponsors_h1 {
-  padding: auto;
   padding-top: 5%;
   font-weight: 900;
   color: #fff;
@@ -93,7 +92,6 @@
   letter-spacing: -0.07em;
 }
 .sponsors_h3 {
-  padding: auto;
   font-weight: 800;
   color: #fff;
   font-size: 3rem;
@@ -250,7 +248,6 @@
 
 /*FAQ Section*/
 .faq_heading {
-  padding: auto;
   padding-top: 5%;
   font-weight: 900;
   color: #fff;
