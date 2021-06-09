@@ -5,7 +5,7 @@ import "./style.css";
 
 const Raisbox = styled.div`
   display: flex;
-  min-height: 70vh;
+  min-height: 20vh;
   width: 90vw;
   margin: 10vh auto;
   background: #18191a;
