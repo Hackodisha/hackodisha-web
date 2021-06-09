@@ -7,8 +7,7 @@
   font-size: 1.4rem;
 }
 
-.about_h1,
-.faq_heading {
+.about_h1 {
   font-weight: 900;
   color: #fff;
   font-size: 5rem;
@@ -28,9 +27,58 @@
   .about_h2 {
     font-size: 1.2rem;
   }
-  .about_h1,
-  .faq_heading {
+  .about_h1 {
     font-size: 4rem;
+  }
+}
+
+/*Tracks Section*/
+.tracks_card {
+  background: #242526;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  padding: 1em;
+  border-radius: 10px;
+  max-width: 17rem;
+  margin: 10px auto;
+  height: 10rem;
+}
+
+.tracks_h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.tracks_heading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracks_h4 {
+  font-weight: 600;
+  text-align: left;
+  margin-top: 1em;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.tracks_icon {
+  width: 2.5em;
+}
+
+.card_icon {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .tracks_h1 {
+    font-size: 3rem;
   }
 }
 
@@ -65,7 +113,6 @@
     font-size: 2rem;
   }
 }
-
 
 /*Events Section*/
 .events_container {

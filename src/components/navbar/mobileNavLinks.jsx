@@ -93,7 +93,7 @@ export function MobileNavLinks(props) {
               to="about"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
               onClick={closeMobileMenu}
             >
@@ -106,7 +106,7 @@ export function MobileNavLinks(props) {
               to="tracks"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
               onClick={closeMobileMenu}
             >
@@ -132,7 +132,7 @@ export function MobileNavLinks(props) {
               to="schedule"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
               onClick={closeMobileMenu}
             >
@@ -145,7 +145,7 @@ export function MobileNavLinks(props) {
               to="events"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
               onClick={closeMobileMenu}
             >
@@ -158,7 +158,7 @@ export function MobileNavLinks(props) {
               to="prizes"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
               onClick={closeMobileMenu}
             >
@@ -171,7 +171,7 @@ export function MobileNavLinks(props) {
               to="faq"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
               onClick={closeMobileMenu}
             >

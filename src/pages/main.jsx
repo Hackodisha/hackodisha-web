@@ -17,7 +17,7 @@ function Main() {
       <div id="about">
         <About />
       </div>
-      <div id="tracks" className="container">
+      <div id="tracks">
         <Tracks />
       </div>
       <div id="sponsors" className="container">

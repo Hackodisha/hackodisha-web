@@ -86,7 +86,7 @@ export function NavLinks(props) {
             to="tracks"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
           >
             Tracks
