@@ -82,6 +82,76 @@
   }
 }
 
+/*Sponsors Section*/
+.sponsors_h1 {
+  padding: auto;
+  padding-top: 5%;
+  font-weight: 900;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
+}
+.sponsors_h3 {
+  padding: auto;
+  font-weight: 800;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
+}
+
+.logo-large{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 0 auto;
+  padding:10px 10px;
+}
+
+.logo-mid{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+.logo-script{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo-webwiz{
+  width: 100%;
+  max-width: 295px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo-rourkela360{
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo_small{
+  max-width: 290px;
+  max-height: 150px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+@media screen and (max-width: 576px) {
+  .sponsors_h1 {
+    font-size: 4rem;
+  }
+}
+
 /*Schedule Section*/
 .schedule_container {
   height: 100%;

@@ -98,7 +98,7 @@ export function NavLinks(props) {
             to="sponsors"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
           >
             Sponsors
@@ -146,7 +146,7 @@ export function NavLinks(props) {
             to="faq"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
           >
             FAQ

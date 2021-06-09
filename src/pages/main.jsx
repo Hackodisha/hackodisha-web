@@ -1,5 +1,5 @@
 import React from "react";
-import Sponsors from "./sponsors";
+import Sponsors from "./sponsors2";
 import Tracks from "./tracks";
 import About from "./about";
 import Home from "./home";
@@ -20,7 +20,7 @@ function Main() {
       <div id="tracks">
         <Tracks />
       </div>
-      <div id="sponsors" className="container">
+      <div id="sponsors">
         <Sponsors />
       </div>
       <div id="schedule">
