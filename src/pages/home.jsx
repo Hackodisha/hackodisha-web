@@ -321,7 +321,7 @@ export const Date = styled.img`
    }
   `;
 
-  export const Apply = styled.img`
+  export const Register = styled.img`
     height: 80px;
     width: 80px;
     margin-top: -13%;
@@ -351,8 +351,8 @@ function home2() {
         </Content>
         <Date src={require("../assets/images/date.png").default} />
          <Buttons>
-          <Button1 class = "Apply">
-           <Apply src={require("../assets/images/devfolio.png").default} />
+          <Button1>
+           <Register src={require("../assets/images/devfolio.png").default} />
             Apply
           </Button1>
           <Button2>
