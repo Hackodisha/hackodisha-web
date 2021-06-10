@@ -136,7 +136,7 @@ export const Image = styled.img`
 export const Date = styled.img`
   height: 28vh;
   margin-left: 48%;
-  margin-top: -28%;
+  margin-top: -25%;
 
   @media only screen and (max-width: 360px){
     height: 13vh;
@@ -178,7 +178,7 @@ export const Date = styled.img`
   }
 `;
 
- export const Buttons = styled.div`
+ {/*export const Buttons = styled.div`
    margin-left: 45%;
    margin-top: -7%;
 
@@ -288,7 +288,7 @@ export const Date = styled.img`
     margin-top: -13%;
     margin-bottom: -12%;
     margin-left: -10%;
-   `;
+   `;*/}
 
 function home2() {
   return (
@@ -301,12 +301,12 @@ function home2() {
           Give life to your innovative ideas that can be solutions to the problems of today with <span style={{fontWeight:"700",fontSize:"2rem"}}>HACKODISHA!</span>
         </Content>
         <Date src={require("../assets/images/date.png").default} />
-         <Buttons>
+         {/*}<Buttons>
           <Button1><Register src={require("../assets/images/devfolio.png").default} />Apply</Button1>
           <Button2>
             <Discord src={require("../assets/images/discord.png").default} />
           </Button2>
-        </Buttons>
+        </Buttons>*/}
       </Container>
     </Raisebox>
     </>
