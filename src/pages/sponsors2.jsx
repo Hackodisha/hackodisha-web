@@ -99,7 +99,7 @@ function Sponsors() {
                 className="logo-mid"
                 src={require("../assets/sponsors/celo1.png").default}
                 alt="Celo silver sponsor for Hackodisha"
-                
+
               />
             </a>
           </Col>
@@ -113,7 +113,7 @@ function Sponsors() {
                 className="logo-mid"
                 src={require("../assets/sponsors/tezos.png").default}
                 alt="Tezos silver sponsor for Hackodisha"
-                
+
               />
             </a>
           </Col>
@@ -292,7 +292,7 @@ function Sponsors() {
           </a>
           <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
             <img className="logo_small"
-              src={require("../assets/sponsors/Wolfram.png").default}
+              src={require("../assets/sponsors/Wolfram1.jpg").default}
               alt="Wolfram bronze sponsor for Hackodisha"
             />
           </a>
@@ -303,7 +303,7 @@ function Sponsors() {
             />
           </a>
         </LogosBronze>
-      </Raisebox> 
+      </Raisebox>
 
       {/* Partners */}
       <Raisebox style={{paddingTop:"50px"}}>
@@ -313,7 +313,7 @@ function Sponsors() {
             <img className="logo-script"
               src={require("../assets/sponsors/script.png").default}
               alt="Script Foundation education partner for Hackodisha"
-              
+
               />
                 </a>
                 <h3 className="sponsors_h3">
@@ -337,7 +337,7 @@ function Sponsors() {
             <img className="logo-rourkela360"
               src={require("../assets/sponsors/rourkela360.png").default}
               alt="Rourkela 360 media partner of Hackodisha"
-             
+
             />
           </a>
 
