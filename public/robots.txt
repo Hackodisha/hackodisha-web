@@ -1,11 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow: /
-
+# Group 1
 User-agent: Googlebot
-Disallow:
+Disallow: /nogooglebot/
 
-User-agent: Googlebot-Image
-Disallow:
+# Group 2
+User-agent: *
+Allow: /
 
 Sitemap: https://hackodisha.xyz/sitemap.xml
