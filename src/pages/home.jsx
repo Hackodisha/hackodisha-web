@@ -23,6 +23,7 @@ export const Raisebox = styled.div`
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
+    height: 110vh;
     margin-left: -5%;
   }
 `;
@@ -76,9 +77,9 @@ export const Content = styled.h1`
     padding-right:16%;
   }
   @media only screen and (min-width: 769px) and (max-width: 936px) {
-
     padding-left:10%;
-    margin-left:25%;
+    margin-left:20%;
+    margin-top: -27%; 
     padding-right:10%;
     font-size:1.6rem;
   }
@@ -115,14 +116,14 @@ export const Image = styled.img`
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     height: 70vh;
-    margin-left: -18%;
-    margin-top: -15%;
+    margin-left: -9%;
+    margin-top: -5%;
 
   }
   @media only screen and (min-width: 769px) and (max-width: 936px) {
     height: 85vh;
-    margin-left:-20%;
-    margin-top:-10%;
+    margin-left:-10%;
+    margin-top:-5%; 
   }
   @media only screen and (min-width: 937px) and (max-width: 1024px) {
     height: 75vh;
@@ -145,13 +146,11 @@ export const Date = styled.img`
     margin-left: 7%;
     margin-bottom:5%;
   }
-
-
+  
   @media only screen and (min-width: 361px) and (max-width: 480px) {
     height: 14vh;
     margin-top: 0;
-    margin-left: 6%;
-
+    margin-left: 3.8%;
   }
   @media only screen and (min-width: 441px) and (max-width: 540px) {
     height:17vh;
@@ -161,16 +160,17 @@ export const Date = styled.img`
   @media only screen and (min-width: 541px) and (max-width: 768px) {
     height:17vh;
     margin:0 auto;
+    margin-left: 45%;
   }
   @media only screen and (min-width: 769px) and (max-width: 936px) {
     height:20vh;
-    margin-left: 25%;
-    margin-top: -25%;
+    margin-left: 45%;
+    margin-top: -5%;
   }
   @media only screen and (min-width: 937px) and (max-width: 1024px) {
-    height:20vh;
-    margin-left: 15%;
-    margin-top: -5%;
+    height:15vh;
+    margin-left: 26%;
+    margin-top: -15%;
   }
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     height:25vh;
@@ -206,9 +206,8 @@ export const Date = styled.img`
    background-color: #0360DE;
    margin-top:-5%;
    cursor: pointer;
-
-
-   @media only screen and (max-width: 361px){
+   
+    @media only screen and (max-width: 360px){
      display: inline-flex;
      width: 120px;
      padding: 15px;
@@ -216,12 +215,10 @@ export const Date = styled.img`
      margin-right: -1%;
      padding-bottom: 35px;
      font-size: 1.5em;
-     margin-left: -20%;
+     margin-left: 1%;
    }
-
-   @media only screen and (min-device-width: 375px) 
-                      and (max-device-width: 812px) 
-                      and (-webkit-min-device-pixel-ratio: 3) {
+   
+   @media only screen and (min-width: 361px) and (max-width: 440px) {
      display: inline-flex;
      width: 120px;
      padding: 15px;
@@ -230,6 +227,33 @@ export const Date = styled.img`
      padding-bottom: 35px;
      font-size: 1.5em;
      margin-left: 20%;
+   }
+   
+   @media only screen and (min-width: 441px) and (max-width: 540px) {
+     display: auto;
+   }
+   
+   @media only screen and (min-width: 541px) and (max-width: 768px) {
+     display: inline-flex;
+     width: 120px;
+     padding: 15px;
+     height: 30px;
+     margin-right: -1%;
+     padding-bottom: 35px;
+     font-size: 1.5em;
+     margin-left: 15%;
+     margin-top: -30%;
+   }
+   @media only screen and (min-width: 769px) and (max-width: 936px) {
+     display: auto;
+     margin-right: 9%;
+     margin-bottom: 15%;     
+   }
+   @media only screen and (min-width: 937px) and (max-width: 1024px) {
+     display: auto;
+   }
+   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+     display: auto;
    }
 
  `;
@@ -243,24 +267,40 @@ export const Date = styled.img`
    background-color: black;
    margin-top:-5%;
    cursor: pointer;
-
-
-   @media only screen and (min-width: 321px) and (max-width: 361px){
+   
+      @media only screen and (max-width: 360px){
      width: 130px;
      padding: 15px;
      height: 40px;
      margin-right: -20%;
      padding-bottom: 35px;
    }
-
-   @media only screen and (min-device-width: 375px) 
-                      and (max-device-width: 812px) 
-                      and (-webkit-min-device-pixel-ratio: 3){
-     width: 130px;
+   @media only screen and (min-width: 361px) and (max-width: 440px) {
+          width: 130px;
      padding: 15px;
      height: 40px;
      margin-right: -15%;
      padding-bottom: 35px;
+   }
+   @media only screen and (min-width: 441px) and (max-width: 540px) {
+     display: auto;
+   }
+   @media only screen and (min-width: 541px) and (max-width: 768px) {
+     width: 130px;
+     padding: 15px;
+     height: 40px;
+     margin-right: -85%;
+     padding-bottom: 35px;
+   }
+   @media only screen and (min-width: 769px) and (max-width: 936px) {
+     display: auto;
+     margin-right: -120%;
+   }
+   @media only screen and (min-width: 937px) and (max-width: 1024px) {
+     display: auto;
+   }
+   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+     display: auto;
    }
  `;
 
