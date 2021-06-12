@@ -275,9 +275,8 @@ export const Date = styled.img`
    margin-left: -3%;
   `;
 
-function home2() {
+function Home2() {
 
-  const useScript = url => {
       useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://apply.devfolio.co/v2/sdk.js';
@@ -287,8 +286,7 @@ function home2() {
         return () => {
           document.body.removeChild(script);
         }
-       }, [url]);
-    }
+       }, []);
 
   return (
     <>
@@ -302,9 +300,9 @@ function home2() {
           <Buttons>
             <Button2
             	class="apply-button"
-            	data-hackathon-slug="Apply"
+            	data-hackathon-slug="hackodisha"
             	data-button-theme="light"
-            	style= "height: 44px ; width: 312px"
+            	style= {{height: "44px" , width: "312px"}}
             ></Button2>
           <Button1>
             <Discord src={require("../assets/images/discord.png").default} />
@@ -316,4 +314,4 @@ function home2() {
   );
 };
 
-export default home2;
+export default Home2;
