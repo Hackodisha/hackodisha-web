@@ -1,5 +1,5 @@
 import React from "react";
-import Sponsors from "./sponsors2";
+import Sponsors from "./sponsors";
 import Tracks from "./tracks";
 import About from "./about";
 import Home from "./home";
