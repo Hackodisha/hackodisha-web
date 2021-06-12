@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 
 export const Raisebox = styled.div`
@@ -136,7 +136,7 @@ export const Image = styled.img`
 export const Date = styled.img`
   height: 28vh;
   margin-left: 48%;
-  margin-top: -25%;
+  margin-top: -28%;
 
   @media only screen and (max-width: 360px){
     height: 13vh;
@@ -178,7 +178,7 @@ export const Date = styled.img`
   }
 `;
 
- {/*export const Buttons = styled.div`
+ export const Buttons = styled.div`
    margin-left: 45%;
    margin-top: -7%;
 
@@ -206,19 +206,17 @@ export const Date = styled.img`
  `;
 
  export const Button1 = styled.button`
-   padding: 9px;
-   width: 230px;
+   padding: 15px;
+   width: 220px;
    border-radius: 10px;
    border: none;
-   color: white;
-   font-size: 2.6em;
-   font-weight: 500;
-   margin-left: 20px;
-   background-color: #0360DE;
+   margin-left: 25px;
+   background-color: black;
    margin-top:-5%;
 
    @media only screen and (max-width: 360px){
      display: none;
+     margin: 0;
    }
    @media only screen and (min-width: 361px) and (max-width: 440px) {
      display: none;
@@ -240,13 +238,8 @@ export const Date = styled.img`
    }
  `;
 
- export const Button2 = styled.button`
-   padding: 15px;
-   width: 220px;
-   border-radius: 10px;
-   border: none;
+ export const Button2 = styled.div`
    margin-left: 25px;
-   background-color: black;
    margin-top:-5%;
 
    @media only screen and (max-width: 360px){
@@ -282,18 +275,23 @@ export const Date = styled.img`
    margin-left: -3%;
   `;
 
-  export const Register = styled.img`
-    height: 80px;
-    width: 80px;
-    margin-top: -13%;
-    margin-bottom: -12%;
-    margin-left: -10%;
-   `;*/}
-
 function home2() {
+
+  const useScript = url => {
+      useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        }
+       }, [url]);
+    }
+
   return (
     <>
-      <meta name="description" content="Give life to your innovative ideas that can be solutions to the problems of today" />
     <Raisebox>
       <Container>
       <Image src={require("../assets/images/Map1.png").default} />
@@ -301,16 +299,21 @@ function home2() {
           Give life to your innovative ideas that can be solutions to the problems of today with <span style={{fontWeight:"700",fontSize:"2rem"}}>HACKODISHA!</span>
         </Content>
         <Date src={require("../assets/images/date.png").default} />
-         {/*}<Buttons>
-          <Button1><Register src={require("../assets/images/devfolio.png").default} />Apply</Button1>
-          <Button2>
+          <Buttons>
+            <Button2
+            	class="apply-button"
+            	data-hackathon-slug="Apply"
+            	data-button-theme="light"
+            	style= "height: 44px ; width: 312px"
+            ></Button2>
+          <Button1>
             <Discord src={require("../assets/images/discord.png").default} />
-          </Button2>
-        </Buttons>*/}
+          </Button1>
+        </Buttons>
       </Container>
     </Raisebox>
     </>
   );
-}
+};
 
 export default home2;
