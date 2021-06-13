@@ -110,7 +110,7 @@ export const Image = styled.img`
 
 export const Date = styled.img`
   height: 28vh;
-  margin-left: 48%;
+  margin-left: 49%;
   margin-top: -28%;
 
   @media only screen and (max-width: 360px) {
@@ -157,13 +157,13 @@ export const Buttons = styled.div`
 `;
 
 export const Button1 = styled.button`
-padding:5px;
-  height:50px;
-  width: 200px;
-  border-radius: 10px;
+  padding:5px;
+  height: 45px;
+  width: 220px;
+  border-radius: 5px;
   border: none;
   margin-left: 25px;
-  background-color: black;
+  background-color: white;
 
   @media only screen and (max-width: 360px) {
     display: none;
@@ -221,7 +221,7 @@ function Home() {
               data-button-theme="light"
             ></Button2>
             <Button1>
-              <Discord src={require("../assets/images/discord.png").default} />
+              <a href="https://discord.gg/VWrQxSg9nR"><Discord src={require("../assets/images/Discord1.png").default} /></a>
             </Button1>
           </Buttons>
         </Container>
