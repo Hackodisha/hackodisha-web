@@ -142,6 +142,10 @@
   margin: 0 auto;
   padding: 20px;
 
+  /* vertically center logo inside parent container */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media screen and (max-width: 576px) {
