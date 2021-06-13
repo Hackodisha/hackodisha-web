@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import Raisebox from "../components/raisebox/raisebox";
 import Faq from "react-faq-component";
 import { Container, Row, Col } from "react-grid-system";
 
@@ -55,15 +55,6 @@ const styles = {
   height: "60px",
 };
 
-export const Raisebox = styled.div`
-  min-height: 70vh;
-  width: 90vw;
-  margin: 10vh auto;
-  background: #18191a;
-  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-`;
-
 function home2() {
   return (
     <>
@@ -71,7 +62,7 @@ function home2() {
         name="description"
         content="Do I need to pay any money to register for the Hackathon?"
       />
-      <Raisebox>
+      <Raisebox style={{minHeight:"70vh",display:"block"}}>
         <h1 className="faq_heading">
           Have any <span style={{ color: "#ff0000" }}> questions?</span>
         </h1>

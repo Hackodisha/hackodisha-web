@@ -1,22 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import styled from "styled-components";
 import "./style.css";
-
-const Raisbox = styled.div`
-  display: flex;
-  min-height: 20vh;
-  width: 90vw;
-  margin: 10vh auto;
-  background: #18191a;
-  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-`;
+import Raisebox from "../components/raisebox/raisebox";
 
 function About() {
   return (
     <div>
-      <Raisbox>
+      <Raisebox style={{minHeight:"20vh",display:"flex"}}>
         <Container>
           <Row>
             <Col sm={12} md={12} lg={6} xl={6}>
@@ -40,7 +30,7 @@ function About() {
             </Col>
           </Row>
         </Container>
-      </Raisbox>
+      </Raisebox>
     </div>
   );
 }

@@ -1,15 +1,7 @@
 import React from "react";
-import styled from "styled-components";
+import Raisebox from "../components/raisebox/raisebox";
 import './style.css';
 
-export const Raisebox = styled.div`
-min-height: 70vh;
-width: 90vw;
-margin: 10vh auto;
-background: #18191a;
-box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
-border-radius: 10px;
-`;
 
 function Schedule() {
   return (

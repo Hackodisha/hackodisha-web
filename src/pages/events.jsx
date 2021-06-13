@@ -1,19 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import './style.css';
-
-export const Raisebox = styled.div`
-min-height: 70vh;
-width: 90vw;
-margin: 10vh auto;
-background: #18191a;
-box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
-border-radius: 10px;
-`;
+import Raisebox from "../components/raisebox/raisebox";
 
 function Events() {
   return (
-    <Raisebox>
+    <Raisebox style={{minHeight:"70vh",display:"block"}}>
       <div className="events_container">
         <h1 className="events_h1">
           HACK <span style={{ color: "#ff0000" }}> EVENTS </span>

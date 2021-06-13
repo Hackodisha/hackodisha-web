@@ -2,16 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import "./style.css";
 import { Row, Col } from "react-grid-system";
-
-export const Raisebox = styled.div`
-  min-height: 20vh;
-  width: 90vw;
-  margin: 10vh auto;
-  background: #18191a;
-  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding-bottom: 3vh;
-`;
+import Raisebox from "../components/raisebox/raisebox";
 
 export const LogosBronze=styled.div`
 display: grid;
@@ -35,7 +26,7 @@ function Sponsors() {
   return (
     <div>
       {/* Platinum Sponsor */}
-      <Raisebox>
+      <Raisebox style={{minHeight:"20vh", paddingBottom:"3vh"}}>
         <h1 className="sponsors_h1">
           Platinum <span style={{ color: "#ff0000" }}> Sponsor </span>
         </h1>
@@ -53,7 +44,7 @@ function Sponsors() {
       </Raisebox>
 
       {/* Gold Sponsor */}
-      <Raisebox>
+      <Raisebox style={{minHeight:"20vh", paddingBottom:"3vh"}}>
         <h1 className="sponsors_h1">
           Gold <span style={{ color: "#ff0000" }}> Sponsors </span>
         </h1>
@@ -71,7 +62,7 @@ function Sponsors() {
       </Raisebox>
 
       {/* Silver Sponsor */}
-      <Raisebox>
+      <Raisebox style={{minHeight:"20vh", paddingBottom:"3vh"}}>
         <h1 className="sponsors_h1">
           Silver <span style={{ color: "#ff0000" }}> Sponsors </span>
         </h1>
@@ -135,7 +126,7 @@ function Sponsors() {
       </Raisebox>
 
       {/* Bronze Sponsors */}
-      <Raisebox>
+      <Raisebox style={{minHeight:"20vh", paddingBottom:"3vh"}}>
         <h1 className="sponsors_h1">
           Bronze
           <span style={{ color: "#ff0000" }}> Sponsors </span>
