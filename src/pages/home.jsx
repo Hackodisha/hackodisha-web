@@ -1,30 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-
-export const Raisebox = styled.div`
-  display: flex;
-  min-height: 8vh;
-  width: 90vw;
-  margin: auto;
-  background: #18191a;
-  box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-
-  @media only screen and (max-width: 320px){
-    margin-left: -15%;
-  }
-  @media only screen and (min-width: 321px) and (max-width: 360px) {
-    margin-left: -11%;
-  }
-  @media only screen and (min-width: 361px) and (max-width: 480px) {
-    height: 95vh;
-    margin-left: -10%;
-  }
-
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    margin-left: -5%;
-  }
-`;
+import Raisebox from "../components/raisebox/raisebox";
+import "./style.css";
 
 export const Container = styled.div`
   margin: auto;
@@ -40,11 +17,11 @@ export const Content = styled.h1`
   color: transparent;
   line-height: 1.5em;
   font-size: 1.7rem;
-  margin-top:-43%;
-  padding-left:50%;
-  padding-right:5%;
+  margin-top: -43%;
+  padding-left: 50%;
+  padding-right: 5%;
 
-  @media only screen and (max-width: 360px){
+  @media only screen and (max-width: 360px) {
     font-size: 1.2rem;
     padding-left: 22%;
     margin-left: -20%;
@@ -69,29 +46,28 @@ export const Content = styled.h1`
     margin-top: -10%;
   }
   @media only screen and (min-width: 541px) and (max-width: 768px) {
-    font-size:1.4rem;
-    margin-top:-25%;
-    padding-left:29%;
-    padding-right:16%;
+    font-size: 1.4rem;
+    margin-top: -25%;
+    padding-left: 29%;
+    padding-right: 16%;
   }
   @media only screen and (min-width: 769px) and (max-width: 936px) {
-
-    padding-left:10%;
-    margin-left:25%;
-    padding-right:10%;
-    font-size:1.6rem;
+    padding-left: 10%;
+    margin-left: 25%;
+    padding-right: 10%;
+    font-size: 1.6rem;
   }
   @media only screen and (min-width: 937px) and (max-width: 1024px) {
-    padding-left:5%;
-    margin-left:30%;
-    padding-right:25%;
-    font-size:2rem;
-    margin-top:-35%;
+    padding-left: 5%;
+    margin-left: 30%;
+    padding-right: 25%;
+    font-size: 2rem;
+    margin-top: -35%;
   }
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    padding-left:30%;
-    margin-left:20%;
-    padding-right:5%;
+    padding-left: 30%;
+    margin-left: 20%;
+    padding-right: 5%;
   }
 `;
 
@@ -103,25 +79,24 @@ export const Image = styled.img`
   @media only screen and (max-width: 360px) {
     height: 70vh;
     margin-left: -22%;
-    margin-top:-16%;
+    margin-top: -16%;
   }
 
   @media only screen and (min-width: 361px) and (max-width: 480px) {
     height: 70vh;
     margin-left: -22%;
-    margin-top:-21%;
+    margin-top: -21%;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     height: 70vh;
     margin-left: -18%;
     margin-top: -15%;
-
   }
   @media only screen and (min-width: 769px) and (max-width: 936px) {
     height: 85vh;
-    margin-left:-20%;
-    margin-top:-10%;
+    margin-left: -20%;
+    margin-top: -10%;
   }
   @media only screen and (min-width: 937px) and (max-width: 1024px) {
     height: 75vh;
@@ -138,180 +113,121 @@ export const Date = styled.img`
   margin-left: 48%;
   margin-top: -28%;
 
-  @media only screen and (max-width: 360px){
+  @media only screen and (max-width: 360px) {
     height: 13vh;
     margin-top: 10px;
     margin-left: 7%;
-    margin-bottom:5%;
+    margin-bottom: 5%;
   }
-
 
   @media only screen and (min-width: 361px) and (max-width: 480px) {
     height: 14vh;
     margin-top: 0;
     margin-left: 6%;
-
   }
   @media only screen and (min-width: 441px) and (max-width: 540px) {
-    height:17vh;
+    height: 17vh;
     margin-top: 0;
     margin-left: 7%;
   }
   @media only screen and (min-width: 541px) and (max-width: 768px) {
-    height:17vh;
-    margin:0 auto;
+    height: 17vh;
+    margin: 0 auto;
   }
   @media only screen and (min-width: 769px) and (max-width: 936px) {
-    height:20vh;
+    height: 20vh;
     margin-left: 25%;
     margin-top: -25%;
   }
   @media only screen and (min-width: 937px) and (max-width: 1024px) {
-    height:20vh;
+    height: 20vh;
     margin-left: 15%;
     margin-top: -5%;
   }
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    height:25vh;
+    height: 25vh;
     margin-left: 35%;
     margin-top: -25%;
   }
 `;
 
- export const Buttons = styled.div`
-   margin-left: 45%;
-   margin-top: -7%;
+export const Buttons = styled.div`
+  margin-left: 45%;
+  margin-top: -7%;
+`;
 
-   @media only screen and (max-width: 360px){
-     display: none;
-   }
-   @media only screen and (min-width: 361px) and (max-width: 440px) {
-     display: none;
-   }
-   @media only screen and (min-width: 441px) and (max-width: 540px) {
-     display: none;
-   }
-   @media only screen and (min-width: 541px) and (max-width: 768px) {
-     display: none;
-   }
-   @media only screen and (min-width: 769px) and (max-width: 936px) {
-     display: none;
-   }
-   @media only screen and (min-width: 937px) and (max-width: 1024px) {
-     display: none;
-   }
-   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-     display: none;
-   }
- `;
+export const Button1 = styled.button`
+padding:5px;
+  height:50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 25px;
+  background-color: black;
 
- export const Button1 = styled.button`
-   padding: 15px;
-   width: 220px;
-   border-radius: 10px;
-   border: none;
-   margin-left: 25px;
-   background-color: black;
-   margin-top:-5%;
+  @media only screen and (max-width: 360px) {
+    display: none;
+    margin: 0;
+  }
+  @media only screen and (min-width: 361px) and (max-width: 440px) {
+    display: none;
+  }
+  @media only screen and (min-width: 441px) and (max-width: 540px) {
+    display: none;
+  }
+  @media only screen and (min-width: 541px) and (max-width: 768px) {
+    display: none;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 936px) {
+    display: none;
+  }
+  @media only screen and (min-width: 937px) and (max-width: 1024px) {
+    display: none;
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    display: none;
+  }
+`;
 
-   @media only screen and (max-width: 360px){
-     display: none;
-     margin: 0;
-   }
-   @media only screen and (min-width: 361px) and (max-width: 440px) {
-     display: none;
-   }
-   @media only screen and (min-width: 441px) and (max-width: 540px) {
-     display: none;
-   }
-   @media only screen and (min-width: 541px) and (max-width: 768px) {
-     display: none;
-   }
-   @media only screen and (min-width: 769px) and (max-width: 936px) {
-     display: none;
-   }
-   @media only screen and (min-width: 937px) and (max-width: 1024px) {
-     display: none;
-   }
-   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-     display: none;
-   }
- `;
+export const Button2 = styled.div`
+  margin-left: 25px;
+  width: 220px;
+`;
 
- export const Button2 = styled.div`
-   margin-left: 25px;
-   margin-top:-5%;
+export const Discord = styled.img`
+  height: 40px;
+  width: 150px;
+`;
 
-   @media only screen and (max-width: 360px){
-     display: none;
-     margin: 0;
-   }
-   @media only screen and (min-width: 361px) and (max-width: 440px) {
-     display: none;
-   }
-   @media only screen and (min-width: 441px) and (max-width: 540px) {
-     display: none;
-   }
-   @media only screen and (min-width: 541px) and (max-width: 768px) {
-     display: none;
-   }
-   @media only screen and (min-width: 769px) and (max-width: 936px) {
-     display: none;
-   }
-   @media only screen and (min-width: 937px) and (max-width: 1024px) {
-     display: none;
-   }
-   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-     display: none;
-   }
- `;
-
-
- export const Discord = styled.img`
-   height: 70px;
-   width: 200px;
-   margin-top: -7%;
-   margin-bottom: -12%;
-   margin-left: -3%;
-  `;
-
-function Home2() {
-
-      useEffect(() => {
-        const script = document.createElement('script');
-        script.src = 'https://apply.devfolio.co/v2/sdk.js';
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-        return () => {
-          document.body.removeChild(script);
-        }
-       }, []);
-
+function Home() {
   return (
     <>
-    <Raisebox>
-      <Container>
-      <Image src={require("../assets/images/Map1.png").default} />
-        <Content>
-          Give life to your innovative ideas that can be solutions to the problems of today with <span style={{fontWeight:"700",fontSize:"2rem"}}>HACKODISHA!</span>
-        </Content>
-        <Date src={require("../assets/images/date.png").default} />
+      <Raisebox style={{ marginTop: "5vh" }}>
+        <Container>
+          <Image src={require("../assets/images/Map1.png").default} />
+          <Content>
+            Give life to your innovative ideas that can be solutions to the
+            problems of today with{" "}
+            <span style={{ fontWeight: "700", fontSize: "2rem" }}>
+              HACKODISHA!
+            </span>
+          </Content>
+          <Date src={require("../assets/images/date.png").default} />
           <Buttons>
             <Button2
-            	class="apply-button"
-            	data-hackathon-slug="hackodisha"
-            	data-button-theme="light"
-            	style= {{height: "44px" , width: "312px"}}
+              id="devfolio-apply-now"
+              className="apply-button"
+              data-hackathon-slug="hackodisha"
+              data-button-theme="light"
             ></Button2>
-          <Button1>
-            <Discord src={require("../assets/images/discord.png").default} />
-          </Button1>
-        </Buttons>
-      </Container>
-    </Raisebox>
+            <Button1>
+              <Discord src={require("../assets/images/discord.png").default} />
+            </Button1>
+          </Buttons>
+        </Container>
+      </Raisebox>
     </>
   );
-};
+}
 
-export default Home2;
+export default Home;

@@ -25,7 +25,6 @@ const loadercss = css`
 
 function App() {
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
