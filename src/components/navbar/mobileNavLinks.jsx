@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { Accessibility } from "./accessibility";
 import { MenuToggle } from "./menuToggle";
 
-import { Link } from "react-scroll";
-
 const NavLinksContainer = styled.div`
   height: 100%;
   display: flex;
@@ -38,12 +36,13 @@ const LinkItem = styled.li`
   display: flex;
 `;
 
-const Links = styled(Link)`
+const Link = styled.a`
   text-decoration: none;
   color: inherit;
   font-size: inherit;
   cursor: pointer;
   position: relative;
+  text-transform: capitalize;
 
   &::after {
     position: absolute;
@@ -66,118 +65,32 @@ const Marginer = styled.div`
   height: 2em;
 `;
 
-export function MobileNavLinks(props) {
+export function MobileNavLinks() {
   const [isOpen, setOpen] = useState(false);
-  const closeMobileMenu = () => setOpen(!isOpen);
+  const links = [
+    "home",
+    "about",
+    "tracks",
+    "sponsors",
+    "schedule",
+    "events",
+    "prizes",
+    "faq",
+  ];
   return (
     <NavLinksContainer>
       <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
       {isOpen && (
         <LinksWrapper>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Home
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              About Us
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="tracks"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Tracks
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="sponsors"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Sponsors
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="schedule"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Schedule
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="events"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Events
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="prizes"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Prizes
-            </Links>
-          </LinkItem>
-          <LinkItem>
-            <Links
-              activeClass="active"
-              to="faq"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              FAQ
-            </Links>
-          </LinkItem>
+          {links.map(link => {
+            return (
+              <LinkItem>
+                <Link href={"#" + link} onClick={() => setOpen(false)}>
+                  {link}
+                </Link>
+              </LinkItem>
+            );
+          })}
           <Marginer />
           <Accessibility />
         </LinksWrapper>
