@@ -1,5 +1,5 @@
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { css } from "@emotion/react";
 import HashLoader from "react-spinners/HashLoader";
 import Footer from "./components/footer/footer";
@@ -38,12 +38,12 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div className="main">
+        <main className="main">
           <Switch>
             <Route path="/" exact component={Main} />
             <Route component={NotFound} />
           </Switch>
-        </div>
+        </main>
         <MessengerCustomerChat
           pageId="104646555139813"
           appId="1639085279814437"
