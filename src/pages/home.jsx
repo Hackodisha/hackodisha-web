@@ -204,7 +204,7 @@ function Home() {
     <>
       <Raisebox style={{ marginTop: "5vh" }}>
         <Container>
-          <Image src={require("../assets/images/Map1.png").default} />
+          <Image src={require("../assets/images/Map1.png").default alt="Picture of tablet with outline of South American continent"} />
           <Content>
             Give life to your innovative ideas that can be solutions to the
             problems of today with{" "}
