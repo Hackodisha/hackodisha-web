@@ -42,6 +42,17 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "sumana2001",
+      "name": "Sumana Basu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63084088?v=4",
+      "profile": "https://sumana.live/",
+      "contributions": [
+        "code",
+        "bug",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
