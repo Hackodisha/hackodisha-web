@@ -221,7 +221,9 @@ function Home() {
               data-button-theme="light"
             ></Button2>
             <Button1>
-              <a href="https://discord.gg/VWrQxSg9nR"><Discord src={require("../assets/images/Discord1.png").default} /></a>
+              <a href="https://discord.gg/VWrQxSg9nR" target="_blank" rel="noopener noreferrer">
+                <Discord src={require("../assets/images/Discord1.png").default} />
+              </a>
             </Button1>
           </Buttons>
         </Container>
