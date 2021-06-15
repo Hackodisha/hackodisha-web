@@ -1,6 +1,6 @@
 <p align='center'><img src='https://github.com/Hackodisha/hackodisha-web/blob/main/src/assets/images/logo.png' width='400' ></p>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <h1 align='center'> HackOdisha </h1>
@@ -78,6 +78,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://bartek532.github.io/portfolio"><img src="https://avatars.githubusercontent.com/u/57185551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bartosz Zagrodzki</b></sub></a><br /><a href="#a11y-Bartek532" title="Accessibility">️️️️♿️</a> <a href="https://github.com/Hackodisha/hackodisha-web/issues?q=author%3ABartek532" title="Bug reports">🐛</a> <a href="https://github.com/Hackodisha/hackodisha-web/commits?author=Bartek532" title="Code">💻</a> <a href="#ideas-Bartek532" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Hackodisha/hackodisha-web/pulls?q=is%3Apr+reviewed-by%3ABartek532" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://aniket.live"><img src="https://avatars.githubusercontent.com/u/67703407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="#maintenance-Aniket762" title="Maintenance">🚧</a> <a href="#mentoring-Aniket762" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-Aniket762" title="Project Management">📆</a> <a href="https://github.com/Hackodisha/hackodisha-web/commits?author=Aniket762" title="Documentation">📖</a> <a href="https://github.com/Hackodisha/hackodisha-web/commits?author=Aniket762" title="Code">💻</a> <a href="#content-Aniket762" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Sonakshi1901"><img src="https://avatars.githubusercontent.com/u/76627480?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sonakshi Satpathy</b></sub></a><br /><a href="https://github.com/Hackodisha/hackodisha-web/commits?author=Sonakshi1901" title="Code">💻</a> <a href="https://github.com/Hackodisha/hackodisha-web/issues?q=author%3ASonakshi1901" title="Bug reports">🐛</a> <a href="#ideas-Sonakshi1901" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
