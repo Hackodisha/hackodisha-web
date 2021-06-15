@@ -1,4 +1,7 @@
 <p align='center'><img src='https://github.com/Hackodisha/hackodisha-web/blob/main/src/assets/images/logo.png' width='400' ></p>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <h1 align='center'> HackOdisha </h1>
 
@@ -63,3 +66,23 @@ Please refer to the project's style and contribution guidelines for submitting p
  5. Submit a **Pull request** so that we can review your changes
 
 ### Please abide by  [Contributing Guidelines](https://github.com/Hackodisha/hackodisha-web/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Hackodisha/hackodisha-web/blob/main/CODE_OF_CONDUCT.md) 🚀
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://bartek532.github.io/portfolio"><img src="https://avatars.githubusercontent.com/u/57185551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bartosz Zagrodzki</b></sub></a><br /><a href="#a11y-Bartek532" title="Accessibility">️️️️♿️</a> <a href="https://github.com/Hackodisha/hackodisha-web/issues?q=author%3ABartek532" title="Bug reports">🐛</a> <a href="https://github.com/Hackodisha/hackodisha-web/commits?author=Bartek532" title="Code">💻</a> <a href="#ideas-Bartek532" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Hackodisha/hackodisha-web/pulls?q=is%3Apr+reviewed-by%3ABartek532" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
