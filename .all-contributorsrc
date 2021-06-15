@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Bartek532",
+      "name": "Bartosz Zagrodzki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57185551?v=4",
+      "profile": "http://bartek532.github.io/portfolio",
+      "contributions": [
+        "a11y",
+        "bug",
+        "code",
+        "ideas",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hackodisha-web",
+  "projectOwner": "Hackodisha",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
