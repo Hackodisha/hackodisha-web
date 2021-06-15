@@ -79,3 +79,7 @@ $ git push origin
 
 - Always follow [commit message standards](https://chris.beams.io/posts/git-commit/)
 - About the [fork-and-branch workflow](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
+
+## Adding contributors
+
+https://allcontributors.org/docs/en/bot/usage
