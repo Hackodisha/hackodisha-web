@@ -31,6 +31,17 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "Sonakshi1901",
+      "name": "Sonakshi Satpathy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76627480?v=4",
+      "profile": "https://github.com/Sonakshi1901",
+      "contributions": [
+        "code",
+        "bug",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
