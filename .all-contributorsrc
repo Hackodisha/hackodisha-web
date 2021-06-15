@@ -17,6 +17,20 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67703407?v=4",
+      "profile": "https://aniket.live",
+      "contributions": [
+        "maintenance",
+        "mentoring",
+        "projectManagement",
+        "doc",
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
