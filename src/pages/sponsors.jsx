@@ -90,7 +90,7 @@ function Sponsors() {
                 className="logo-mid"
                 src={require("../assets/sponsors/celo1.png").default}
                 alt="Celo silver sponsor for Hackodisha"
-                
+
               />
             </a>
           </Col>
@@ -104,7 +104,7 @@ function Sponsors() {
                 className="logo-mid"
                 src={require("../assets/sponsors/tezos.png").default}
                 alt="Tezos silver sponsor for Hackodisha"
-                
+
               />
             </a>
           </Col>
@@ -290,11 +290,17 @@ function Sponsors() {
           <a href="https://www.codingminutes.com/" target="_blank" rel="noopener noreferrer">
             <img className="logo_small"
               src={require("../assets/sponsors/codingminutes.png").default}
-              alt="Coding Minutes"
+              alt="Coding Minutes bronze sponsor for Hackodisha"
+            />
+          </a>
+          <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">
+            <img className="logo_small"
+              src={require("../assets/sponsors/DigitalOcean1.png").default}
+              alt="Digital Ocean bronze sponsor for Hackodisha"
             />
           </a>
         </LogosBronze>
-      </Raisebox> 
+      </Raisebox>
 
       {/* Partners */}
       <Raisebox style={{paddingTop:"50px"}}>
@@ -304,7 +310,7 @@ function Sponsors() {
             <img className="logo-script"
               src={require("../assets/sponsors/script.png").default}
               alt="Script Foundation education partner for Hackodisha"
-              
+
               />
                 </a>
                 <h3 className="sponsors_h3">
@@ -328,7 +334,7 @@ function Sponsors() {
             <img className="logo-rourkela360"
               src={require("../assets/sponsors/rourkela360.png").default}
               alt="Rourkela 360 media partner of Hackodisha"
-             
+
             />
           </a>
 
