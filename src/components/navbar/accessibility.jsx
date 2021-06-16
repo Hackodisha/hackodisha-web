@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 import styled from "styled-components";
 
 const AccessibilityContainer = styled.div`
@@ -7,7 +7,7 @@ const AccessibilityContainer = styled.div`
   margin-left: 10px;
 `;
 
-const LoginButton = styled.button`
+const Button = styled.button`
   border: 0;
   outline: 0;
   padding: 8px 1em;
@@ -30,12 +30,41 @@ const LoginButton = styled.button`
   }
 `;
 
-export function Accessibility(props) {
-  return (
-    <AccessibilityContainer>
-      <Link to={{ pathname: "" }} target="_blank" rel="noopener noreferrer">
-        <LoginButton>Register</LoginButton>
-      </Link>
-    </AccessibilityContainer>
-  );
+
+class Accessibility extends React.Component {
+  constructor(props) {
+    super(props);
+    this.openForm = this.openForm.bind(this);
+  }
+
+  openForm() {
+    this.typeformEmbed.typeform.open();
+  }
+
+  render() {
+    return (
+      <div className="Accessibility">
+        <ReactTypeformEmbed
+          popup
+          autoOpen={false}
+          url="https://hackodisha.typeform.com/to/N19eeAoC"
+          hideHeaders
+          hideFooter
+          buttonText="Go!"
+          style={{ top: 100, zIndex:-10}}
+          ref={tf => {
+            this.typeformEmbed = tf;
+          }}
+        />
+        <AccessibilityContainer>
+    
+        <Button className="btn" onClick={this.openForm} style={{ cursor: 'pointer' }}>
+          Join us!
+        </Button>
+        </AccessibilityContainer>
+      </div>
+    );
+  }
 }
+
+export default Accessibility;
