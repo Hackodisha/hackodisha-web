@@ -84,7 +84,7 @@ export const Image = styled.img`
 
   @media only screen and (min-width: 361px) and (max-width: 480px) {
     height: 70vh;
-    margin-left: -22%;
+    margin-left: -24%;
     margin-top: -21%;
   }
 
@@ -157,13 +157,13 @@ export const Buttons = styled.div`
 `;
 
 export const Button1 = styled.button`
-  padding:5px;
-  height: 45px;
+  padding: 3px;
+  height: 46px;
   width: 220px;
   border-radius: 5px;
   border: none;
   margin-left: 25px;
-  background-color: white;
+  background-color: black;
 
   @media only screen and (max-width: 360px) {
     display: none;
@@ -192,11 +192,34 @@ export const Button1 = styled.button`
 export const Button2 = styled.div`
   margin-left: 25px;
   width: 220px;
+
+  @media only screen and (max-width: 360px) {
+    display: none;
+    margin: 0;
+  }
+  @media only screen and (min-width: 361px) and (max-width: 440px) {
+    display: none;
+  }
+  @media only screen and (min-width: 441px) and (max-width: 540px) {
+    display: none;
+  }
+  @media only screen and (min-width: 541px) and (max-width: 768px) {
+    display: none;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 936px) {
+    display: none;
+  }
+  @media only screen and (min-width: 937px) and (max-width: 1024px) {
+    display: none;
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const Discord = styled.img`
-  height: 40px;
-  width: 150px;
+  height: 43px;
+  width: 140px;
 `;
 
 function Home() {
@@ -204,7 +227,7 @@ function Home() {
     <>
       <Raisebox style={{ marginTop: "5vh" }}>
         <Container>
-          <Image src={require("../assets/images/Map1.png").default} />
+          <Image src={require("../assets/images/Map1.png").default} alt="MAP OF ODISHA"/>
           <Content>
             Give life to your innovative ideas that can be solutions to the
             problems of today with{" "}
@@ -212,7 +235,7 @@ function Home() {
               HACKODISHA!
             </span>
           </Content>
-          <Date src={require("../assets/images/date.png").default} />
+          <Date src={require("../assets/images/date.png").default} alt="DATE"/>
           <Buttons>
             <Button2
               id="devfolio-apply-now"
@@ -222,7 +245,7 @@ function Home() {
             ></Button2>
             <Button1>
               <a href="https://discord.gg/VWrQxSg9nR" target="_blank" rel="noopener noreferrer">
-                <Discord src={require("../assets/images/Discord1.png").default} />
+                <Discord src={require("../assets/images/discord.png").default}  alt="DISCORD"/>
               </a>
             </Button1>
           </Buttons>
