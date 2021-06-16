@@ -48,17 +48,34 @@ function Sponsors() {
         <h1 className="sponsors_h1">
           Gold <span style={{ color: "#ff0000" }}> Sponsors </span>
         </h1>
-        <a
-          href="https://devfolio.co/home/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="logo-large"
-            src={require("../assets/sponsors/devfolio1.png").default}
-            alt="Devfolio gold sponsor for Hackodisha"
-          />
-        </a>
+        <Row>
+          <Col sm={12} md={6} lg={6} xl={6}>
+            <a
+              href="https://devfolio.co/home/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="logo-large"
+                src={require("../assets/sponsors/devfolio1.png").default}
+                alt="Devfolio gold sponsor for Hackodisha"
+              />
+            </a>
+          </Col>
+          <Col sm={12} md={6} lg={6} xl={6}>
+            <a
+              href="https://www.digitalocean.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="logo-large"
+                src={require("../assets/sponsors/DigitalOcean1.png").default}
+                alt="Digital Ocean bronze sponsor for Hackodisha"
+              />
+            </a>
+          </Col>
+       </Row>
       </Raisebox>
 
       {/* Silver Sponsor */}
@@ -293,10 +310,10 @@ function Sponsors() {
               alt="Coding Minutes bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.qoom.io/" target="_blank" rel="noopener noreferrer">
             <img className="logo_small"
-              src={require("../assets/sponsors/DigitalOcean1.png").default}
-              alt="Digital Ocean bronze sponsor for Hackodisha"
+              src={require("../assets/sponsors/qoom.png").default}
+              alt="Qoom bronze sponsor for Hackodisha"
             />
           </a>
         </LogosBronze>
