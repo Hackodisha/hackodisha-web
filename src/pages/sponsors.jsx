@@ -304,10 +304,10 @@ function Sponsors() {
               alt="Wolfram bronze sponsor for Hackodisha"
             />
           </a>
-          <a href="https://www.codingminutes.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.axure.com/" target="_blank" rel="noopener noreferrer">
             <img className="logo_small"
-              src={require("../assets/sponsors/codingminutes.png").default}
-              alt="Coding Minutes bronze sponsor for Hackodisha"
+              src={require("../assets/sponsors/axure.PNG").default}
+              alt="Axure bronze sponsor for Hackodisha"
             />
           </a>
           <a href="https://www.qoom.io/" target="_blank" rel="noopener noreferrer">
@@ -316,6 +316,13 @@ function Sponsors() {
               alt="Qoom bronze sponsor for Hackodisha"
             />
           </a>
+          <a href="https://www.codingminutes.com/" target="_blank" rel="noopener noreferrer">
+            <img className="logo_small"
+              src={require("../assets/sponsors/codingminutes.png").default}
+              alt="Coding Minutes bronze sponsor for Hackodisha"
+            />
+          </a>
+
         </LogosBronze>
       </Raisebox>
 
