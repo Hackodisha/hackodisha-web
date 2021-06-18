@@ -172,6 +172,13 @@
         image:require("../assets/sponsors/qoom.png").default,
         alt:"Qoom bronze sponsor for Hackodisha"
     },
+   {
+        id:25,
+        className:"logo_small",
+        link:"https://www.codingminutes.com/",
+        image:require("../assets/sponsors/codingminutes.png").default,
+        alt:"Coding Minutes bronze sponsor for Hackodisha"
+    },
 ];
 
 const silverData = [
