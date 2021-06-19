@@ -168,7 +168,7 @@ function Sponsors() {
       </Raisebox>
 
       {/* Partners */}
-      <Raisebox style={{paddingTop:"50px"}}>
+      <Raisebox style={{minHeight:"20vh",paddingTop:"50px"}}>
         <Row>
           <Col sm={12} md={12} lg={4} xl={4}>
           {scriptData.map(scriptCard)}
