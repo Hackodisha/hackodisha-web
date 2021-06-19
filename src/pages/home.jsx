@@ -5,10 +5,9 @@ import "./style.css";
 import { Container, Row, Col } from "react-grid-system";
 
 export const Buttons = styled.div`
-  margin-left:35vw;
-  margin-right:-10vw;
-  margin-bottom:2%;
-  @media only screen and (min-width: 381px) and (max-width: 1200px) {
+  margin-left:-40vw;
+  margin-top:2vh;
+  @media only screen and (min-width: 381px) and (max-width: 768px) {
     margin: 0 auto;
   }
   @media only screen and (max-width: 380px) {
@@ -62,12 +61,7 @@ function Home() {
                 src={require("../assets/images/date.png").default}
                 alt="Hackodisha Date"
               />
-            </Col>
-            
-          </Row>
-
-        </Container>
-          <Buttons>
+               <Buttons>
             <Button2
               id="devfolio-apply-now"
               className="apply-button"
@@ -90,6 +84,12 @@ function Home() {
               </a>
             
           </Buttons>
+            </Col>
+            
+         
+          </Row>
+
+        </Container>
       </Raisebox>
     </>
   );
