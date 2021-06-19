@@ -20,7 +20,7 @@
         link:"https://balsamiq.com/",
         image: require("../assets/sponsors/balsamiq.png").default,
         alt:"Balsamiq bronze sponsor for Hackodisha",
-        
+
     },
     {
         id:4,
@@ -172,6 +172,13 @@
         image:require("../assets/sponsors/qoom.png").default,
         alt:"Qoom bronze sponsor for Hackodisha"
     },
+    {
+        id:25,
+        className:"logo_small",
+        link:"https://www.axure.com/",
+        image:require("../assets/sponsors/axure.PNG").default,
+        alt:"Axure bronze sponsor for Hackodisha"
+    },
 ];
 
 const silverData = [
@@ -181,7 +188,7 @@ const silverData = [
         link:"https://www.portis.io/",
         image:require("../assets/sponsors/portisnew.png").default,
         alt:"Portis silver sponsor for Hackodisha",
-        style:{width:"300px"}  
+        style:{width:"300px"}
     },
     {
         id:2,
@@ -189,7 +196,7 @@ const silverData = [
         link:"https://celo.org/",
         image:require("../assets/sponsors/celo1.png").default,
         alt:"Celo silver sponsor for Hackodisha",
-        style:{width:"300px"} 
+        style:{width:"300px"}
     },
     {
         id:3,
@@ -197,7 +204,7 @@ const silverData = [
         link:"https://tezos.com/",
         image:require("../assets/sponsors/tezos.png").default,
         alt:"Tezos silver sponsor for Hackodisha",
-        style:{width:"300px"}   
+        style:{width:"300px"}
     },
     {
         id:4,
@@ -205,9 +212,9 @@ const silverData = [
         link:"https://polygon.technology/",
         image:require("../assets/sponsors/poly1.png").default,
         alt:"Polygon silver sponsor for Hackodisha",
-        style:{width:"350px"} 
+        style:{width:"350px"}
     },
-    
+
 ];
 
 const scriptData = [
@@ -217,27 +224,27 @@ const scriptData = [
         link:"https://www.scriptindia.org/",
         image:require("../assets/sponsors/script.png").default,
         alt:"Script Foundation education partner for Hackodisha",
-         
+
     }];
 
- const webwizData = [   
+ const webwizData = [
     {
         id:2,
         className:"logo-webwiz",
         link:"https://webwiz-portfolio.web.app/",
         image:require("../assets/sponsors/webwizlogo.png").default,
         alt:"Webwiz the lead organizing team of Hackodisha",
-        
+
     },];
 
- const rourkData = [   
+ const rourkData = [
     {
         id:3,
         className:"logo-rourkela360",
         link:"https://www.instagram.com/rourkela360/",
         image:require("../assets/sponsors/rourkela360.png").default,
         alt:"Rourkela 360 media partner of Hackodisha",
-        
+
     },
 ];
 
@@ -254,7 +261,7 @@ const goldData = [
         className:"logo-large",
         link:"https://www.digitalocean.com/",
         image:require("../assets/sponsors/DigitalOcean1.png").default,
-        alt:"Digital Ocean bronze sponsor for Hackodisha", 
+        alt:"Digital Ocean bronze sponsor for Hackodisha",
     }
 ];
 
@@ -269,4 +276,3 @@ const platinumData = [
 ]
 
  export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData};
-
