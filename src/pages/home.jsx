@@ -74,19 +74,20 @@ function Home() {
               data-hackathon-slug="hackodisha"
               data-button-theme="light"
             ></Button2>
-            
-              <Button1>
-              <a
+            <a
               href="https://discord.gg/VWrQxSg9nR"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <Button1>
+              
                 <Discord
                   src={require("../assets/images/discord.png").default}
                   alt="DISCORD"
                 />
-                </a>
+                
               </Button1>
+              </a>
             
           </Buttons>
       </Raisebox>
