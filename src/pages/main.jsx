@@ -2,7 +2,7 @@ import React from "react";
 import Sponsors from "./sponsors";
 import Tracks from "./tracks";
 import About from "./about";
-import Home from "./home2";
+import Home from "./home";
 import Faq from "./faq";
 import Events from "./events";
 import Prizes from "./prizes";

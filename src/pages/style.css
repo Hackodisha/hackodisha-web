@@ -1,3 +1,56 @@
+/*Home Section*/
+.map{
+  height: auto;
+  width: 70vw;
+  margin-left: -20vw;
+  margin-top: -10vh;
+}
+
+.home_h1{
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.8em;
+  margin-top: 20vh;
+  margin-left: -2vw;
+}
+
+.home_h1_span{
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.date{
+  margin: 5vh auto 0 auto;
+  width: 45vw;
+  height: auto;
+  padding: 5%;
+  margin-left: -2vw;
+}
+
+@media screen and (max-width: 575px) {
+  .home_h1{
+    font-size: 1.5rem;
+  }
+  .home_h1_span{
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .map{
+    overflow: hidden;
+    width: 550px;
+    margin-left: -35vw;
+  }
+  .home_h1{
+    margin: -10vh auto 0 auto;
+  }
+  .date{
+    width: 80vw;
+  }
+}
+
 /*About Section*/
 .about_h2 {
   font-weight: 900;
