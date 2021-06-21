@@ -25,7 +25,6 @@ display: grid;
     grid-template-columns: repeat(3, 1fr);
   }`
 
- 
 
   function bronzeCard(bronzeData) {
     return (
@@ -35,7 +34,7 @@ display: grid;
         link={bronzeData.link}
         img={bronzeData.image}
         alt={bronzeData.alt}
-      />   
+      />
     );
   };
 
@@ -48,8 +47,8 @@ display: grid;
         link={silverData.link}
         img={silverData.image}
         alt={silverData.alt}
-      /> 
-       </Col>  
+      />
+       </Col>
     );
   }
 
@@ -64,64 +63,64 @@ display: grid;
         link={goldData.link}
         img={goldData.image}
         alt={goldData.alt}
-      /> 
-       </Col>  
+      />
+       </Col>
     );
   }
 
   function platinumCard(platinumData) {
     return (
-      
+
        <Card
         key={platinumData.id}
         className={platinumData.className}
         link={platinumData.link}
         img={platinumData.image}
         alt={platinumData.alt}
-      /> 
-        
+      />
+
     );
   }
 
   function scriptCard(scriptData) {
     return (
-      
+
        <Card
         key={scriptData.id}
         className={scriptData.className}
         link={scriptData.link}
         img={scriptData.image}
         alt={scriptData.alt}
-      /> 
-        
+      />
+
     );
   }
 
   function webwizCard(webwizData) {
     return (
-      
+
        <Card
         key={webwizData.id}
         className={webwizData.className}
         link={webwizData.link}
         img={webwizData.image}
         alt={webwizData.alt}
-      /> 
-        
+      />
+
     );
   }
 
   function rourkCard(rourkData) {
     return (
-      
+
        <Card
         key={rourkData.id}
         className={rourkData.className}
         link={rourkData.link}
         img={rourkData.image}
         alt={rourkData.alt}
-      /> 
-        
+      />
+
     );
   }
 
@@ -172,14 +171,14 @@ function Sponsors() {
         <Row>
           <Col sm={12} md={12} lg={4} xl={4}>
           {scriptData.map(scriptCard)}
-         
+
                 <h3 className="sponsors_h3">
           Education <span style={{ color: "#ff0000" }}> Partner </span>
         </h3>
         </Col>
         <Col sm={12} md={12} lg={4} xl={4}>
         {webwizData.map(webwizCard)}
-       
+
 
           <h3 className="sponsors_h3">
           Organizing <span style={{ color: "#ff0000" }}> Team </span>
@@ -187,7 +186,7 @@ function Sponsors() {
           </Col>
           <Col sm={12} md={12} lg={4} xl={4}>
           {rourkData.map(rourkCard)}
-       
+
 
           <h3 className="sponsors_h3">
           Media <span style={{ color: "#ff0000" }}> Partner </span>

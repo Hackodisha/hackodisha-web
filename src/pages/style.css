@@ -258,6 +258,7 @@
   font-size: 2.5rem;
 }
 
+
 @media screen and (max-width: 576px) {
   .events_h1 {
     font-size: 4rem;
