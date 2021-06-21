@@ -1,5 +1,4 @@
 import React from "react";
-import { Chrono } from "react-chrono";
 import styled from "styled-components";
 import './style.css';
 import Raisebox from "../components/raisebox/raisebox";
