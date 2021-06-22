@@ -46,7 +46,7 @@ function Home() {
             <Col sm={12} md={6} lg={6} xl={6}>
               <img
                 className="map"
-                src={require("../assets/images/Map1.png").default}
+                src={require("../assets/images/map.svg").default}
                 alt="Hackodisha Map of Odisha"
               />
             </Col>
@@ -74,19 +74,19 @@ function Home() {
               rel="noopener noreferrer"
             >
               <Button1>
-              
+
                 <Discord
                   src={require("../assets/images/discord.png").default}
                   alt="DISCORD"
                 />
-                
+
               </Button1>
               </a>
-            
+
           </Buttons>
             </Col>
-            
-         
+
+
           </Row>
 
         </Container>
