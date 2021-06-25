@@ -66,7 +66,7 @@ export function NavLinks() {
   return (
     <NavLinksContainer>
       <LinksWrapper>
-        {links.map(link => {
+        {links.map((link) => {
           return (
             <LinkItem>
               <Link href={"#" + link}>{link}</Link>

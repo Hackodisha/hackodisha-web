@@ -82,7 +82,7 @@ export function MobileNavLinks() {
       <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
       {isOpen && (
         <LinksWrapper>
-          {links.map(link => {
+          {links.map((link) => {
             return (
               <LinkItem>
                 <Link href={"#" + link} onClick={() => setOpen(false)}>

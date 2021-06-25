@@ -6,7 +6,7 @@ import Raisebox from "../components/raisebox/raisebox";
 function About() {
   return (
     <div>
-      <Raisebox style={{minHeight:"20vh",display:"flex"}}>
+      <Raisebox style={{ minHeight: "20vh", display: "flex" }}>
         <Container>
           <Row>
             <Col sm={12} md={12} lg={6} xl={6}>

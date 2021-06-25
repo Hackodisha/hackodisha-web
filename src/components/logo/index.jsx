@@ -13,10 +13,10 @@ const LogoText = styled.h1`
 export function Logo(props) {
   return (
     <LogoWrapper>
-      <a href="/" rel="noopener noreferrer" style={{textDecoration: "none"}}>
-      <LogoText>
-        H<span style={{ color: "#ff0000" }}>O</span>.
-      </LogoText>
+      <a href="/" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+        <LogoText>
+          H<span style={{ color: "#ff0000" }}>O</span>.
+        </LogoText>
       </a>
     </LogoWrapper>
   );

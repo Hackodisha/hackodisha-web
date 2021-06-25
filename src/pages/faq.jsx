@@ -62,7 +62,7 @@ function home2() {
         name="description"
         content="Do I need to pay any money to register for the Hackathon?"
       />
-      <Raisebox style={{minHeight:"70vh",display:"block"}}>
+      <Raisebox style={{ minHeight: "70vh", display: "block" }}>
         <h1 className="faq_heading">
           Have any <span style={{ color: "#ff0000" }}> questions?</span>
         </h1>

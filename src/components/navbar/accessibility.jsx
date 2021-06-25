@@ -1,5 +1,5 @@
-import React from 'react';
-import { ReactTypeformEmbed } from 'react-typeform-embed';
+import React from "react";
+import { ReactTypeformEmbed } from "react-typeform-embed";
 import styled from "styled-components";
 
 const AccessibilityContainer = styled.div`
@@ -30,7 +30,6 @@ const Button = styled.button`
   }
 `;
 
-
 class Accessibility extends React.Component {
   constructor(props) {
     super(props);
@@ -51,16 +50,18 @@ class Accessibility extends React.Component {
           hideHeaders
           hideFooter
           buttonText="Go!"
-          style={{ top: 100, zIndex:-10}}
-          ref={tf => {
+          style={{ top: 100, zIndex: -10 }}
+          ref={(tf) => {
             this.typeformEmbed = tf;
           }}
         />
         <AccessibilityContainer>
-    
-        <Button className="btn" onClick={this.openForm} style={{ cursor: 'pointer' }}>
-          Join us!
-        </Button>
+          <Button
+            className="btn"
+            onClick={this.openForm}
+            style={{ cursor: "pointer" }}>
+            Join us!
+          </Button>
         </AccessibilityContainer>
       </div>
     );

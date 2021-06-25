@@ -3,7 +3,6 @@ import Raisebox from "../components/raisebox/raisebox.js";
 import TracksCard from "../components/home-cards/HomeCard.jsx";
 import { Container, Row, Col } from "react-grid-system";
 
-
 function home2() {
   return (
     <>

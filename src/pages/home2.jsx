@@ -155,11 +155,11 @@ export const Buttons = styled.div`
   margin-left: 45%;
   margin-top: -7%;
   @media only screen and (min-width: 381px) and (max-width: 1200px) {
-    margin:0 auto;
+    margin: 0 auto;
   }
   @media only screen and (max-width: 380px) {
-    margin:0 auto;
-    overflow:hidden;
+    margin: 0 auto;
+    overflow: hidden;
   }
 `;
 
@@ -170,7 +170,7 @@ export const Button1 = styled.button`
   border: none;
   background-color: black;
   @media only screen and (min-width: 708px) {
-    margin-left:5px;
+    margin-left: 5px;
   }
 `;
 
@@ -206,13 +206,11 @@ function Home() {
               id="devfolio-apply-now"
               className="apply-button"
               data-hackathon-slug="hackodisha"
-              data-button-theme="light"
-            ></Button2>
+              data-button-theme="light"></Button2>
             <a
               href="https://discord.gg/VWrQxSg9nR"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               <Button1>
                 <Discord
                   src={require("../assets/images/discord.png").default}

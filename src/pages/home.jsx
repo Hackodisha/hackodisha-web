@@ -5,8 +5,8 @@ import "./style.css";
 import { Container, Row, Col } from "react-grid-system";
 
 export const Buttons = styled.div`
-  margin-left:-40vw;
-  margin-top:2vh;
+  margin-left: -40vw;
+  margin-top: 2vh;
   @media only screen and (min-width: 381px) and (max-width: 768px) {
     margin: 0 auto;
   }
@@ -21,7 +21,7 @@ export const Button1 = styled.button`
   width: 315px;
   border-radius: 5px;
   border: none;
-  cursor:pointer;
+  cursor: pointer;
   background-color: black;
   @media only screen and (min-width: 708px) {
     margin-left: 10px;
@@ -29,7 +29,7 @@ export const Button1 = styled.button`
 `;
 
 export const Button2 = styled.div`
-  cursor:pointer;
+  cursor: pointer;
 `;
 
 export const Discord = styled.img`
@@ -61,34 +61,26 @@ function Home() {
                 src={require("../assets/images/date.png").default}
                 alt="Hackodisha Date"
               />
-               <Buttons>
-            <Button2
-              id="devfolio-apply-now"
-              className="apply-button"
-              data-hackathon-slug="hackodisha"
-              data-button-theme="light"
-            ></Button2>
-            <a
-              href="https://discord.gg/VWrQxSg9nR"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button1>
-
-                <Discord
-                  src={require("../assets/images/discord.png").default}
-                  alt="DISCORD"
-                />
-
-              </Button1>
-              </a>
-
-          </Buttons>
+              <Buttons>
+                <Button2
+                  id="devfolio-apply-now"
+                  className="apply-button"
+                  data-hackathon-slug="hackodisha"
+                  data-button-theme="light"></Button2>
+                <a
+                  href="https://discord.gg/VWrQxSg9nR"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Button1>
+                    <Discord
+                      src={require("../assets/images/discord.png").default}
+                      alt="DISCORD"
+                    />
+                  </Button1>
+                </a>
+              </Buttons>
             </Col>
-
-
           </Row>
-
         </Container>
       </Raisebox>
     </>
