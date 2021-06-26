@@ -7,6 +7,7 @@ import Faq from "./faq";
 import Events from "./events";
 import Prizes from "./prizes";
 import Schedule from "./schedule";
+import Calendly from "./calendly";
 import { useEffect } from "react";
 
 function Main() {
@@ -45,6 +46,9 @@ function Main() {
       </section>
       <section id="faq">
         <Faq />
+      </section>
+      <section id="calendly">
+        <Calendly />
       </section>
     </>
   );

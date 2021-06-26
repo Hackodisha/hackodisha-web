@@ -331,7 +331,7 @@
 
 /*calendly section*/
 
-.calendly_h1{
+.calendly_heading{
   font-weight: 900;
   padding-top: 5%;
   color: #fff;
@@ -344,13 +344,24 @@
   color: #fff;
 }
 
-.calendly_h3{
-  width:72%;
-  margin-left: 12rem;
+.calendly_box{
+  width: 72%;
+  margin-left: 10rem;
   align-items: center;
 }
 @media screen and (max-width: 576px){
-  .calendly_h3{
+  .calendly_heading{
+    font-size: 4rem;
+  }
+  .calendly_box{
+    width:100%;
+    margin-left: 0%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .calendly_box{
     width:100%;
     margin-left: 0%;
     height: 100%;
