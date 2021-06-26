@@ -4,7 +4,7 @@ import "./style.css";
 import { Row, Col } from "react-grid-system";
 import Raisebox from "../components/raisebox/raisebox";
 import Card from "../components/card";
-import {bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData} from "./sponData";
+import {bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData} from "./sponData";
 
 
 
@@ -124,6 +124,20 @@ display: grid;
     );
   }
 
+  function OdishaCard(OdishaData) {
+    return (
+
+       <Card
+        key={OdishaData.id}
+        className={OdishaData.className}
+        link={OdishaData.link}
+        img={OdishaData.image}
+        alt={OdishaData.alt}
+      />
+
+    );
+  }
+
 function Sponsors() {
   return (
     <div>
@@ -155,8 +169,8 @@ function Sponsors() {
         </Row>
       </Raisebox>
 
-  {/* Bronze Sponsors */}
-  <Raisebox style={{minHeight:"20vh", paddingBottom:"3vh"}}>
+      {/* Bronze Sponsors */}
+      <Raisebox style={{minHeight:"20vh", paddingBottom:"3vh"}}>
         <h1 className="sponsors_h1">
           Bronze
           <span style={{ color: "#ff0000" }}> Sponsors </span>
@@ -169,23 +183,37 @@ function Sponsors() {
       {/* Partners */}
       <Raisebox style={{minHeight:"20vh",paddingTop:"50px"}}>
         <Row>
-          <Col sm={12} md={12} lg={4} xl={4}>
+          <Col>
           {scriptData.map(scriptCard)}
 
                 <h3 className="sponsors_h3">
           Education <span style={{ color: "#ff0000" }}> Partner </span>
         </h3>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4}>
+        <Col>
         {webwizData.map(webwizCard)}
 
 
           <h3 className="sponsors_h3">
           Organizing <span style={{ color: "#ff0000" }}> Team </span>
+          </h3>
+        </Col>
+      </Row>
+      </Raisebox>
+
+      <Raisebox style={{minHeight:"20vh",paddingTop:"50px"}}>
+        <Row>
+          <Col>
+          {rourkData.map(rourkCard)}
+
+
+          <h3 className="sponsors_h3">
+          Media <span style={{ color: "#ff0000" }}> Partner </span>
         </h3>
           </Col>
-          <Col sm={12} md={12} lg={4} xl={4}>
-          {rourkData.map(rourkCard)}
+
+          <Col>
+          {OdishaData.map(OdishaCard)}
 
 
           <h3 className="sponsors_h3">

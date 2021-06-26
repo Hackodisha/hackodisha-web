@@ -189,6 +189,13 @@
   margin: 0 auto;
 }
 
+.logo-odishanow{
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .logo_small{
   max-width: 290px;
   max-height: 150px;
