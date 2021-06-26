@@ -328,3 +328,31 @@
     font-size: 4rem;
   }
 }
+
+/*calendly section*/
+
+.calendly_h1{
+  font-weight: 900;
+  padding-top: 5%;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
+}
+
+.calendly_h2{
+  color: #fff;
+}
+
+.calendly_h3{
+  width:72%;
+  margin-left: 12rem;
+  align-items: center;
+}
+@media screen and (max-width: 576px){
+  .calendly_h3{
+    width:100%;
+    margin-left: 0%;
+    height: 100%;
+  }
+}
