@@ -257,6 +257,16 @@ const scriptData = [
 
     },];
 
+    const rourkShData = [
+       {
+           id:3,
+           className:"logo-rourkelashines",
+           link:"https://www.instagram.com/rourkela360/",
+           image:require("../assets/sponsors/RourkelaShines.webp").default,
+           alt:"Rourkela Shines media partner of Hackodisha",
+
+       },];
+
 
 
 const goldData = [
@@ -286,4 +296,4 @@ const platinumData = [
   }
 ]
 
- export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData, OdishaData};
+ export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData, OdishaData, rourkShData};

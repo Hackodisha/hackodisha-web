@@ -4,7 +4,7 @@ import "./style.css";
 import { Row, Col } from "react-grid-system";
 import Raisebox from "../components/raisebox/raisebox";
 import Card from "../components/card";
-import {bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData} from "./sponData";
+import {bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData} from "./sponData";
 
 
 
@@ -138,6 +138,21 @@ display: grid;
     );
   }
 
+  function RShinesCard(rourkShData) {
+    return (
+
+       <Card
+        key={rourkShData.id}
+        className={rourkShData.className}
+        link={rourkShData.link}
+        img={rourkShData.image}
+        alt={rourkShData.alt}
+      />
+
+    );
+  }
+
+
 function Sponsors() {
   return (
     <div>
@@ -201,24 +216,21 @@ function Sponsors() {
       </Row>
       </Raisebox>
 
-      <Raisebox style={{minHeight:"20vh",paddingTop:"50px"}}>
+      <Raisebox style={{minHeight:"20vh",paddingBottom:"3vh" }}>
+        <h1 className="sponsors_h1">
+          Media <span style={{ color: "#ff0000" }}> Partners </span>
+        </h1>
         <Row>
-          <Col>
+          <Col sm={12} md={12} lg={4} xl={4}>
           {rourkData.map(rourkCard)}
-
-
-          <h3 className="sponsors_h3">
-          Media <span style={{ color: "#ff0000" }}> Partner </span>
-        </h3>
           </Col>
 
-          <Col>
+          <Col sm={12} md={12} lg={4} xl={4}>
           {OdishaData.map(OdishaCard)}
+          </Col>
 
-
-          <h3 className="sponsors_h3">
-          Media <span style={{ color: "#ff0000" }}> Partner </span>
-        </h3>
+          <Col sm={12} md={12} lg={4} xl={4}>
+          {rourkShData.map(RShinesCard)}
           </Col>
         </Row>
       </Raisebox>
