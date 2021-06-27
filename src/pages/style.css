@@ -351,11 +351,7 @@
   color: #fff;
 }
 
-.calendly_box{
-  width: 72%;
-  margin-left: 10rem;
-  align-items: center;
-}
+
 @media screen and (max-width: 576px){
   .calendly_heading{
     font-size: 4rem;
