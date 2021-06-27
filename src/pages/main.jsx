@@ -47,9 +47,9 @@ function Main() {
       <section id="faq">
         <Faq />
       </section>
-      <section id="calendly">
+      {/*<section id="calendly">
         <Calendly />
-      </section>
+      </section>*/}
     </>
   );
 }
