@@ -61,6 +61,7 @@ Please refer to the project's style and contribution guidelines for submitting p
  3. **Commit** changes to your own branch
  4. **Push** your work back up to your fork
  5. Submit a **Pull request** so that we can review your changes
+ 6. So, feel free to fork this repo. If you do, please just give us proper credit by linking back to our website, https://hackodisha.xyz/.
 
 ### Please abide by  [Contributing Guidelines](https://github.com/Hackodisha/hackodisha-web/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Hackodisha/hackodisha-web/blob/main/CODE_OF_CONDUCT.md) 🚀
 
