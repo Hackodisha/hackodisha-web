@@ -10,8 +10,8 @@
 
 Hackodisha-web is Starware.  
 This means you're free to use the project, as long as you star its GitHub repository.  
-Your appreciation makes us grow and glow up. ⭐
-The license of this repository has changed from `MIT License` to `GNU AGPLv3`.
+Your appreciation makes us grow and glow up. 
+The license of this repository has changed from `MIT License` to `GNU AGPLv3`. ⭐
 
 #### [Development](https://hackodisha.web.app/)
 
