@@ -1,16 +1,47 @@
 import React from "react";
+import styled from "styled-components";
 import Raisebox from "../components/raisebox/raisebox";
-import "./style.css";
+
+const ScheduleContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+`;
+
+const Scheduleh1 = styled.h1`
+  font-weight: 900;
+  padding-top: 5%;
+  color: #fff;
+  font-size: 6rem;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
+
+  @media screen and (max-width: 576px){
+    font-size: 3.2rem;
+  }
+`;
+
+const Scheduleh2 = styled.h2`
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+
+  @media screen and (max-width: 576px){
+    font-size: 2rem;
+  }
+`;
 
 function Schedule() {
   return (
     <Raisebox>
-      <div className="schedule_container">
-        <h1 className="schedule_h1">
+      <ScheduleContainer>
+        <Scheduleh1>
           HACKATHON <span style={{ color: "#ff0000" }}> SCHEDULE</span>
-        </h1>{" "}
-      </div>
-      <h2 className="schedule_h2">To be revealed soon</h2>
+        </Scheduleh1>{" "}
+      </ScheduleContainer>
+      <Scheduleh2>To be revealed soon</Scheduleh2>
     </Raisebox>
   );
 }
