@@ -2,6 +2,7 @@ import React from "react";
 import Raisebox from "../components/raisebox/raisebox";
 import Faq from "react-faq-component";
 import { Container, Row, Col } from "react-grid-system";
+import styled from "styled-components";
 
 const data1 = {
   rows: [
@@ -46,6 +47,25 @@ const data2 = {
   ],
 };
 
+const FaqHeading = styled.div`
+  padding-top: 5%;
+  font-weight: 900;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 0.8em;
+  letter-spacing: -0.07em;
+
+  @media screen and (max-width: 576px){
+    font-size: 4rem;
+  }
+`;
+
+const FaqContent = styled.div`
+  padding: auto;
+  padding-bottom: 4%;
+  text-align: left;
+`;
+
 const styles = {
   bgColor: "#18191a",
   titleTextColor: "black",
@@ -63,17 +83,19 @@ function home2() {
         content="Do I need to pay any money to register for the Hackathon?"
       />
       <Raisebox style={{ minHeight: "70vh", display: "block" }}>
-        <h1 className="faq_heading">
+        <FaqHeading>
           Have any <span style={{ color: "#ff0000" }}> questions?</span>
-        </h1>
+        </FaqHeading>
         <Container>
-          <Row className="faq_content">
-            <Col sm={12} md={12} lg={6} xl={6}>
-              <Faq data={data1} styles={styles} />
-            </Col>
-            <Col sm={12} md={12} lg={6} xl={6}>
-              <Faq data={data2} styles={styles} />
-            </Col>
+          <Row>
+            <FaqContent>
+              <Col sm={12} md={12} lg={6} xl={6}>
+                <Faq data={data1} styles={styles} />
+              </Col>
+              <Col sm={12} md={12} lg={6} xl={6}>
+                <Faq data={data2} styles={styles} />
+              </Col>
+            </FaqContent>
           </Row>
         </Container>
       </Raisebox>

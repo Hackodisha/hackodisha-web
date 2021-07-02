@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Raisebox from "../components/raisebox/raisebox";
-import "./style.css";
 
 export const Container = styled.div`
   margin: auto;

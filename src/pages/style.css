@@ -1,166 +1,14 @@
-/*Home Section*/
-.map{
-  height: auto;
-  width: 50vw;
-  margin-left: -10vw;
-  margin-top: -10vh;
-}
-
-.home_h1{
-  font-weight: 400;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.8em;
-  margin-top: 20vh;
-  margin-left: -2vw;
-}
-
-.home_h1_span{
-  font-weight: 700;
-  font-size: 2.2rem;
-}
-
-.date{
-  margin: 5vh auto 0 auto;
-  width: 45vw;
-  height: auto;
-  padding: 5%;
-  margin-left: -2vw;
-}
-
-@media screen and (max-width: 575px) {
-  .home_h1{
-    font-size: 1.5rem;
-  }
-  .home_h1_span{
-    font-size: 1.7rem;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .map{
-    overflow: hidden;
-    width: 550px;
-    margin-left: -35vw;
-  }
-  .home_h1{
-    margin: -10vh auto 0 auto;
-  }
-  .date{
-    width: 80vw;
-  }
-}
-
-/*About Section*/
-.about_h2 {
-  font-weight: 900;
-  text-align: left;
-  color: #fff;
-  line-height: 2em;
-  font-size: 1.4rem;
-}
-
-.about_h1 {
-  font-weight: 900;
-  color: #fff;
-  font-size: 5rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-
-.about_heading {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media screen and (max-width: 576px) {
-  .about_h2 {
-    font-size: 1.2rem;
-  }
-  .about_h1 {
-    font-size: 4rem;
-  }
-}
-
-/*Tracks Section*/
-.tracks_card {
-  background: #242526;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  transition: 0.3s;
-  padding: 1em;
-  border-radius: 10px;
-  max-width: 17rem;
-  margin: 10px auto;
-  height: 10rem;
-}
-
-.tracks_h1 {
-  font-weight: 900;
-  color: #fff;
-  font-size: 5rem;
-}
-
-.tracks_heading {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.tracks_h4 {
-  font-weight: 600;
-  text-align: left;
-  margin-top: 1em;
-  font-size: 1.3rem;
-  color: #fff;
-}
-
-.tracks_icon {
-  width: 2.5em;
-}
-
-.card_icon {
-  height: 2.5em;
-  width: 2.5em;
-  border-radius: 50%;
-}
-
-@media screen and (max-width: 576px) {
-  .tracks_h1 {
-    font-size: 3rem;
-  }
-}
-
 /*Sponsors Section*/
-.sponsors_h1 {
-  padding-top: 5%;
-  font-weight: 900;
-  color: #fff;
-  font-size: 5rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-.sponsors_h3 {
-  font-weight: 800;
-  color: #fff;
-  font-size: 3rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
 
-.logo-large{
+.logo-large {
   width: 100%;
   max-width: 450px;
   height: auto;
   margin: 0 auto;
-  padding:10px 10px;
+  padding: 10px 10px;
 }
 
-.logo-mid{
+.logo-mid {
   width: 100%;
   max-width: 300px;
   height: auto;
@@ -168,209 +16,44 @@
   padding: 10px 10px;
 }
 
-.logo-script{
+.logo-script {
   width: 100%;
   max-width: 400px;
   height: auto;
   margin: 0 auto;
 }
 
-.logo-webwiz{
+.logo-webwiz {
   width: 100%;
   max-width: 295px;
   height: auto;
   margin: 0 auto;
 }
 
-.logo-rourkela360{
+.logo-rourkela360 {
   width: 100%;
   max-width: 260px;
   height: auto;
   margin: 0 auto;
 }
 
-.logo-odishanow{
+.logo-odishanow {
   width: 100%;
   max-width: 260px;
   height: auto;
   margin: 0 auto;
 }
 
-.logo-rourkelashines{
+.logo-rourkelashines {
   width: 100%;
   max-width: 260px;
   height: auto;
   margin: 0 auto;
 }
 
-.logo_small{
+.logo_small {
   max-width: 290px;
   max-height: 150px;
   margin: 0 auto;
   padding: 20px;
-
-}
-
-@media screen and (max-width: 576px) {
-  .sponsors_h1 {
-    font-size: 4rem;
-  }
-}
-
-/*Schedule Section*/
-.schedule_container {
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.schedule_h1 {
-  font-weight: 900;
-  padding-top: 5%;
-  color: #fff;
-  font-size: 6rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-
-.schedule_h2 {
-  text-align: center;
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-@media screen and (max-width: 576px) {
-  .schedule_h1 {
-    font-size: 3.2rem;
-  }
-  .schedule_h2 {
-    font-size: 2rem;
-  }
-}
-
-/*Events Section*/
-.events_container {
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.events_h1 {
-  font-weight: 900;
-  padding-top: 5%;
-  color: #fff;
-  font-size: 6rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-
-.events_h2 {
-  text-align: center;
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-
-@media screen and (max-width: 576px) {
-  .events_h1 {
-    font-size: 4rem;
-  }
-  .events_h2 {
-    font-size: 2rem;
-  }
-}
-
-/*Prizes Section*/
-.prizes_container {
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.prizes_h1 {
-  font-weight: 900;
-  padding-top: 5%;
-  color: #fff;
-  font-size: 6rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-
-.prizes_h2 {
-  text-align: center;
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-@media screen and (max-width: 576px) {
-  .prizes_h1 {
-    font-size: 4rem;
-  }
-  .prizes_h2 {
-    font-size: 2rem;
-  }
-}
-
-/*FAQ Section*/
-.faq_heading {
-  padding-top: 5%;
-  font-weight: 900;
-  color: #fff;
-  font-size: 5rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-
-.faq_content {
-  padding: auto;
-  padding-bottom: 4%;
-  text-align: left;
-}
-
-@media screen and (max-width: 576px) {
-  .faq_heading {
-    font-size: 4rem;
-  }
-}
-
-/*calendly section*/
-
-.calendly_heading{
-  font-weight: 900;
-  padding-top: 5%;
-  color: #fff;
-  font-size: 5rem;
-  line-height: 0.8em;
-  letter-spacing: -0.07em;
-}
-
-.calendly_h2{
-  color: #fff;
-}
-
-.calendly_box{
-  width: 72%;
-  margin-left: 10rem;
-  align-items: center;
-}
-@media screen and (max-width: 576px){
-  .calendly_heading{
-    font-size: 4rem;
-  }
-  .calendly_box{
-    width:100%;
-    margin-left: 0%;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .calendly_box{
-    width:100%;
-    margin-left: 0%;
-    height: 100%;
-  }
 }

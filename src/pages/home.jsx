@@ -1,10 +1,57 @@
 import React from "react";
 import styled from "styled-components";
 import Raisebox from "../components/raisebox/raisebox";
-import "./style.css";
 import { Container, Row, Col } from "react-grid-system";
 
-export const Buttons = styled.div`
+const Homeh1 = styled.h1`
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.8em;
+  margin-top: 20vh;
+  margin-left: -2vw;
+
+  @media screen and (max-width: 575px){
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 767px){
+    margin: -10vh auto 0 auto;
+  }
+`;
+
+const Homeh1Span = styled.h1`
+  font-weight: 700;
+  font-size: 2.2rem;
+
+  @media screen and (max-width: 575px){
+    font-size: 1.7rem;
+  }
+`;
+
+const MapImg = styled.img`
+  height: auto;
+  width: 50vw;
+  margin-left: -10vw;
+  margin-top: -10vh;
+  @media screen and (max-width: 767px){
+    overflow: hidden;
+    width: 550px;
+    margin-left: -35vw;
+  }
+`;
+
+const DateImg = styled.img`
+  margin: 5vh auto 0 auto;
+  width: 45vw;
+  height: auto;
+  padding: 5%;
+  margin-left: -2vw;
+  @media screen and (max-width: 767px){
+    width: 80vw;
+  }
+`;
+
+const Buttons = styled.div`
   margin-left: -40vw;
   margin-top: 2vh;
   @media only screen and (min-width: 381px) and (max-width: 768px) {
@@ -16,7 +63,7 @@ export const Buttons = styled.div`
   }
 `;
 
-export const Button1 = styled.button`
+const Button1 = styled.button`
   height: 46px;
   width: 315px;
   border-radius: 5px;
@@ -28,11 +75,11 @@ export const Button1 = styled.button`
   }
 `;
 
-export const Button2 = styled.div`
+const Button2 = styled.div`
   cursor: pointer;
 `;
 
-export const Discord = styled.img`
+const Discord = styled.img`
   height: 43px;
   width: 140px;
 `;
@@ -44,20 +91,18 @@ function Home() {
         <Container>
           <Row>
             <Col sm={12} md={6} lg={6} xl={6}>
-              <img
-                className="map"
+              <MapImg
                 src={require("../assets/images/map.svg").default}
                 alt="Hackodisha Map of Odisha"
               />
             </Col>
             <Col sm={12} md={6} lg={6} xl={6}>
-              <h1 className="home_h1">
+              <Homeh1>
                 Give life to your innovative ideas that can be solutions to the
                 problems of today with{" "}
-                <span className="home_h1_span">HACKODISHA!</span>
-              </h1>
-              <img
-                className="date"
+                <Homeh1Span>HACKODISHA!</Homeh1Span>
+              </Homeh1>
+              <DateImg
                 src={require("../assets/images/date.png").default}
                 alt="Hackodisha Date"
               />

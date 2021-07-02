@@ -1,17 +1,31 @@
 import React from "react";
+import styled from "styled-components";
+
+const NotFoundDiv = styled.div`
+  minHeight: 85vh;
+  alignItems: center;
+  justifyContent: center;
+`;
+
+const NotFoundh1 = styled.h1`
+  fontSize: 25vw;
+  color: #fff;
+  margin: 0;
+`;
+
+const NotFoundh3 = styled.h1`
+  fontSize: 8vw;
+  color: #fff;
+  marginTop: 10%;
+`;
 
 const NotFound = () => (
-  <div
-    style={{
-      minHeight: "85vh",
-      alignItems: "center",
-      justifyContent: "center",
-    }}>
-    <h1 style={{ fontSize: "25vw", color: "#fff", margin: "0" }}>404</h1>
-    <h3 style={{ fontSize: "8vw", color: "#fff", marginTop: "-10%" }}>
+  <NotFoundDiv>
+    <NotFoundh1>404</NotFoundh1>
+    <NotFoundh3>
       Page not found!
-    </h3>
-  </div>
+    </NotFoundh3>
+  </NotFoundDiv>
 );
 
 export default NotFound;
