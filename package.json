@@ -30,7 +30,7 @@
     "react-spinners": "^0.11.0",
     "react-typeform-embed": "^0.2.1",
     "styled-components": "^5.2.3",
-    "web-vitals": "^2.0.1"
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
