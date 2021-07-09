@@ -30,8 +30,8 @@ const Homeh1Span = styled.h1`
 
 const MapImg = styled.img`
   height: auto;
-  width: 50vw;
-  margin-left: -10vw;
+  width: 70vw;
+  margin-left: -15vw;
   margin-top: -10vh;
   @media screen and (max-width: 767px){
     overflow: hidden;
@@ -92,7 +92,7 @@ function Home() {
           <Row>
             <Col sm={12} md={6} lg={6} xl={6}>
               <MapImg
-                src={require("../assets/images/map.svg").default}
+                src={require("../assets/images/Map1.webp").default}
                 alt="Hackodisha Map of Odisha"
               />
             </Col>

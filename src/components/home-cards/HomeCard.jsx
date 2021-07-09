@@ -18,7 +18,7 @@ function TracksCard() {
           <TracksCards>
             <CardIcon>
               <img
-                src={require("../../assets/icons/health.svg").default}
+                src={require("../../assets/icons/health.webp").default}
                 alt="health_track"
                 style={{ width: '2.5em' }}
               />
@@ -37,7 +37,7 @@ function TracksCard() {
           <TracksCards>
             <CardIcon>
               <img
-                src={require("../../assets/icons/education.svg").default}
+                src={require("../../assets/icons/education.webp").default}
                 alt="education_track"
                 style={{ width: '2.5em' }}
               />
@@ -56,7 +56,7 @@ function TracksCard() {
           <TracksCards>
             <CardIcon>
               <img
-                src={require("../../assets/icons/environment.svg").default}
+                src={require("../../assets/icons/environment.webp").default}
                 alt="environment_track"
                 style={{ width: '2.5em' }}
               />
@@ -75,7 +75,7 @@ function TracksCard() {
           <TracksCards>
             <CardIcon>
               <img
-                src={require("../../assets/icons/security.svg").default}
+                src={require("../../assets/icons/security.webp").default}
                 alt="women_track"
                 style={{ width: '2.5em' }}
               />
@@ -94,7 +94,7 @@ function TracksCard() {
           <TracksCards>
             <CardIcon>
               <img
-                src={require("../../assets/icons/disaster.svg").default}
+                src={require("../../assets/icons/disaster.webp").default}
                 alt="disaster_track"
                 style={{ width: '2.5em' }}
               />
@@ -113,7 +113,7 @@ function TracksCard() {
           <TracksCards>
             <CardIcon className="card_icon">
               <img
-                src={require("../../assets/icons/open.svg").default}
+                src={require("../../assets/icons/open.webp").default}
                 alt="open_track"
                 style={{ width: '2.5em' }}
               />
