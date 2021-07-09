@@ -99,7 +99,7 @@
         id:14,
         className:"logo_small",
         link:"https://aichamp.in/",
-        image:require("../assets/sponsors/download.webp").default,
+        image:require("../assets/sponsors/aichamp.webp").default,
         alt:"Aichamp bronze sponsor for Hackodisha"
     },
     {
