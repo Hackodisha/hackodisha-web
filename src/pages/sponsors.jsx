@@ -4,7 +4,7 @@ import "./style.css";
 import { Row, Col } from "react-grid-system";
 import Raisebox from "../components/raisebox/raisebox";
 import Card from "../components/card";
-import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData } from "./sponData";
+import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData, BbsrData} from "./sponData";
 
 const Sponsors1 = styled.h1`
   padding-top: 5%;
@@ -170,6 +170,20 @@ function RShinesCard(rourkShData) {
   );
 }
 
+function BbsrbuzzCard(BbsrData) {
+  return (
+
+    <Card
+      key={BbsrData.id}
+      className={BbsrData.className}
+      link={BbsrData.link}
+      img={BbsrData.image}
+      alt={BbsrData.alt}
+    />
+
+  );
+}
+
 
 function Sponsors() {
   return (
@@ -249,6 +263,11 @@ function Sponsors() {
 
           <Col sm={12} md={12} lg={4} xl={4}>
             {rourkShData.map(RShinesCard)}
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12} md={12} lg={4} xl={4}>
+            {BbsrData.map(BbsrbuzzCard)}
           </Col>
         </Row>
       </Raisebox>

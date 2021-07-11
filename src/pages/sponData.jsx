@@ -247,7 +247,7 @@ const scriptData = [
 
     },];
 
-  const OdishaData = [
+ const OdishaData = [
     {
         id:4,
         className:"logo-odishanow",
@@ -257,7 +257,7 @@ const scriptData = [
 
     },];
 
-    const rourkShData = [
+ const rourkShData = [
        {
            id:3,
            className:"logo-rourkelashines",
@@ -266,6 +266,16 @@ const scriptData = [
            alt:"Rourkela Shines media partner of Hackodisha",
 
        },];
+
+ const BbsrData = [
+         {
+             id:5,
+             className:"logo-bbsrbuzz",
+             link:"https://instagram.com/odisha_now",
+             image:require("../assets/sponsors/Bbsrbuzz.png").default,
+             alt:"Bhubaneshwar Buzz media partner of Hackodisha",
+
+         },];
 
 
 
@@ -296,4 +306,4 @@ const platinumData = [
   }
 ]
 
- export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData, OdishaData, rourkShData};
+ export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData, OdishaData, rourkShData, BbsrData};
