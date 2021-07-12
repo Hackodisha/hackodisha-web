@@ -189,7 +189,7 @@ function Home() {
       <Raisebox style={{ marginTop: "5vh" }}>
         <Container>
           <Image
-            src={require("../assets/images/Map1.png").default}
+            src={require("../assets/images/map.svg").default}
             alt="MAP OF ODISHA"
           />
           <Content>

@@ -4,15 +4,15 @@ const TrackData = [
         name: "Health",
         image:require("../../assets/icons/health.png").default,
         alt:"health_track"
-        className:"tracks_icon"
+        className="CardIcon"
         info: "Health"
     },
     {
         id:2,
         name:"Education",
-        className:"tracks_icon",
         image:require("../../assets/icons/education.png").default,
         alt:"education_track"
+        className="CardIcon"
         info:"Education"
     },
     {
@@ -20,7 +20,7 @@ const TrackData = [
         name:"Environment",
         image:require("../../assets/icons/environment.png").default,
         alt:"environment_track"
-        className:"tracks_icon"
+        className:"CardIcon"
         info: "Environment"
     },
     {
@@ -28,7 +28,7 @@ const TrackData = [
         name:"Women Safety",
         image:require("../../assets/icons/security.png").default,
         alt:"safety_track"
-        className="tracks_icon"
+        className="CardIcon"
         info: "Women Safety"
     },
     {
@@ -36,7 +36,7 @@ const TrackData = [
         name:"Disaster Management",
         image:require("../../assets/icons/disaster.png").default,
         alt:"disaster_track"
-        className:"tracks_icon"
+        className:"CardIcon"
         info: "Disaster"
     },
     {
