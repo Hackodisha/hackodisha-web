@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import { TracksCards, CardIcon, Tracksh4 } from "./HomeCardElement";
 import { Row, Col } from "react-grid-system";
+{/*import { Button, Popover, PopoverHeader, PopoverBody } from 'reactstrap';*/}
 
-function TracksCard() {
+function TracksCard(){
 
-  {/*const [showDetailsPopUp, setShowDetailsPopUp] = useState(false);
+  {/*const [popoverOpen, setPopoverOpen] = useState(false);
 
-  function handleDetails() {
-    setShowDetailsPopUp(true);
-    setShowDetailsPopUp(!showDetailsPopUp);
-  }*/}
+  const toggle = () => setPopoverOpen(!popoverOpen);*/}
 
   return (
     <div style={{ marginTop: "5%" }}>
@@ -24,12 +22,14 @@ function TracksCard() {
               />
             </CardIcon>
             <Tracksh4>Healthcare</Tracksh4>
-            {/*<div>
-               <button className="btn-knowmore" onClick={handleDetails}>Know More</button>
-                   {showDetailsPopUp && <Details
-                      overview= "This is sooooooo Awesome"
-                      handleClose={handleDetails}
-                  />}
+              {/*<div>
+                <Button id="Popover1" type="button">
+                  Launch Popover
+                </Button>
+                <Popover placement="bottom" isOpen={popoverOpen} target="Popover1" toggle={toggle}>
+                  <PopoverHeader>Popover Title</PopoverHeader>
+                  <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
+                </Popover>
               </div>*/}
           </TracksCards>
         </Col>
