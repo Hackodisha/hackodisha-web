@@ -73,6 +73,7 @@ export function MobileNavLinks() {
     "tracks",
     "sponsors",
     "schedule",
+    "speakers",
     "events",
     "prizes",
     "faq",

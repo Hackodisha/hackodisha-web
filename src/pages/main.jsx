@@ -7,6 +7,7 @@ import Faq from "./faq";
 import Events from "./events";
 import Prizes from "./prizes";
 import Schedule from "./schedule";
+import Speakers from "./speakers";
 import Calendly from "./calendly";
 import { useEffect } from "react";
 
@@ -37,6 +38,9 @@ function Main() {
       </section>
       <section id="schedule">
         <Schedule />
+      </section>
+      <section id="speakers">
+        <Speakers />
       </section>
       <section id="events">
         <Events />
