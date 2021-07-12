@@ -63,7 +63,14 @@ const FaqHeading = styled.div`
 const FaqContent = styled.div`
   padding: auto;
   padding-bottom: 4%;
+  padding-top: 3%;
   text-align: left;
+  display: flex;
+
+  @media only screen and (max-width: 540px){
+    display: block;
+    padding-top: 4%;
+  }
 `;
 
 const styles = {
