@@ -271,7 +271,7 @@ const scriptData = [
          {
              id:5,
              className:"logo-bbsrbuzz",
-             link:"https://instagram.com/odisha_now",
+             link:"http://www.bhubaneswarbuzz.com/",
              image:require("../assets/sponsors/Bbsrbuzz.png").default,
              alt:"Bhubaneshwar Buzz media partner of Hackodisha",
 
