@@ -28,4 +28,8 @@ const NotFound = () => (
   </NotFoundDiv>
 );
 
+export function goHome() {
+  window.location.href = "/";
+}
+
 export default NotFound;
