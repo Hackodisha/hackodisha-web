@@ -1,0 +1,23 @@
+.btn-knowmore {
+  background-color: #9e3737;
+  background-color:#c62d1f;
+  border-radius:18px;
+  border:1px solid #d02718;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:10px;
+  padding:7px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #810e05;
+}
+
+.button-container {
+    position: absolute;
+    /* horizontally center the div */
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%, -50%);
+
+}

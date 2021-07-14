@@ -9,6 +9,9 @@ export const TracksCards = styled.div`
   max-width: 17rem;
   margin: 10px auto;
   height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const CardIcon = styled.div`
@@ -24,3 +27,4 @@ export const Tracksh4 = styled.h4`
   font-size: 1.3rem;
   color: #fff;
 `;
+
