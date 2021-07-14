@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { TracksCards, CardIcon, Tracksh4 } from "./HomeCardElement";
 import { Row, Col } from "react-grid-system";
-{/*import { Button, Popover, PopoverHeader, PopoverBody } from 'reactstrap';*/}
+import './HomeCard.css';
+// import { Button, Popover, PopoverHeader, PopoverBody } from 'reactstrap';
 
 function TracksCard(){
 
@@ -22,15 +23,9 @@ function TracksCard(){
               />
             </CardIcon>
             <Tracksh4>Healthcare</Tracksh4>
-              {/*<div>
-                <Button id="Popover1" type="button">
-                  Launch Popover
-                </Button>
-                <Popover placement="bottom" isOpen={popoverOpen} target="Popover1" toggle={toggle}>
-                  <PopoverHeader>Popover Title</PopoverHeader>
-                  <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                </Popover>
-              </div>*/}
+            <div className="button-container">
+               <button className="btn-knowmore" >Know More</button>
+            </div>
           </TracksCards>
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
@@ -43,13 +38,9 @@ function TracksCard(){
               />
             </CardIcon>
             <Tracksh4>Education</Tracksh4>
-            {/*<div>
-               <button className="btn-knowmore" onClick={handleDetails}>Know More</button>
-                   {showDetailsPopUp && <Details
-                      overview= "This is sooooooo Awesome"
-                      handleClose={handleDetails}
-                  />}
-              </div>*/}
+            <div className="button-container">
+               <button className="btn-knowmore">Know More</button>
+            </div>
           </TracksCards>
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
@@ -62,13 +53,9 @@ function TracksCard(){
               />
             </CardIcon>
             <Tracksh4>Environment</Tracksh4>
-            {/*<div>
-               <button className="btn-knowmore" onClick={handleDetails}>Know More</button>
-                   {showDetailsPopUp && <Details
-                      overview= "This is sooooooo Awesome"
-                      handleClose={handleDetails}
-                  />}
-              </div>*/}
+            <div className="button-container">
+               <button className="btn-knowmore">Know More</button>
+            </div>
           </TracksCards>
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
@@ -81,13 +68,9 @@ function TracksCard(){
               />
             </CardIcon>
             <Tracksh4>Women Security</Tracksh4>
-            {/*<div>
-               <button className="btn-knowmore" onClick={handleDetails}>Know More</button>
-                   {showDetailsPopUp && <Details
-                      overview= "This is sooooooo Awesome"
-                      handleClose={handleDetails}
-                  />}
-              </div>*/}
+            <div className="button-container">
+               <button className="btn-knowmore" >Know More</button>
+            </div>
           </TracksCards>
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
@@ -100,13 +83,9 @@ function TracksCard(){
               />
             </CardIcon>
             <Tracksh4>Disaster Management</Tracksh4>
-            {/*<div>
-               <button className="btn-knowmore" onClick={handleDetails}>Know More</button>
-                   {showDetailsPopUp && <Details
-                      overview= "This is sooooooo Awesome"
-                      handleClose={handleDetails}
-                  />}
-              </div>*/}
+            <div className="button-container">
+               <button className="btn-knowmore" >Know More</button>
+            </div>
           </TracksCards>
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
@@ -119,13 +98,9 @@ function TracksCard(){
               />
             </CardIcon>
             <Tracksh4>Open Innovation</Tracksh4>
-            {/*<div>
-               <button className="btn-knowmore" onClick={handleDetails}>Know More</button>
-                   {showDetailsPopUp && <Details
-                      overview= "This is sooooooo Awesome"
-                      handleClose={handleDetails}
-                  />}
-              </div>*/}
+            <div className="button-container">
+               <button className="btn-knowmore" >Know More</button>
+            </div>
           </TracksCards>
         </Col>
       </Row>
