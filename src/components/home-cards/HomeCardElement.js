@@ -1,30 +1,78 @@
-import styled from "styled-components";
+import { React, useState } from "react";
+import "./HomeCard.css";
+import Modal from 'react-modal';
 
-export const TracksCards = styled.div`
-  background: #242526;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  transition: 0.3s;
-  padding: 1em;
-  border-radius: 10px;
-  max-width: 17rem;
-  margin: 10px auto;
-  height: 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-`;
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    background: 'none',
+    border: 'none',
+  },
+  overlay:{
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
 
-export const CardIcon = styled.div`
-  height: 2.5em;
-  width: 2.5em;
-  border-radius: 50%;
-`;
+        backdropFilter: 'blur(5px)',
+        opacity: 1,
+      }
+};
 
-export const Tracksh4 = styled.h4`
-  font-weight: 600;
-  text-align: left;
-  margin-top: 1em;
-  font-size: 1.3rem;
-  color: #fff;
-`;
+function TracksCards(props) {
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = useState(false);
 
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+  return (
+    <div>
+    <div className="TracksCards">
+       <div className="CardIcon">
+         <img
+            src={props.imgsrc}
+            alt={props.alt}
+           style={props.style}
+         />
+       </div>
+       <div className="Tracksh4">
+           {props.trackname}
+      </div>
+      <div className="btn-container">
+              <button onClick={openModal} className="btn-knowmore" >Know More</button>
+           </div>
+     </div>
+     <Modal
+       isOpen={modalIsOpen}
+       onAfterOpen={afterOpenModal}
+       onRequestClose={closeModal}
+       style={customStyles}
+       contentLabel="Example Modal"
+     >
+       <div className="TracksCards" ref={(_subtitle) => (subtitle = _subtitle)}>
+       {props.description}
+      </div>
+      <div className="btn-container">
+       <button className='btn-knowmore' onClick={closeModal}>close</button>
+      </div>
+     </Modal>
+   </div>
+ );
+
+}
+
+export default TracksCards;
