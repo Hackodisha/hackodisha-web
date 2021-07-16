@@ -18,7 +18,7 @@ const customStyles = {
         left: 0,
         right: 0,
         bottom: 0,
-
+        background:'rgba(0, 0, 0, 0.5)',
         backdropFilter: 'blur(5px)',
         opacity: 1,
       }
@@ -33,7 +33,7 @@ function TracksCards(props) {
   }
 
   function afterOpenModal() {
-    subtitle.style.color = '#f00';
+    subtitle.style.color = '#fff';
   }
 
   function closeModal() {
