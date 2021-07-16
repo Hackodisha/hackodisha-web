@@ -1,49 +1,57 @@
 import React from "react";
 import styled from "styled-components";
+import "./style.css";
+import { Row, Col } from "react-grid-system";
 import Raisebox from "../components/raisebox/raisebox";
+import Speakercard from "../components/Speakercard";
+import SpeakerData from "./SpeakerData";
 
-const SpeakersContainer = styled.div`
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-`;
-
-const Speakersh1 = styled.h1`
-  font-weight: 900;
+const Speakers = styled.h1`
   padding-top: 5%;
+  font-weight: 900;
   color: #fff;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 0.8em;
   letter-spacing: -0.07em;
-
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     font-size: 4rem;
   }
 `;
 
-const Speakersh2 = styled.h2`
-  text-align: center;
-  color: #fff;
-  font-size: 2.5rem;
-
-  @media screen and (max-width: 576px){
-    font-size: 2rem;
-  }
-`;
-
-function Speakers() {
+function speakCard(SpeakerData) {
   return (
-    <Raisebox>
-      <SpeakersContainer>
-        <Speakersh1>
-          HACKATHON <span style={{ color: "#ff0000" }}> SPEAKERS</span>
-        </Speakersh1>{" "}
-      </SpeakersContainer>
-      <Speakersh2>To be revealed soon</Speakersh2>
-    </Raisebox>
+    <Col style={{paddingBottom:'2rem'}} sm={12} md={6} lg={6} xl={6}>
+      <Speakercard
+        key={SpeakerData.id}
+        className={SpeakerData.className}
+        link={SpeakerData.link}
+        img={SpeakerData.image}
+        alt={SpeakerData.alt}
+        name={SpeakerData.name}
+        description={SpeakerData.description}
+        company_logo={SpeakerData.company_logo}
+        alt_company={SpeakerData.alt_company}
+      />
+    </Col>
   );
 }
 
-export default Speakers;
+function Speaker() {
+  return (
+    <div>
+      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+        <Speakers>
+          Our <span style={{ color: "#ff0000" }}> Speakers </span>
+        </Speakers>
+        <Row>
+          {SpeakerData.map(speakCard)} 
+        </Row>
+        <Row>
+
+        </Row>
+      </Raisebox>
+    </div>
+  );
+}
+
+export default Speaker;
