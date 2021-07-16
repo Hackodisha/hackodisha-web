@@ -64,3 +64,25 @@
   margin: 0 auto;
   padding: 20px;
 }
+
+.logo_speaker {
+  max-width: 200px;
+  max-height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.border_grad:hover {
+  border: double 4px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.border_grad {
+  border-radius: 50%;
+  border: 5px solid red;
+  padding: .5px;
+  transition: linear all 0.2s;
+}
