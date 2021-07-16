@@ -38,6 +38,7 @@ const Prizesh2 = styled.h2`
 `;
 
 
+
 function Prizes() {
 
   const [open, setOpen] = useState(false);
