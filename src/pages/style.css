@@ -75,7 +75,8 @@
 .border_grad:hover {
   border: double 4px transparent;
   border-radius: 50%;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #f00, #3020ff);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -83,10 +84,9 @@
 .border_grad {
   border-radius: 50%;
   border: 5px solid red;
-  padding: .5px;
+  padding: 0.5px;
   transition: linear all 0.2s;
 }
-
 
 /* Prizes */
 
@@ -118,47 +118,46 @@
   height: 17rem;
   cursor: pointer;
 }
-.first_prize{
+.first_prize {
   font-size: 10rem;
   color: white;
 }
-.second_prize{
+.second_prize {
   font-size: 10rem;
   color: red;
 }
-.third_prize{
+.third_prize {
   font-size: 10rem;
   color: white;
 }
 
 /* pop_up*/
-.modal{
+.modal {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.popup-content {  
-  margin: 0;  
-  background: #242526;  
+.popup-content {
+  margin: 0;
+  background: #242526;
   width: 50%;
   color: #fff;
   max-width: 400px;
   border-radius: 10px;
   padding: 2rem;
-  
 }
-.popup-arrow {  
+.popup-arrow {
   color: rgb(255, 255, 255);
 }
-.popup-overlay {  
+.popup-overlay {
   background: none;
   backdrop-filter: blur(5px);
 }
-[data-popup='tooltip'].popup-overlay {  
+[data-popup="tooltip"].popup-overlay {
   background: transparent;
 }
-.modal .close{
+.modal .close {
   position: absolute;
   font-size: 2.5rem;
   right: -12px;
@@ -169,14 +168,128 @@
   .prizes_h1 {
     font-size: 4rem;
   }
- /* .prizes_h2 {
+  /* .prizes_h2 {
     font-size: 2rem;
   } */
 
-  .popup-content{
+  .popup-content {
     width: 80%;
     max-width: fit-content;
   }
 }
 
+/* shedule page css starts */
+.contents {
+  padding: 1rem .5rem;
+}
+
+.content-section {
+  flex-direction: column;
+  padding: 2px 0;
+}
+.container-schedule {
+  display: block;
+  width: 100%;
+  /* max-width: 1280px; */
+  margin: 0 auto;
+}
+.daily-schedule {
+  margin-bottom: 1rem;
+  margin:1rem;
+  
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.single-event {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.6rem;
+}
+.date-time {
+  background-color: #151629;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 5rem;
+  text-align: right;
+  white-space: nowrap;
+}
+.date {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #5f657a;
+}
+
+.time {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.Hackathon {
+  /* font-size: 100%; */
+  font: inherit;
+  /* vertical-align: baseline; */
+  border-left: 5px solid #e58ab2;
+}
+.description {
+  padding-left: 2rem;
+  background-color: #252638;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 1rem; */
+  text-align: left;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 699;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+.speaker {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+
+
+@media (max-width: 767px){
+.daily-schedule{
+  padding: 0;
+  margin: 0;
+}
+.content-section .contents .single-event .date-time {
+  padding: .9rem;
+}
+.Hackathon{
+  border-left:2px solid #e58ab2;
+}
+.description{
+  padding-left: 0.8rem;
+}
+}
 

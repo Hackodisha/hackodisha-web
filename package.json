@@ -32,6 +32,7 @@
     "react-scripts": "4.0.3",
     "react-spinners": "^0.11.0",
     "react-typeform-embed": "^0.2.1",
+    "react-vertical-timeline-component": "^3.3.3",
     "reactjs-popup": "^2.0.5",
     "reactstrap": "^8.9.0",
     "styled-components": "^5.2.3",
