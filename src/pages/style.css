@@ -210,12 +210,13 @@
   margin-top: 0.6rem;
 }
 .date-time {
-  background-color: #151629;
+  background-color: #222;
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem 1rem 5rem;
   text-align: right;
   white-space: nowrap;
+  color: #fff;
 }
 .date {
   margin: 0;
@@ -224,7 +225,7 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: #5f657a;
+  color: #fff;
 }
 
 .time {
@@ -235,12 +236,13 @@
   /* font-size: 100%; */
   font: inherit;
   /* vertical-align: baseline; */
-  border-left: 5px solid #e58ab2;
+  border-left: 5px solid #ff0000;
 }
 .description {
   padding-left: 2rem;
-  background-color: #252638;
+  background-color: #333;
   flex: 1;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   /* margin-left: 1rem; */
@@ -284,7 +286,7 @@
     padding: 0.9rem;
   }
   .Hackathon {
-    border-left: 2px solid #e58ab2;
+    border-left: 2px solid #ff0000;
   }
   .description {
     padding-left: 0.8rem;
