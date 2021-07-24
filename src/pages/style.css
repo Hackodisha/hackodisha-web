@@ -154,7 +154,7 @@
   background: none;
   backdrop-filter: blur(5px);
 }
-[data-popup="tooltip"].popup-overlay {
+[data-popup='tooltip'].popup-overlay {
   background: transparent;
 }
 .modal .close {
@@ -163,6 +163,7 @@
   right: -12px;
   top: -27px;
   cursor: pointer;
+  color: red;
 }
 @media screen and (max-width: 576px) {
   .prizes_h1 {
@@ -180,7 +181,7 @@
 
 /* shedule page css starts */
 .contents {
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
 }
 
 .content-section {
@@ -195,8 +196,8 @@
 }
 .daily-schedule {
   margin-bottom: 1rem;
-  margin:1rem;
-  
+  margin: 1rem;
+
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -262,7 +263,6 @@
   vertical-align: baseline;
 }
 
-
 .speaker {
   display: flex;
   align-items: center;
@@ -275,21 +275,18 @@
   line-height: 1.5rem;
 }
 
-
-
-@media (max-width: 767px){
-.daily-schedule{
-  padding: 0;
-  margin: 0;
+@media (max-width: 767px) {
+  .daily-schedule {
+    padding: 0;
+    margin: 0;
+  }
+  .content-section .contents .single-event .date-time {
+    padding: 0.9rem;
+  }
+  .Hackathon {
+    border-left: 2px solid #e58ab2;
+  }
+  .description {
+    padding-left: 0.8rem;
+  }
 }
-.content-section .contents .single-event .date-time {
-  padding: .9rem;
-}
-.Hackathon{
-  border-left:2px solid #e58ab2;
-}
-.description{
-  padding-left: 0.8rem;
-}
-}
-

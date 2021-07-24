@@ -1,8 +1,8 @@
-import {React, useState} from "react";
+import {React} from "react";
 import styled from "styled-components";
 import Raisebox from "../components/raisebox/raisebox";
 import "./style.css";
-import { Day1, Day2, Day3 } from "./ScheduleData";
+import { Day1, Day2 } from "./ScheduleData";
 import ScheduleCard from "../components/ScheduleCard";
 
 
@@ -46,18 +46,7 @@ function card2(Day2) {
   />
   );
 }
-function card3(Day3) {
-  return(
-  <ScheduleCard
-    key={Day3.id}
-    time={Day3.time}
-    date={Day3.date}
-    title={Day3.title}
-  />
-  );
-}
-let DayCard = Day1;
-let scheduleCard = card1;
+
 
 function Schedule() {
 

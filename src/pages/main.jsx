@@ -8,7 +8,7 @@ import Events from "./events";
 import Prizes from "./prizes";
 import Schedule from "./schedule";
 import Speakers from "./speakers";
-import Calendly from "./calendly";
+//import Calendly from "./calendly";
 import { useEffect } from "react";
 
 function Main() {

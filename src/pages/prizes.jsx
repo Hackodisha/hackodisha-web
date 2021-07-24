@@ -32,7 +32,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" onClick={closeModal} >
+                  <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
@@ -53,7 +53,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" onClick={closeModal} >
+                  <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
@@ -74,7 +74,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" onClick={closeModal} >
+                  <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">                    
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni

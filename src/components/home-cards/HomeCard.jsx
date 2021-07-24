@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import TracksCards from "./HomeCardElement";
 import { Row, Col } from "react-grid-system";
 import './HomeCard.css';

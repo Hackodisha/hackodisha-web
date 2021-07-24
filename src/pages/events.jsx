@@ -1,5 +1,5 @@
 import React from "react";
-import { Chrono } from "react-chrono";
+//import { Chrono } from "react-chrono";
 import styled from "styled-components";
 import Raisebox from "../components/raisebox/raisebox";
 
@@ -35,45 +35,7 @@ const Eventsh2 = styled.h2`
   `;
 
 function Events() {
-  {/*const items = [
-       {
-          title: "May 1940",
-          cardTitle: "Demo 1",
-          cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-          cardDetailedText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 
-       },
-       {
-         title: "May 1977",
-         cardTitle: "Demo 2",
-         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-         cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-       },
-       {
-          title: "May 1994",
-          cardTitle: "Demo 3",
-          cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-          cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-        },
-        {
-           title: "May 1996",
-           cardTitle: "Demo 4",
-           cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-           cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-           media: {
-               type: "IMAGE",
-               source: {
-                 url: "http://someurl/image.jpg"
-               }
-            }
-         },
-         {
-           title: "May 2000",
-           cardTitle: "Demo 5",
-           cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-           cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-         },
-     ];*/}
 
   return (
     <Raisebox style={{ minHeight: "70vh", display: "block" }}>
