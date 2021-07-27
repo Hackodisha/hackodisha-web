@@ -1,105 +1,99 @@
 const Day1 = [
   {
     id: 1,
-    time: "10:00",
+    time: "9:00",
     date: "18 Sept",
-    title: "Day-1",
+    title: "Opening Ceremony",
   },
   {
     id: 2,
     time: "10:00",
     date: "18 Sept",
-    title: "check-in",
+    title: "Hackathon Begins",
   },
   {
     id: 3,
-    time: "10:00",
+    time: "12:00",
     date: "18 Sept",
-    title: "Registration starts",
+    title: "Talk by Dr. Munish Jindal, CEO of HoverRobotix",
   },
   {
     id: 4,
-    time: "10:00",
+    time: "15:00",
     date: "18 Sept",
-    title: "Introductory session",
+    title: "Brainstorming session",
   },
   {
     id: 5,
-    time: "10:00",
+    time: "18:00",
     date: "18 Sept",
-    title: "check-in",
+    title: "Dino game",
   },
   {
     id: 6,
-    time: "10:00",
+    time: "20:00",
     date: "18 Sept",
-    title: "check-in",
+    title: "Initial Submission",
   },
   {
     id: 7,
-    time: "10:00",
+    time: "20:30",
     date: "18 Sept",
-    title: "Registration starts",
+    title: "Game Time",
   },
   {
     id: 8,
-    time: "10:00",
+    time: "22:30",
     date: "18 Sept",
-    title: "Introductory session",
-  },
+    title: "Workshop by Koren Grinshpoon, CEO of EchoAR",
+  }
 ];
 
 const Day2 = [
     {
       id: 9,
       time: "10:00",
-      date: "18 Sept",
-      title: "Day-2",
+      date: "19 Sept",
+      title: "Game Time",
     },
     {
       id: 10,
-      time: "10:00",
-      date: "18 Sept",
-      title: "check-in",
+      time: "17:00",
+      date: "19 Sept",
+      title: "Final Project Submission",
     },
     {
       id: 11,
-      time: "10:00",
-      date: "18 Sept",
-      title: "check-in",
+      time: "17:30",
+      date: "19 Sept",
+      title: "Project Showcase",
     },
     {
       id: 12,
-      time: "10:00",
-      date: "18 Sept",
-      title: "check-in",
+      time: "19:00",
+      date: "19 Sept",
+      title: "Top 10 announcement",
+    },
+    {
+      id: 13,
+      time: "19:30",
+      date: "19 Sept",
+      title: "Presentation of top projects",
+    },
+    {
+      id: 14,
+      time: "20:30",
+      date: "19 Sept",
+      title: "Closing Ceremony",
     },
   ];
 
   const Day3 = [
     {
-      id: 13,
-      time: "10:00",
-      date: "18 Sept",
-      title: "Day-3",
-    },
-    {
-      id: 14,
-      time: "10:00",
-      date: "18 Sept",
-      title: "check-in",
-    },
-    {
       id: 15,
-      time: "10:00",
-      date: "18 Sept",
-      title: "check-in",
-    },
-    {
-      id: 16,
-      time: "10:00",
-      date: "18 Sept",
-      title: "check-in",
+      time: "19:00",
+      date: "22 Sept",
+      title: "Winners announcement",
     },
   ];
   
