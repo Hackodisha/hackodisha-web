@@ -35,10 +35,8 @@ function Prizes() {
                   <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
+                 Coming Soon
+                  </div>
                   </div>
 
               </Popup>
@@ -56,10 +54,7 @@ function Prizes() {
                   <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
+                  Coming Soon</div>        
                   </div>
 
               </Popup>
@@ -77,10 +72,7 @@ function Prizes() {
                   <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">                    
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
+                  Coming Soon</div>        
                   </div>
 
               </Popup>
@@ -96,17 +88,14 @@ function Prizes() {
           
           <Col sm={12} md={4} lg={4} xl={4}>
             <div className="prize_box" id="prize_1" onClick={() => setOpen(o => !o)}>
-              <span className="first_prize">Women's Team</span>
+              <span className="first_prize">Best Girls Team</span>
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
                   <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
+                  Coming Soon</div>        
                   </div>
 
               </Popup>
@@ -117,17 +106,14 @@ function Prizes() {
            
           <Col sm={12} md={4} lg={4} xl={4}>
             <div className="prize_box" id="prize_2" onClick={() => setOpen(o => !o)}>
-              <span className="second_prize">Beginner Team</span>
+              <span className="second_prize">Best Beginner Team</span>
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
                   <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
+                  Coming Soon</div>        
                   </div>
 
               </Popup>
@@ -137,94 +123,24 @@ function Prizes() {
 
             
           <Col sm={12} md={4} lg={4} xl={4}>
-            <div className="prize_box" id="prize_3" onClick={() => setOpen(o => !o)}>
-              <span className="third_prize">Polygon</span>
-              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+            <div className="prize_box" id="prize_3">
+              <span className="third_prize">And many more</span>
+              {/* <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
                   <a className="close" href="/#" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">                    
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
+                  Coming Soon</div>        
                   </div>
 
-              </Popup>
+              </Popup> */}
             </div>
 
           </Col>
         </Row>
       </div>
-
-      <div>
-        <Row>
-          
-          <Col sm={12} md={4} lg={4} xl={4}>
-            <div className="prize_box" id="prize_1" onClick={() => setOpen(o => !o)}>
-              <span className="first_prize">Celo</span>
-              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-
-                <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
-                    &times;</a>
-                    <div className="popupContent">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
-                  </div>
-
-              </Popup>
-            </div>
-
-          </Col>
-
-           
-          <Col sm={12} md={4} lg={4} xl={4}>
-            <div className="prize_box" id="prize_2" onClick={() => setOpen(o => !o)}>
-              <span className="second_prize">2</span>
-              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-
-                <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
-                    &times;</a>
-                    <div className="popupContent">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
-                  </div>
-
-              </Popup>
-            </div>
-
-          </Col>
-
-            
-          <Col sm={12} md={4} lg={4} xl={4}>
-            <div className="prize_box" id="prize_3" onClick={() => setOpen(o => !o)}>
-              <span className="third_prize">And more</span>
-              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-
-                <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
-                    &times;</a>
-                    <div className="popupContent">                    
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
-                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
-                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
-                  doloribus. Odit, aut.</div>        
-                  </div>
-
-              </Popup>
-            </div>
-
-          </Col>
-        </Row>
-      </div>
-
+        
     </Raisebox>
   );
 }

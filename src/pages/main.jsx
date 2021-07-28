@@ -4,10 +4,10 @@ import Tracks from "./tracks";
 import About from "./about";
 import Home from "./home";
 import Faq from "./faq";
-import Events from "./events";
+// import Events from "./events";
 import Prizes from "./prizes";
 import Schedule from "./schedule";
-import Speakers from "./speakers";
+// import Speakers from "./speakers";
 //import Calendly from "./calendly";
 import { useEffect } from "react";
 
