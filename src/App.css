@@ -57,3 +57,14 @@
     transform: rotate(360deg);
   }
 }
+
+body::-webkit-scrollbar {
+  width: 7px;   
+}
+body::-webkit-scrollbar-track {
+  background-color: #242526;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: hsla(0,0%,100%,0.4);
+  border-radius: 20px; 
+}
