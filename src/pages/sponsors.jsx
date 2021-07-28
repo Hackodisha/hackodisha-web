@@ -4,7 +4,7 @@ import "./style.css";
 import { Row, Col } from "react-grid-system";
 import Raisebox from "../components/raisebox/raisebox";
 import Card from "../components/card";
-import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData, BbsrData} from "./sponData";
+import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData, BbsrData, eOdishaData} from "./sponData";
 
 const Sponsors1 = styled.h1`
   padding-top: 5%;
@@ -183,6 +183,19 @@ function BbsrbuzzCard(BbsrData) {
 
   );
 }
+function eOdishaCard(eOdishaData) {
+  return (
+
+    <Card
+      key={eOdishaData.id}
+      className={eOdishaData.className}
+      link={eOdishaData.link}
+      img={eOdishaData.image}
+      alt={eOdishaData.alt}
+    />
+
+  );
+}
 
 
 function Sponsors() {
@@ -268,6 +281,9 @@ function Sponsors() {
         <Row>
           <Col sm={12} md={12} lg={4} xl={4}>
             {BbsrData.map(BbsrbuzzCard)}
+          </Col>
+          <Col sm={12} md={12} lg={4} xl={4}>
+            {eOdishaData.map(eOdishaCard)}
           </Col>
         </Row>
       </Raisebox>

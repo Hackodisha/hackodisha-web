@@ -276,6 +276,15 @@ const scriptData = [
              alt:"Bhubaneshwar Buzz media partner of Hackodisha",
 
          },];
+ const eOdishaData = [
+         {
+             id:6,
+             className:"logo-eOdisha",
+             link:"#",
+             image:require("../assets/sponsors/eodisha.png").default,
+             alt:"eOdisha media partner of Hackodisha",
+
+         },];
 
 
 
@@ -306,4 +315,4 @@ const platinumData = [
   }
 ]
 
- export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData, OdishaData, rourkShData, BbsrData};
+ export {bronzeData, silverData, goldData,platinumData, webwizData, scriptData, rourkData, OdishaData, rourkShData, BbsrData, eOdishaData};
