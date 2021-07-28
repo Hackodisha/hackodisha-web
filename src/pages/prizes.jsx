@@ -28,7 +28,142 @@ function Prizes() {
           
           <Col sm={12} md={4} lg={4} xl={4}>
             <div className="prize_box" id="prize_1" onClick={() => setOpen(o => !o)}>
-              <span className="first_prize">1</span>
+              <span className="first_prize">Overall Winner</span>
+              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+
+                <div className="modal">
+                  <a className="close" href="/#" onClick={closeModal} >
+                    &times;</a>
+                    <div className="popupContent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
+                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
+                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
+                  doloribus. Odit, aut.</div>        
+                  </div>
+
+              </Popup>
+            </div>
+
+          </Col>
+
+           
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <div className="prize_box" id="prize_2" onClick={() => setOpen(o => !o)}>
+              <span className="second_prize">First Runner's Up</span>
+              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+
+                <div className="modal">
+                  <a className="close" href="/#" onClick={closeModal} >
+                    &times;</a>
+                    <div className="popupContent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
+                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
+                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
+                  doloribus. Odit, aut.</div>        
+                  </div>
+
+              </Popup>
+            </div>
+
+          </Col>
+
+            
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <div className="prize_box" id="prize_3" onClick={() => setOpen(o => !o)}>
+              <span className="third_prize">Second Runner's Up</span>
+              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+
+                <div className="modal">
+                  <a className="close" href="/#" onClick={closeModal} >
+                    &times;</a>
+                    <div className="popupContent">                    
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
+                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
+                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
+                  doloribus. Odit, aut.</div>        
+                  </div>
+
+              </Popup>
+            </div>
+
+          </Col>
+        </Row>
+      </div>
+
+
+      <div>
+        <Row>
+          
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <div className="prize_box" id="prize_1" onClick={() => setOpen(o => !o)}>
+              <span className="first_prize">Women's Team</span>
+              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+
+                <div className="modal">
+                  <a className="close" href="/#" onClick={closeModal} >
+                    &times;</a>
+                    <div className="popupContent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
+                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
+                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
+                  doloribus. Odit, aut.</div>        
+                  </div>
+
+              </Popup>
+            </div>
+
+          </Col>
+
+           
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <div className="prize_box" id="prize_2" onClick={() => setOpen(o => !o)}>
+              <span className="second_prize">Beginner Team</span>
+              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+
+                <div className="modal">
+                  <a className="close" href="/#" onClick={closeModal} >
+                    &times;</a>
+                    <div className="popupContent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
+                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
+                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
+                  doloribus. Odit, aut.</div>        
+                  </div>
+
+              </Popup>
+            </div>
+
+          </Col>
+
+            
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <div className="prize_box" id="prize_3" onClick={() => setOpen(o => !o)}>
+              <span className="third_prize">Polygon</span>
+              <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+
+                <div className="modal">
+                  <a className="close" href="/#" onClick={closeModal} >
+                    &times;</a>
+                    <div className="popupContent">                    
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni
+                  mnis delectus nemo, maxime molestiae dolorem numquam mollitia, voluptate
+                  ea, accusamus excepturi deleniti ratione sapiente! Laudantium, aperiam
+                  doloribus. Odit, aut.</div>        
+                  </div>
+
+              </Popup>
+            </div>
+
+          </Col>
+        </Row>
+      </div>
+
+      <div>
+        <Row>
+          
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <div className="prize_box" id="prize_1" onClick={() => setOpen(o => !o)}>
+              <span className="first_prize">Celo</span>
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
@@ -70,7 +205,7 @@ function Prizes() {
             
           <Col sm={12} md={4} lg={4} xl={4}>
             <div className="prize_box" id="prize_3" onClick={() => setOpen(o => !o)}>
-              <span className="third_prize">3</span>
+              <span className="third_prize">And more</span>
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">

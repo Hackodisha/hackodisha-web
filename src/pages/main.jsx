@@ -39,12 +39,12 @@ function Main() {
       <section id="schedule">
         <Schedule />
       </section>
-      <section id="speakers">
+      {/* <section id="speakers">
         <Speakers />
       </section>
       <section id="events">
         <Events />
-      </section>
+      </section> */}
       <section id="prizes">
         <Prizes />
       </section>
