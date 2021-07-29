@@ -32,10 +32,9 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
+                  <a className="close" href="/#prizes" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
-                 Coming Soon
                   </div>
                   </div>
 
@@ -51,7 +50,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
+                  <a className="close" href="/#prizes" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
                   Coming Soon</div>        
@@ -69,7 +68,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
+                  <a className="close" href="/#prizes" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">                    
                   Coming Soon</div>        
@@ -92,7 +91,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
+                  <a className="close" href="/#prizes" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
                   Coming Soon</div>        
@@ -110,7 +109,7 @@ function Prizes() {
               <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
+                  <a className="close" href="/#prizes" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">
                   Coming Soon</div>        
@@ -128,7 +127,7 @@ function Prizes() {
               {/* <Popup open={open} closeOnDocumentClick onClose={closeModal}>
 
                 <div className="modal">
-                  <a className="close" href="/#" onClick={closeModal} >
+                  <a className="close" href="/#prizes" onClick={closeModal} >
                     &times;</a>
                     <div className="popupContent">                    
                   Coming Soon</div>        

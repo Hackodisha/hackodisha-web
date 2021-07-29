@@ -65,10 +65,8 @@ const FaqContent = styled.div`
   padding-bottom: 4%;
   padding-top: 3%;
   text-align: left;
-  display: flex;
 
-  @media only screen and (max-width: 540px){
-    display: block;
+  @media only screen and (max-width: 768px){
     padding-top: 4%;
   }
 `;
@@ -94,15 +92,13 @@ function home2() {
           Have any <span style={{ color: "#ff0000" }}> questions?</span>
         </FaqHeading>
         <Container>
-          <Row>
-            <FaqContent>
+          <Row style={{paddingTop:"3%",paddingBottom:"4%"}}>
               <Col sm={12} md={12} lg={6} xl={6}>
                 <Faq data={data1} styles={styles} />
               </Col>
               <Col sm={12} md={12} lg={6} xl={6}>
                 <Faq data={data2} styles={styles} />
               </Col>
-            </FaqContent>
           </Row>
         </Container>
       </Raisebox>
