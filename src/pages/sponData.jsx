@@ -182,16 +182,8 @@
 ];
 
 const silverData = [
-    {
+       {
         id:1,
-        className:"logo-mid",
-        link:"https://www.portis.io/",
-        image:require("../assets/sponsors/portisnew.webp").default,
-        alt:"Portis silver sponsor for Hackodisha",
-        style:{width:"300px"}
-    },
-    {
-        id:2,
         className:"logo-mid",
         link:"https://celo.org/",
         image:require("../assets/sponsors/celo1.webp").default,
@@ -199,7 +191,7 @@ const silverData = [
         style:{width:"300px"}
     },
     {
-        id:3,
+        id:2,
         className:"logo-mid",
         link:"https://tezos.com/",
         image:require("../assets/sponsors/tezos.webp").default,
@@ -207,7 +199,7 @@ const silverData = [
         style:{width:"300px"}
     },
     {
-        id:4,
+        id:3,
         className:"logo-mid",
         link:"https://polygon.technology/",
         image:require("../assets/sponsors/poly1.webp").default,
@@ -280,7 +272,7 @@ const scriptData = [
          {
              id:6,
              className:"logo-eOdisha",
-             link:"#",
+             link:"https://eodisha.org/",
              image:require("../assets/sponsors/eodisha.png").default,
              alt:"eOdisha media partner of Hackodisha",
 
