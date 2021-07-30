@@ -121,20 +121,24 @@
   border-radius: 10px;
   max-width: 21rem;
   margin: 10px auto;
-  height: 17rem;
+  margin-bottom: 3rem;
+  height: 12rem;
   cursor: pointer;
 }
 .first_prize {
-  font-size: 10rem;
+  font-size: 2.7rem;
   color: white;
+  font-weight: 500;
 }
 .second_prize {
-  font-size: 10rem;
+  font-size: 2.7rem;
   color: red;
+  font-weight: 500;
 }
 .third_prize {
-  font-size: 10rem;
+  font-size: 2.7rem;
   color: white;
+  font-weight: 500;
 }
 
 /* pop_up*/
