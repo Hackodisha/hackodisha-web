@@ -67,7 +67,7 @@ Please refer to the project's style and contribution guidelines for submitting p
 
 ### Please abide by  [Contributing Guidelines](https://github.com/Hackodisha/hackodisha-web/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Hackodisha/hackodisha-web/blob/main/CODE_OF_CONDUCT.md) 🚀
 
-## Contributors ✨
+## Major Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
