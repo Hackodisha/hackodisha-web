@@ -206,6 +206,14 @@ const silverData = [
         alt:"Polygon silver sponsor for Hackodisha",
         style:{width:"350px"}
     },
+    {
+        id:4,
+        className:"logo-mid",
+        link:"https://polygon.technology/",
+        image:require("../assets/sponsors/ST_new.png").default,
+        alt:"Polygon silver sponsor for Hackodisha",
+        style:{width:"350px"}
+    }
 
 ];
 
