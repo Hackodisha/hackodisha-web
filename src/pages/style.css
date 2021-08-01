@@ -11,7 +11,7 @@
 .logo-mid {
   width: 100%;
   max-width: 300px;
-  height: auto;
+  max-height: 150px;
   margin: 0 auto;
   padding: 10px 10px;
 }

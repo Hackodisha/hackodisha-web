@@ -188,15 +188,6 @@ const silverData = [
         link:"https://celo.org/",
         image:require("../assets/sponsors/celo1.webp").default,
         alt:"Celo silver sponsor for Hackodisha",
-        style:{width:"300px"}
-    },
-    {
-        id:2,
-        className:"logo-mid",
-        link:"https://tezos.com/",
-        image:require("../assets/sponsors/tezos.webp").default,
-        alt:"Tezos silver sponsor for Hackodisha",
-        style:{width:"300px"}
     },
     {
         id:3,
@@ -204,15 +195,22 @@ const silverData = [
         link:"https://polygon.technology/",
         image:require("../assets/sponsors/poly1.webp").default,
         alt:"Polygon silver sponsor for Hackodisha",
-        style:{width:"350px"}
+
+    },
+    {
+        id:2,
+        className:"logo-mid",
+        link:"https://tezos.com/",
+        image:require("../assets/sponsors/tezos.webp").default,
+        alt:"Tezos silver sponsor for Hackodisha",
+
     },
     {
         id:4,
         className:"logo-mid",
         link:"https://polygon.technology/",
-        image:require("../assets/sponsors/ST_new.png").default,
+        image:require("../assets/sponsors/ST_new.webp").default,
         alt:"Polygon silver sponsor for Hackodisha",
-        style:{width:"350px"}
     }
 
 ];
