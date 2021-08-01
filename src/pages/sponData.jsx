@@ -190,7 +190,7 @@ const silverData = [
         alt:"Celo silver sponsor for Hackodisha",
     },
     {
-        id:3,
+        id:2,
         className:"logo-mid",
         link:"https://polygon.technology/",
         image:require("../assets/sponsors/poly1.webp").default,
@@ -198,7 +198,7 @@ const silverData = [
 
     },
     {
-        id:2,
+        id:3,
         className:"logo-mid",
         link:"https://tezos.com/",
         image:require("../assets/sponsors/tezos.webp").default,
@@ -207,10 +207,10 @@ const silverData = [
     },
     {
         id:4,
-        className:"logo-mid",
+        className:"logo_small",
         link:"https://polygon.technology/",
         image:require("../assets/sponsors/ST_new.webp").default,
-        alt:"Polygon silver sponsor for Hackodisha",
+        alt:"Sudan Tech silver sponsor for Hackodisha",
     }
 
 ];
