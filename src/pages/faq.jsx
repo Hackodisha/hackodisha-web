@@ -7,7 +7,7 @@ import styled from "styled-components";
 const data1 = {
   rows: [
     {
-      title: "Do I need to pay any money to register for the Hackathon?",
+      title: "How much do I pay to register for Hackodisha?",
       content: `No the hackathon is completely free for everyone.`,
     },
     {
@@ -16,8 +16,8 @@ const data1 = {
     },
     {
       title:
-        "Does one have to be online and available for the entire duration of the Hackathon?",
-      content: `No. You only have to be online during some specific time which will be informed beforehand on discord`,
+        "I am a beginner. Am I eligible to participate?",
+      content: `Yes ofc,  if you are a beginner its the best way to start your hacakthon journey and we would be very much pleased to have you. We would love to have your participation.`,
     },
     {
       title: "I just graduated, can I still come to an event?",
@@ -57,17 +57,6 @@ const FaqHeading = styled.div`
 
   @media screen and (max-width: 576px){
     font-size: 4rem;
-  }
-`;
-
-const FaqContent = styled.div`
-  padding: auto;
-  padding-bottom: 4%;
-  padding-top: 3%;
-  text-align: left;
-
-  @media only screen and (max-width: 768px){
-    padding-top: 4%;
   }
 `;
 
