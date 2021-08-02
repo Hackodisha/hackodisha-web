@@ -4,7 +4,7 @@ import "./style.css";
 import { Row, Col } from "react-grid-system";
 import Raisebox from "../components/raisebox/raisebox";
 import Card from "../components/card";
-import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData, BbsrData, eOdishaData} from "./sponData";
+import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData, BbsrData, eOdishaData, commudleData} from "./sponData";
 
 const Sponsors1 = styled.h1`
   padding-top: 5%;
@@ -156,6 +156,20 @@ function OdishaCard(OdishaData) {
   );
 }
 
+function commudleCard(commudleData) {
+  return (
+
+    <Card
+      key={commudleData.id}
+      className={commudleData.className}
+      link={commudleData.link}
+      img={commudleData.image}
+      alt={commudleData.alt}
+    />
+
+  );
+}
+
 function RShinesCard(rourkShData) {
   return (
 
@@ -284,6 +298,9 @@ function Sponsors() {
           </Col>
           <Col sm={12} md={12} lg={4} xl={4}>
             {eOdishaData.map(eOdishaCard)}
+          </Col>
+          <Col sm={12} md={12} lg={4} xl={4}>
+            {commudleData.map(commudleCard)}
           </Col>
         </Row>
       </Raisebox>

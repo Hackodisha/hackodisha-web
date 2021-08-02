@@ -101,7 +101,7 @@ function Prizes() {
                     Balsamic 90 days extended trail<br />
                     Axure access<br />
                     Rosenfeld Media free book giveaways on their site<br />
-                    90% off on AI champ courses<br />
+                    70% off on AI champ courses<br />
                     ebook(40$) benefits from No Starch Press<br />
                     Free Individual licenses to all Jetbrains desktop tools for limited time<br/>
                   </div>       
@@ -141,7 +141,7 @@ function Prizes() {
                     Balsamic 90 days extended trail<br />
                     Axure access<br />
                     Rosenfeld Media free book giveaways on their site<br />
-                    90% off on AI champ courses<br />
+                    70% off on AI champ courses<br />
                     ebook(40$) benefits from No Starch Press<br />
                     Free Individual licenses to all Jetbrains desktop tools for limited time<br/>
                   </div>    
@@ -175,7 +175,6 @@ function Prizes() {
                     Coding Block Vouchers<br />
                     Script Foundation Academy 90 days premium access<br/>
                     1Password access for 1 year <br/>
-                    6 months Framer subscription<br />
                     Replit 90 days trail<br/>
                     Access to Wolfarm for 30 days<br />
                     Qoom 3 months starter plan<br />
@@ -184,7 +183,7 @@ function Prizes() {
                     Balsamic 90 days extended trail<br />
                     Axure access<br />
                     Rosenfeld Media free book giveaways on their site<br />
-                    90% off on AI champ courses<br />
+                    70% off on AI champ courses<br />
                     ebook(40$) benefits from No Starch Press<br />
                     Free Individual licenses to all Jetbrains desktop tools for limited time<br/>
                   </div>  
@@ -205,8 +204,6 @@ function Prizes() {
                   <a className="close" href="/#prizes" onClick={closeModal5} >
                     &times;</a>
                     <div className="popupContent">
-                    T-shirt <br/>
-                    Stickers<br />
                     Custom XYZ domain for 1 year<br />
                     Interview Buddy discount vochures <br/>
                     Taskade lifetime access <br/>
@@ -221,7 +218,7 @@ function Prizes() {
                     Balsamic 90 days extended trail<br />
                     Axure access<br />
                     Rosenfeld Media free book giveaways on their site<br />
-                    90% off on AI champ courses<br />
+                    70% off on AI champ courses<br />
                     ebook(40$) benefits from No Starch Press<br />
                     Free Individual licenses to all Jetbrains desktop tools for limited time<br/>
                   </div>     
