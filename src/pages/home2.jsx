@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import Raisebox from "../components/raisebox/raisebox";
+import React from 'react';
+import styled from 'styled-components';
+import Raisebox from '../components/raisebox/raisebox';
 
 export const Container = styled.div`
   margin: auto;
@@ -186,33 +186,35 @@ export const Discord = styled.img`
 function Home() {
   return (
     <>
-      <Raisebox style={{ marginTop: "5vh" }}>
+      <Raisebox style={{ marginTop: '5vh' }}>
         <Container>
           <Image
-            src={require("../assets/images/map.svg").default}
+            src={require('../assets/images/map.svg').default}
             alt="MAP OF ODISHA"
           />
           <Content>
             Give life to your innovative ideas that can be solutions to the
-            problems of today with{" "}
-            <span style={{ fontWeight: "700", fontSize: "2rem" }}>
+            problems of today with{' '}
+            <span style={{ fontWeight: '700', fontSize: '2rem' }}>
               HACKODISHA!
             </span>
           </Content>
-          <Date src={require("../assets/images/date.png").default} alt="DATE" />
+          <Date src={require('../assets/images/date.png').default} alt="DATE" />
           <Buttons>
             <Button2
               id="devfolio-apply-now"
               className="apply-button"
               data-hackathon-slug="hackodisha"
-              data-button-theme="light"></Button2>
+              data-button-theme="light"
+            ></Button2>
             <a
               href="https://discord.gg/VWrQxSg9nR"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <Button1>
                 <Discord
-                  src={require("../assets/images/discord.png").default}
+                  src={require('../assets/images/discord.png').default}
                   alt="DISCORD"
                 />
               </Button1>

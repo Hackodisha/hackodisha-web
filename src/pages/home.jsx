@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import Raisebox from "../components/raisebox/raisebox";
-import { Container, Row, Col } from "react-grid-system";
+import React from 'react';
+import styled from 'styled-components';
+import Raisebox from '../components/raisebox/raisebox';
+import { Container, Row, Col } from 'react-grid-system';
 
 const Homeh1 = styled.h1`
   font-weight: 400;
@@ -11,10 +11,10 @@ const Homeh1 = styled.h1`
   margin-top: 20vh;
   margin-left: -2vw;
 
-  @media screen and (max-width: 575px){
+  @media screen and (max-width: 575px) {
     font-size: 1.5rem;
   }
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     margin: -10vh auto 0 auto;
   }
 `;
@@ -23,7 +23,7 @@ const Homeh1Span = styled.h1`
   font-weight: 700;
   font-size: 2.2rem;
 
-  @media screen and (max-width: 575px){
+  @media screen and (max-width: 575px) {
     font-size: 1.7rem;
   }
 `;
@@ -33,7 +33,7 @@ const MapImg = styled.img`
   width: 70vw;
   margin-left: -15vw;
   margin-top: -10vh;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     overflow: hidden;
     width: 550px;
     margin-left: -35vw;
@@ -46,7 +46,7 @@ const DateImg = styled.img`
   height: auto;
   padding: 5%;
   margin-left: -2vw;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     width: 80vw;
   }
 `;
@@ -87,23 +87,22 @@ const Discord = styled.img`
 function Home() {
   return (
     <>
-      <Raisebox style={{ minHeight: "20vh", marginTop: "5vh" }}>
+      <Raisebox style={{ minHeight: '20vh', marginTop: '5vh' }}>
         <Container>
           <Row>
             <Col sm={12} md={6} lg={6} xl={6}>
               <MapImg
-                src={require("../assets/images/Map1.webp").default}
+                src={require('../assets/images/Map1.webp').default}
                 alt="Hackodisha Map of Odisha"
               />
             </Col>
             <Col sm={12} md={6} lg={6} xl={6}>
               <Homeh1>
                 Give life to your innovative ideas that can be solutions to the
-                problems of today with{" "}
-                <Homeh1Span>HACKODISHA!</Homeh1Span>
+                problems of today with <Homeh1Span>HACKODISHA!</Homeh1Span>
               </Homeh1>
               <DateImg
-                src={require("../assets/images/date.png").default}
+                src={require('../assets/images/date.png').default}
                 alt="Hackodisha Date"
               />
               <Buttons>
@@ -111,14 +110,16 @@ function Home() {
                   id="devfolio-apply-now"
                   className="apply-button"
                   data-hackathon-slug="hackodisha"
-                  data-button-theme="light"></Button2>
+                  data-button-theme="light"
+                ></Button2>
                 <a
                   href="https://discord.gg/VWrQxSg9nR"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                >
                   <Button1>
                     <Discord
-                      src={require("../assets/images/discord.png").default}
+                      src={require('../assets/images/discord.png').default}
                       alt="DISCORD"
                     />
                   </Button1>

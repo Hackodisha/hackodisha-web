@@ -1,8 +1,8 @@
-import React from "react";
-import Raisebox from "../components/raisebox/raisebox.js";
-import TracksCard from "../components/home-cards/HomeCard.jsx";
-import { Container, Row, Col } from "react-grid-system";
-import styled from "styled-components";
+import React from 'react';
+import Raisebox from '../components/raisebox/raisebox.js';
+import TracksCard from '../components/home-cards/HomeCard.jsx';
+import { Container, Row, Col } from 'react-grid-system';
+import styled from 'styled-components';
 
 const AboutHeading = styled.div`
   height: 100%;
@@ -19,7 +19,7 @@ const Abouth1 = styled.h1`
   line-height: 0.8em;
   letter-spacing: -0.07em;
 
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     font-size: 4rem;
   }
 `;
@@ -34,13 +34,13 @@ function home2() {
             <Col sm={12} md={12} lg={6} xl={6}>
               <AboutHeading>
                 <Abouth1>
-                  Let's <span style={{ color: "#ff0000" }}> solve </span> the
+                  Let's <span style={{ color: '#ff0000' }}> solve </span> the
                   problems of Odisha
                 </Abouth1>
               </AboutHeading>
             </Col>
             <Col sm={12} md={12} lg={6} xl={6}>
-              <TracksCard style={{ marginLeft: "10px" }} />
+              <TracksCard style={{ marginLeft: '10px' }} />
             </Col>
           </Row>
         </Container>

@@ -328,5 +328,5 @@ export {
   rourkShData,
   BbsrData,
   eOdishaData,
-  commudleData
+  commudleData,
 };
