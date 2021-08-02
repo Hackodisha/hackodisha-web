@@ -21,7 +21,7 @@ const data1 = {
     },
     {
       title: "I just graduated, can I still come to an event?",
-      content: `Yes. All school students and college students including the students graduating this year are invited.`,
+      content: `Yes. All school students and college students including the students graduating this year are invited. Even working professionals and people who don't have any formal education are welcomed! `,
     },
   ],
 };

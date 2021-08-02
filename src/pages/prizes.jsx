@@ -133,7 +133,6 @@ function Prizes() {
                     Coding Block Vouchers<br />
                     Script Foundation Academy 90 days premium access<br/>
                     1Password access for 1 year <br/>
-                    12 months Framer subscription<br />
                     Access to Wolfarm for 30 days<br />
                     Qoom 3 months starter plan<br />
                     Showcase on Qoom's gallery<br />
@@ -203,14 +202,14 @@ function Prizes() {
                 <div className="modal">
                   <a className="close" href="/#prizes" onClick={closeModal5} >
                     &times;</a>
-                    <div className="popupContent">
+                  <div className="popupContent">
+                    Stickers<br />
                     Custom XYZ domain for 1 year<br />
                     Interview Buddy discount vochures <br/>
                     Taskade lifetime access <br/>
                     Coding Block Vouchers<br />
                     Script Foundation Academy 90 days premium access<br/>
                     1Password access for 1 year <br/>
-                    6 months Framer subscription<br />
                     Access to Wolfarm for 30 days<br />
                     Qoom 3 months starter plan<br />
                     Showcase on Qoom's gallery<br />
