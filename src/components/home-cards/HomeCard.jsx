@@ -10,7 +10,7 @@ function TracksCard(){
       <Row>
         <Col sm={12} md={6} lg={6} xl={6}>
               <TracksCards
-                imgsrc={require("../../assets/icons/health.webp").default}
+                imgsrc={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814916/Assets/Icons/health_cvcmoc.webp'}
                 alt="health_track"
                 style={{ width: '2.5em' }}
                 trackname="HealthCare"
@@ -19,7 +19,7 @@ function TracksCard(){
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
               <TracksCards
-                imgsrc={require("../../assets/icons/education.webp").default}
+                imgsrc={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/education_bk2lfd.webp'}
                 alt="education_track"
                 style={{ width: '2.5em' }}
                 trackname="Education"
@@ -28,7 +28,7 @@ function TracksCard(){
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
               <TracksCards
-                imgsrc={require("../../assets/icons/environment.webp").default}
+                imgsrc={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/environment_h376jc.webp'}
                 alt="environment_track"
                 style={{ width: '2.5em' }}
                 trackname="Environment"
@@ -37,7 +37,7 @@ function TracksCard(){
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
               <TracksCards
-                imgsrc={require("../../assets/icons/security.webp").default}
+                imgsrc={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/security_nz146a.webp'}
                 alt="women_track"
                 style={{ width: '2.5em' }}
                 trackname="Women security"
@@ -46,7 +46,7 @@ function TracksCard(){
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
               <TracksCards
-                imgsrc={require("../../assets/icons/disaster.webp").default}
+                imgsrc={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/disaster_xnuswa.webp'}
                 alt="disaster_track"
                 style={{ width: '2.5em' }}
                 trackname="Disaster Management"
@@ -55,7 +55,7 @@ function TracksCard(){
         </Col>
         <Col sm={12} md={6} lg={6} xl={6}>
               <TracksCards
-                imgsrc={require("../../assets/icons/open.webp").default}
+                imgsrc={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/open_ku9tav.webp'}
                 alt="open_track"
                 style={{ width: '2.5em' }}
                 trackname="Open Innovation"

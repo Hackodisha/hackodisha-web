@@ -189,7 +189,7 @@ function Home() {
       <Raisebox style={{ marginTop: '5vh' }}>
         <Container>
           <Image
-            src={require('../assets/images/map.svg').default}
+            src={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814997/Assets/Images/Map_u099xt.png'}
             alt="MAP OF ODISHA"
           />
           <Content>
@@ -199,7 +199,7 @@ function Home() {
               HACKODISHA!
             </span>
           </Content>
-          <Date src={require('../assets/images/date.png').default} alt="DATE" />
+          <Date src={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814995/Assets/Images/date_hojtut.png'} alt="DATE" />
           <Buttons>
             <Button2
               id="devfolio-apply-now"
@@ -214,7 +214,7 @@ function Home() {
             >
               <Button1>
                 <Discord
-                  src={require('../assets/images/discord.png').default}
+                  src={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814995/Assets/Images/discord_oqrpsk.png'}
                   alt="DISCORD"
                 />
               </Button1>
