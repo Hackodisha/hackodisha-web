@@ -92,7 +92,7 @@ function Home() {
           <Row>
             <Col sm={12} md={6} lg={6} xl={6}>
               <MapImg
-                src={require('../assets/images/Map1.webp').default}
+                src={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814998/Assets/Images/Map1_qktwdb.webp'}
                 alt="Hackodisha Map of Odisha"
               />
             </Col>
@@ -102,7 +102,7 @@ function Home() {
                 problems of today with <Homeh1Span>HACKODISHA!</Homeh1Span>
               </Homeh1>
               <DateImg
-                src={require('../assets/images/date.png').default}
+                src={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814995/Assets/Images/date_hojtut.png'}
                 alt="Hackodisha Date"
               />
               <Buttons>
@@ -119,7 +119,7 @@ function Home() {
                 >
                   <Button1>
                     <Discord
-                      src={require('../assets/images/discord.png').default}
+                      src={'https://res.cloudinary.com/webwiznitr/image/upload/v1627814995/Assets/Images/discord_oqrpsk.png'}
                       alt="DISCORD"
                     />
                   </Button1>

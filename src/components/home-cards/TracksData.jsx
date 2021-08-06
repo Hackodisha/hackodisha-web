@@ -2,7 +2,7 @@ const TrackData = [
     {
         id:1,
         name: "Health",
-        image:require("../../assets/icons/health.png").default,
+        image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627814916/Assets/Icons/health_cvcmoc.webp',
         alt:"health_track",
         className="CardIcon",
         info: "Health"
@@ -10,7 +10,7 @@ const TrackData = [
     {
         id:2,
         name:"Education",
-        image:require("../../assets/icons/education.png").default,
+        image:'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/education_bk2lfd.webp',
         alt:"education_track",
         className="CardIcon",
         info:"Education"
@@ -18,7 +18,7 @@ const TrackData = [
     {
         id:3,
         name:"Environment",
-        image:require("../../assets/icons/environment.png").default,
+        image:'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/environment_h376jc.webp',
         alt:"environment_track",
         className:"CardIcon",
         info: "Environment"
@@ -26,7 +26,7 @@ const TrackData = [
     {
         id:4,
         name:"Women Safety",
-        image:require("../../assets/icons/security.png").default,
+        image:'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/security_nz146a.webp',
         alt:"safety_track",
         className="CardIcon",
         info: "Women Safety"
@@ -34,7 +34,7 @@ const TrackData = [
     {
         id:5,
         name:"Disaster Management",
-        image:require("../../assets/icons/disaster.png").default,
+        image:'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/disaster_xnuswa.webp',
         alt:"disaster_track",
         className:"CardIcon",
         info: "Disaster"
@@ -42,7 +42,7 @@ const TrackData = [
     {
         id:6,
         name:"Open Innovation",
-        image:require("../../assets/icons/open.png").default,
+        image:'https://res.cloudinary.com/webwiznitr/image/upload/v1627814918/Assets/Icons/open_ku9tav.webp',
         alt:"open_track",
         className:"tracks_icon",
         info: "opens"
