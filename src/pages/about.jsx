@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-grid-system";
-import Raisebox from "../components/raisebox/raisebox";
-import styled from "styled-components";
+import React from 'react';
+import { Container, Row, Col } from 'react-grid-system';
+import Raisebox from '../components/raisebox/raisebox';
+import styled from 'styled-components';
 
 const AboutHeading = styled.div`
   height: 100%;
@@ -18,7 +18,7 @@ const Abouth1 = styled.h1`
   line-height: 0.8em;
   letter-spacing: -0.07em;
 
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     font-size: 4rem;
   }
 `;
@@ -30,7 +30,7 @@ const Abouth2 = styled.h2`
   line-height: 2em;
   font-size: 1.4rem;
 
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     font-size: 1.2rem;
   }
 `;
@@ -38,13 +38,13 @@ const Abouth2 = styled.h2`
 function About() {
   return (
     <div>
-      <Raisebox style={{ minHeight: "20vh", display: "flex" }}>
+      <Raisebox style={{ minHeight: '20vh', display: 'flex' }}>
         <Container>
           <Row>
             <Col sm={12} md={12} lg={6} xl={6}>
               <AboutHeading>
                 <Abouth1>
-                  HACK <span style={{ color: "#ff0000" }}> ODISHA </span>{" "}
+                  HACK <span style={{ color: '#ff0000' }}> ODISHA </span>{' '}
                 </Abouth1>
               </AboutHeading>
             </Col>

@@ -1,35 +1,33 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const NotFoundDiv = styled.div`
-  minHeight: 85vh;
-  alignItems: center;
-  justifyContent: center;
+  minheight: 85vh;
+  alignitems: center;
+  justifycontent: center;
 `;
 
 const NotFoundh1 = styled.h1`
-  fontSize: 25vw;
+  fontsize: 25vw;
   color: #fff;
   margin: 0;
 `;
 
 const NotFoundh3 = styled.h1`
-  fontSize: 8vw;
+  fontsize: 8vw;
   color: #fff;
-  marginTop: 10%;
+  margintop: 10%;
 `;
 
 const NotFound = () => (
   <NotFoundDiv>
     <NotFoundh1>404</NotFoundh1>
-    <NotFoundh3>
-      Page not found!
-    </NotFoundh3>
+    <NotFoundh3>Page not found!</NotFoundh3>
   </NotFoundDiv>
 );
 
 export function goHome() {
-  window.location.href = "/";
+  window.location.href = '/';
 }
 
 export default NotFound;

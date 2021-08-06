@@ -1,10 +1,23 @@
-import React from "react";
-import styled from "styled-components";
-import "./style.css";
-import { Row, Col } from "react-grid-system";
-import Raisebox from "../components/raisebox/raisebox";
-import Card from "../components/card";
-import { bronzeData, silverData, goldData, platinumData, scriptData, webwizData, rourkData, OdishaData, rourkShData, BbsrData, eOdishaData} from "./sponData";
+import React from 'react';
+import styled from 'styled-components';
+import './style.css';
+import { Row, Col } from 'react-grid-system';
+import Raisebox from '../components/raisebox/raisebox';
+import Card from '../components/card';
+import {
+  bronzeData,
+  silverData,
+  goldData,
+  platinumData,
+  scriptData,
+  webwizData,
+  rourkData,
+  OdishaData,
+  rourkShData,
+  BbsrData,
+  eOdishaData,
+  commudleData,
+} from './sponData';
 
 const Sponsors1 = styled.h1`
   padding-top: 5%;
@@ -13,7 +26,7 @@ const Sponsors1 = styled.h1`
   font-size: 5rem;
   line-height: 0.8em;
   letter-spacing: -0.07em;
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     font-size: 4rem;
   }
 `;
@@ -27,7 +40,7 @@ const Sponsors3 = styled.h3`
 `;
 
 const LogosBronze = styled.div`
-display: grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   @media only screen and (max-width: 767px) {
@@ -41,8 +54,8 @@ display: grid;
   @media only screen and (min-width: 940px) and (max-width: 1300px) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }`
-
+  }
+`;
 
 function bronzeCard(bronzeData) {
   return (
@@ -54,7 +67,7 @@ function bronzeCard(bronzeData) {
       alt={bronzeData.alt}
     />
   );
-};
+}
 
 function makeCard(silverData) {
   return (
@@ -69,8 +82,6 @@ function makeCard(silverData) {
     </Col>
   );
 }
-
-
 
 function goldCard(goldData) {
   return (
@@ -88,7 +99,6 @@ function goldCard(goldData) {
 
 function platinumCard(platinumData) {
   return (
-
     <Card
       key={platinumData.id}
       className={platinumData.className}
@@ -96,13 +106,11 @@ function platinumCard(platinumData) {
       img={platinumData.image}
       alt={platinumData.alt}
     />
-
   );
 }
 
 function scriptCard(scriptData) {
   return (
-
     <Card
       key={scriptData.id}
       className={scriptData.className}
@@ -110,13 +118,11 @@ function scriptCard(scriptData) {
       img={scriptData.image}
       alt={scriptData.alt}
     />
-
   );
 }
 
 function webwizCard(webwizData) {
   return (
-
     <Card
       key={webwizData.id}
       className={webwizData.className}
@@ -124,13 +130,11 @@ function webwizCard(webwizData) {
       img={webwizData.image}
       alt={webwizData.alt}
     />
-
   );
 }
 
 function rourkCard(rourkData) {
   return (
-
     <Card
       key={rourkData.id}
       className={rourkData.className}
@@ -138,13 +142,11 @@ function rourkCard(rourkData) {
       img={rourkData.image}
       alt={rourkData.alt}
     />
-
   );
 }
 
 function OdishaCard(OdishaData) {
   return (
-
     <Card
       key={OdishaData.id}
       className={OdishaData.className}
@@ -152,13 +154,23 @@ function OdishaCard(OdishaData) {
       img={OdishaData.image}
       alt={OdishaData.alt}
     />
+  );
+}
 
+function commudleCard(commudleData) {
+  return (
+    <Card
+      key={commudleData.id}
+      className={commudleData.className}
+      link={commudleData.link}
+      img={commudleData.image}
+      alt={commudleData.alt}
+    />
   );
 }
 
 function RShinesCard(rourkShData) {
   return (
-
     <Card
       key={rourkShData.id}
       className={rourkShData.className}
@@ -166,13 +178,11 @@ function RShinesCard(rourkShData) {
       img={rourkShData.image}
       alt={rourkShData.alt}
     />
-
   );
 }
 
 function BbsrbuzzCard(BbsrData) {
   return (
-
     <Card
       key={BbsrData.id}
       className={BbsrData.className}
@@ -180,12 +190,10 @@ function BbsrbuzzCard(BbsrData) {
       img={BbsrData.image}
       alt={BbsrData.alt}
     />
-
   );
 }
 function eOdishaCard(eOdishaData) {
   return (
-
     <Card
       key={eOdishaData.id}
       className={eOdishaData.className}
@@ -193,77 +201,68 @@ function eOdishaCard(eOdishaData) {
       img={eOdishaData.image}
       alt={eOdishaData.alt}
     />
-
   );
 }
-
 
 function Sponsors() {
   return (
     <div>
       {/* Platinum Sponsor */}
-      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingBottom: '3vh' }}>
         <Sponsors1>
-          Platinum <span style={{ color: "#ff0000" }}> Sponsor </span>
+          Platinum <span style={{ color: '#ff0000' }}> Sponsor </span>
         </Sponsors1>
         {platinumData.map(platinumCard)}
       </Raisebox>
 
       {/* Gold Sponsor */}
-      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingBottom: '3vh' }}>
         <Sponsors1>
-          Gold <span style={{ color: "#ff0000" }}> Sponsors </span>
+          Gold <span style={{ color: '#ff0000' }}> Sponsors </span>
         </Sponsors1>
-        <Row>
-          {goldData.map(goldCard)}
-        </Row>
+        <Row>{goldData.map(goldCard)}</Row>
       </Raisebox>
 
       {/* Silver Sponsor */}
-      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingBottom: '3vh' }}>
         <Sponsors1>
-          Silver <span style={{ color: "#ff0000" }}> Sponsors </span>
+          Silver <span style={{ color: '#ff0000' }}> Sponsors </span>
         </Sponsors1>
-        <Row>
-          {silverData.map(makeCard)}
-        </Row>
+        <Row>{silverData.map(makeCard)}</Row>
       </Raisebox>
 
       {/* Bronze Sponsors */}
-      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingBottom: '3vh' }}>
         <Sponsors1>
           Bronze
-          <span style={{ color: "#ff0000" }}> Sponsors </span>
+          <span style={{ color: '#ff0000' }}> Sponsors </span>
         </Sponsors1>
-        <LogosBronze>
-          {bronzeData.map(bronzeCard)}
-        </LogosBronze>
+        <LogosBronze>{bronzeData.map(bronzeCard)}</LogosBronze>
       </Raisebox>
 
       {/* Partners */}
-      <Raisebox style={{ minHeight: "20vh", paddingTop: "50px" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingTop: '50px' }}>
         <Row>
           <Col>
             {scriptData.map(scriptCard)}
 
             <Sponsors3>
-              Education <span style={{ color: "#ff0000" }}> Partner </span>
+              Education <span style={{ color: '#ff0000' }}> Partner </span>
             </Sponsors3>
           </Col>
           <Col>
             {webwizData.map(webwizCard)}
 
-
             <Sponsors3>
-              Organizing <span style={{ color: "#ff0000" }}> Team </span>
+              Organizing <span style={{ color: '#ff0000' }}> Team </span>
             </Sponsors3>
           </Col>
         </Row>
       </Raisebox>
 
-      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingBottom: '3vh' }}>
         <Sponsors1>
-          Media <span style={{ color: "#ff0000" }}> Partners </span>
+          Media <span style={{ color: '#ff0000' }}> Partners </span>
         </Sponsors1>
         <Row>
           <Col sm={12} md={12} lg={4} xl={4}>
@@ -284,6 +283,9 @@ function Sponsors() {
           </Col>
           <Col sm={12} md={12} lg={4} xl={4}>
             {eOdishaData.map(eOdishaCard)}
+          </Col>
+          <Col sm={12} md={12} lg={4} xl={4}>
+            {commudleData.map(commudleCard)}
           </Col>
         </Row>
       </Raisebox>

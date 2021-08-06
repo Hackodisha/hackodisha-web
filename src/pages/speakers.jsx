@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import "./style.css";
-import { Row, Col } from "react-grid-system";
-import Raisebox from "../components/raisebox/raisebox";
-import Speakercard from "../components/Speakercard";
-import SpeakerData from "./SpeakerData";
+import React from 'react';
+import styled from 'styled-components';
+import './style.css';
+import { Row, Col } from 'react-grid-system';
+import Raisebox from '../components/raisebox/raisebox';
+import Speakercard from '../components/Speakercard';
+import SpeakerData from './SpeakerData';
 
 const Speakers = styled.h1`
   padding-top: 5%;
@@ -20,7 +20,7 @@ const Speakers = styled.h1`
 
 function speakCard(SpeakerData) {
   return (
-    <Col style={{paddingBottom:'2rem'}} sm={12} md={6} lg={6} xl={6}>
+    <Col style={{ paddingBottom: '2rem' }} sm={12} md={6} lg={6} xl={6}>
       <Speakercard
         key={SpeakerData.id}
         className={SpeakerData.className}
@@ -39,16 +39,12 @@ function speakCard(SpeakerData) {
 function Speaker() {
   return (
     <div>
-      <Raisebox style={{ minHeight: "20vh", paddingBottom: "3vh" }}>
+      <Raisebox style={{ minHeight: '20vh', paddingBottom: '3vh' }}>
         <Speakers>
-          Our <span style={{ color: "#ff0000" }}> Speakers </span>
+          Our <span style={{ color: '#ff0000' }}> Speakers </span>
         </Speakers>
-        <Row>
-          {SpeakerData.map(speakCard)} 
-        </Row>
-        <Row>
-
-        </Row>
+        <Row>{SpeakerData.map(speakCard)}</Row>
+        <Row></Row>
       </Raisebox>
     </div>
   );
