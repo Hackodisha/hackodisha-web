@@ -3,3 +3,4 @@
 /.eslintcache
 /build
 /.firebase
+yarn.lock
