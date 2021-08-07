@@ -177,6 +177,13 @@ const bronzeData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815442/Assets/Sponsors/axure_tpsnei.webp',
     alt: 'Axure bronze sponsor for Hackodisha',
   },
+  {
+    id: 26,
+    className: 'logo_small',
+    link: 'https://www.ecrivonsgraphology.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628352202/Assets/Sponsors/Ecrivons_Logo_gy4jcu_lquj5b.png',
+    alt: 'Ecrivons bronze sponsor for Hackodisha',
+  },
 ];
 
 const silverData = [
