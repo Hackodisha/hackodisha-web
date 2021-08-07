@@ -1,0 +1,58 @@
+.btn-knowmore {
+    background-color: #9e3737;
+    background-color:#c62d1f;
+    border-radius:18px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:10px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+    position: relative;
+  }
+ 
+  .TracksCards_p{
+    background: #242526;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    padding: 1em;
+    border-radius: 10px;
+    max-width: 30rem;
+    margin: 10px auto;
+    height: auto;
+    min-height: 10rem;
+    max-height: 70vh;
+    display: flex;
+    overflow-y:scroll;
+    flex-direction: column;
+  }
+  .TracksCards_p::-webkit-scrollbar {
+    width: 15px; 
+    
+  }
+  .TracksCards_p::-webkit-scrollbar-track {
+    background-color: #242526;
+    visibility: hidden;
+  }
+  .TracksCards_p::-webkit-scrollbar-thumb {
+    background-color: rgba(134, 126, 126, 0.4);
+    border-radius: 10px; 
+  }
+  
+  
+  .CardIcon{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+  }
+  
+  .Tracksh4{
+    font-weight: 600;
+    text-align: left;
+    margin-top: 1em;
+    font-size: 1.3rem;
+    color: #fff;
+  }
