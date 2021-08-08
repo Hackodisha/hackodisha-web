@@ -106,7 +106,6 @@
 }
 .prizes_h1 {
   font-weight: 900;
-  padding-top: 5%;
   color: #fff;
   font-size: 6rem;
   line-height: 0.8em;
@@ -123,7 +122,10 @@
   margin: 10px auto;
   margin-bottom: 3rem;
   height: 12rem;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
 }
 .first_prize {
   font-size: 2.7rem;
@@ -179,10 +181,6 @@
   .prizes_h1 {
     font-size: 4rem;
   }
-  /* .prizes_h2 {
-    font-size: 2rem;
-  } */
-
   .popup-content {
     width: 80%;
     max-width: fit-content;
