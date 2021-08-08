@@ -184,6 +184,13 @@ const bronzeData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628352202/Assets/Sponsors/Ecrivons_Logo_gy4jcu_lquj5b.png',
     alt: 'Ecrivons bronze sponsor for Hackodisha',
   },
+  {
+    id: 27,
+    className: 'logo_small',
+    link: 'https://www.voiceflow.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628245520/Assets/Sponsors/voiceflow-logo-white-full_2494_gyc6j3.png',
+    alt: 'Voiceflow bronze sponsor for Hackodisha',
+  },
 ];
 
 const silverData = [
