@@ -36,8 +36,6 @@ const prizesData = [
         <br />
         Rosenfeld Media free book giveaways on their site
         <br />
-        90% off on AI champ courses
-        <br />
         ebook(40$) benefits from No Starch Press
         <br />
         Free Individual licenses to all Jetbrains desktop tools for limited time
@@ -82,8 +80,6 @@ const prizesData = [
         <br />
         Rosenfeld Media free book giveaways on their site
         <br />
-        70% off on AI champ courses
-        <br />
         ebook(40$) benefits from No Starch Press
         <br />
         Free Individual licenses to all Jetbrains desktop tools for limited time
@@ -125,8 +121,6 @@ const prizesData = [
         <br />
         Rosenfeld Media free book giveaways on their site
         <br />
-        70% off on AI champ courses
-        <br />
         ebook(40$) benefits from No Starch Press
         <br />
         Free Individual licenses to all Jetbrains desktop tools for limited time
@@ -166,8 +160,6 @@ const prizesData = [
         <br />
         Rosenfeld Media free book giveaways on their site
         <br />
-        70% off on AI champ courses
-        <br />
         ebook(40$) benefits from No Starch Press
         <br />
         Free Individual licenses to all Jetbrains desktop tools for limited time
@@ -203,8 +195,6 @@ const prizesData = [
         Axure access
         <br />
         Rosenfeld Media free book giveaways on their site
-        <br />
-        70% off on AI champ courses
         <br />
         ebook(40$) benefits from No Starch Press
         <br />
