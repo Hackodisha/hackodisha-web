@@ -5,7 +5,7 @@ import About from './about';
 import Home from './home';
 import Faq from './faq';
 // import Events from "./events";
-import Prizes from './Prizes';
+import Prizes from './prizes';
 import Schedule from './schedule';
 // import Speakers from "./speakers";
 //import Calendly from "./calendly";
