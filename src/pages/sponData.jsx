@@ -311,13 +311,13 @@ const goldData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815443/Assets/Sponsors/DigitalOcean1_sf4env.webp',
     alt: 'Digital Ocean gold sponsor for Hackodisha',
   },
-  {
-    id: 2,
-    className: 'logo-large',
-    link: 'https://github.com/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628961683/Assets/Sponsors/GitHub_Logo_White_lmfoza.png',
-    alt: 'Github gold sponsor for Hackodisha',
-  },
+  // {
+  //   id: 2,
+  //   className: 'logo-large',
+  //   link: 'https://github.com/',
+  //   image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628961683/Assets/Sponsors/GitHub_Logo_White_lmfoza.png',
+  //   alt: 'Github gold sponsor for Hackodisha',
+  // },
 ];
 
 const platinumData = [
