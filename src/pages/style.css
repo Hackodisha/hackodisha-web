@@ -63,6 +63,13 @@
   height: auto;
   margin: 0 auto;
 }
+.logo-noticeboard {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
 
 .logo_small {
   max-width: 290px;
@@ -76,6 +83,13 @@
   max-height: 250px;
   margin: 0 auto;
   padding: 20px;
+}
+.logo-github {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 10px;
 }
 
 .border_grad:hover {
