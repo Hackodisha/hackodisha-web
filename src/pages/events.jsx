@@ -12,11 +12,12 @@ const Image = styled.img`
   width: 100%;
 `;
 
-const Text = styled.p`
+const Text = styled.h3`
   color: white;
   text-align: left;
   margin-left: 2%;
   line-height: 1.7rem;
+  font-weight:400;
 `;
 
 const Date = styled.h2`
@@ -139,11 +140,23 @@ function Events() {
                 Productivity Hack<span style={{ color: '#ff0000' }}>.</span>
               </Heading>
               <Text>
-                Aliens are trying to communicate with us by sending signals. You
-                have been given waveforms, and you have to decode what circuitry
-                the aliens might be using. Your task is to replicate those
-                waveforms as closely as possible by simulating your circuit
-                before they attack us.
+                Create a productivity hack that can help automate daily or
+                mundane tasks. It can be a web or mobile app or anything related
+                to the theme. You may use ML/DL according to your need.
+                <br />
+                1. A team of a maximum of 4 members is allowed.
+                <br />
+                2. The project should be hosted if possible. If not hosted then,
+                instructions must be mentioned in a README file to run the
+                program locally.
+                <br />
+                3. GitHub link of the project files needs to be provided during
+                submission.
+                <br />
+                4. A 3-minute video of the project should be there stating it's
+                working.
+                <br />
+                5. Plagiarism would lead to direct disqualification of the team.
               </Text>
               <Date>
                 <span style={{ color: '#ff0000' }}>Date: </span>11th September
