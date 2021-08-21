@@ -16,7 +16,8 @@ import {
   rourkShData,
   BbsrData,
   eOdishaData,
-  commudleData,
+  noticeBoardData,
+  githubData,
 } from './sponData';
 
 const Sponsors1 = styled.h1`
@@ -97,6 +98,20 @@ function goldCard(goldData) {
   );
 }
 
+function githubCard(githubData) {
+  return (
+    <Col sm={12} md={6} lg={6} xl={6}>
+      <Card
+        key={githubData.id}
+        className={githubData.className}
+        link={githubData.link}
+        img={githubData.image}
+        alt={githubData.alt}
+      />
+    </Col>
+  );
+}
+
 function platinumCard(platinumData) {
   return (
     <Card
@@ -156,18 +171,19 @@ function OdishaCard(OdishaData) {
     />
   );
 }
-
-function commudleCard(commudleData) {
+function noticeBoardCard(noticeBoardData) {
   return (
     <Card
-      key={commudleData.id}
-      className={commudleData.className}
-      link={commudleData.link}
-      img={commudleData.image}
-      alt={commudleData.alt}
+      key={noticeBoardData.id}
+      className={noticeBoardData.className}
+      link={noticeBoardData.link}
+      img={noticeBoardData.image}
+      alt={noticeBoardData.alt}
     />
   );
 }
+
+
 
 function RShinesCard(rourkShData) {
   return (
@@ -221,6 +237,7 @@ function Sponsors() {
           Gold <span style={{ color: '#ff0000' }}> Sponsors </span>
         </Sponsors1>
         <Row>{goldData.map(goldCard)}</Row>
+        <Row justify="center">{githubData.map(githubCard)}</Row>
       </Raisebox>
 
       {/* Silver Sponsor */}
@@ -285,7 +302,7 @@ function Sponsors() {
             {eOdishaData.map(eOdishaCard)}
           </Col>
           <Col sm={12} md={12} lg={4} xl={4}>
-            {commudleData.map(commudleCard)}
+            {noticeBoardData.map(noticeBoardCard)}
           </Col>
         </Row>
       </Raisebox>

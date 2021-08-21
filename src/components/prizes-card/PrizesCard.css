@@ -7,7 +7,7 @@
     cursor:pointer;
     color:#ffffff;
     font-family:Arial;
-    font-size:10px;
+    font-size:14px;
     padding:7px 25px;
     text-decoration:none;
     text-shadow:0px 1px 0px #810e05;
@@ -30,7 +30,7 @@
     flex-direction: column;
   }
   .TracksCards_p::-webkit-scrollbar {
-    width: 15px; 
+    width: 7px; 
     
   }
   .TracksCards_p::-webkit-scrollbar-track {
@@ -38,10 +38,10 @@
     visibility: hidden;
   }
   .TracksCards_p::-webkit-scrollbar-thumb {
-    background-color: rgba(134, 126, 126, 0.4);
-    border-radius: 10px; 
+    background-color: hsla(0,0%,100%,0.4);
+    border-radius: 20px; 
   }
-  
+
   
   .CardIcon{
     height: 2.5em;

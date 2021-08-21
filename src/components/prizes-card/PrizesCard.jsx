@@ -43,6 +43,13 @@ function PrizesCard() {
             description={prizesData[4].description}
           />
         </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <PrizesCardElement
+            className="first_prize"
+            trackname="More Prizes"
+            description="To be revealed soon🥳"
+          />
+        </Col>
       </Row>
     </div>
   );

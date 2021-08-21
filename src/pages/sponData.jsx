@@ -96,101 +96,102 @@ const bronzeData = [
   {
     id: 14,
     className: 'logo_small',
-    link: 'https://aichamp.in/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815441/Assets/Sponsors/aichamp_mgdsvz.webp',
-    alt: 'Aichamp bronze sponsor for Hackodisha',
-  },
-  {
-    id: 15,
-    className: 'logo_small',
     link: 'http://karoverify.xyz/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815444/Assets/Sponsors/karoverify2_ryqiml.webp',
     alt: 'Karo Verify bronze sponsor for Hackodisha',
   },
   {
-    id: 16,
+    id: 15,
     className: 'logo_small',
     link: 'https://rosenfeldmedia.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815438/Assets/Sponsors/Rosenfeld_u4qxtg.webp',
     alt: 'Rosenfeld bronze sponsor for Hackodisha',
   },
   {
-    id: 17,
+    id: 16,
     className: 'logo_small',
     link: 'https://www.stickermule.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815439/Assets/Sponsors/sticker-mule_sqdqke.svg',
     alt: 'StickerMule bronze sponsor for Hackodisha',
   },
   {
-    id: 18,
+    id: 17,
     className: 'logo_small',
     link: 'https://replit.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815438/Assets/Sponsors/replit_cttykf.svg',
     alt: 'replit bronze sponsor for Hackodisha',
   },
   {
-    id: 19,
+    id: 18,
     className: 'logo_small',
     link: 'https://www.framer.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815443/Assets/Sponsors/framer_goxcd6.webp',
     alt: 'Framer bronze sponsor for Hackodisha',
   },
   {
-    id: 20,
+    id: 19,
     className: 'logo_small',
     link: 'https://gen.xyz/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815441/Assets/Sponsors/xyzdomain_dtawtj.webp',
     alt: 'XYZ domain bronze sponsor for Hackodisha',
   },
   {
-    id: 21,
+    id: 20,
     className: 'logo_small',
     link: 'https://www.linode.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815444/Assets/Sponsors/linode_nlrreg.webp',
     alt: 'Linode bronze sponsor for Hackodisha',
   },
   {
-    id: 22,
+    id: 21,
     className: 'logo_small',
     link: 'https://www.wolframalpha.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815442/Assets/Sponsors/Wolfram1_lqxoj1.webp',
     alt: 'Wolfram bronze sponsor for Hackodisha',
   },
   {
-    id: 23,
+    id: 22,
     className: 'logo_small',
     link: 'https://www.codingminutes.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815443/Assets/Sponsors/codingminutes_vmrfgj.webp',
     alt: 'Coding Minutes bronze sponsor for Hackodisha',
   },
   {
-    id: 24,
+    id: 23,
     className: 'logo_small',
     link: 'https://www.qoom.io/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815445/Assets/Sponsors/qoom_ufut7g.webp',
     alt: 'Qoom bronze sponsor for Hackodisha',
   },
   {
-    id: 25,
+    id: 24,
     className: 'logo_small',
     link: 'https://www.axure.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815442/Assets/Sponsors/axure_tpsnei.webp',
     alt: 'Axure bronze sponsor for Hackodisha',
   },
   {
-    id: 26,
+    id: 25,
     className: 'logo_small',
     link: 'https://www.ecrivonsgraphology.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628352202/Assets/Sponsors/Ecrivons_Logo_gy4jcu_lquj5b.png',
     alt: 'Ecrivons bronze sponsor for Hackodisha',
   },
   {
-    id: 27,
+    id: 26,
     className: 'logo_small',
     link: 'https://www.voiceflow.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628245520/Assets/Sponsors/voiceflow-logo-white-full_2494_gyc6j3.png',
     alt: 'Voiceflow bronze sponsor for Hackodisha',
   },
+  {
+    id: 27,
+    className: 'logo_small',
+    link: 'https://www.commudle.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628196548/Assets/Sponsors/commudle_rzvcpj.png',
+    alt: 'commudle bronze sponsor of Hackodisha',
+  },
+  
 ];
 
 const silverData = [
@@ -221,6 +222,13 @@ const silverData = [
     link: 'https://sudans.tech/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815439/Assets/Sponsors/ST_new_vrfmco.webp',
     alt: 'Sudan Tech silver sponsor for Hackodisha',
+  },
+  {
+    id: 5,
+    className: 'logo_small',
+    link: 'https://streamyard.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629099412/Assets/Sponsors/streamyard_o6kfyi.png',
+    alt: 'Streamyard silver sponsor for Hackodisha',
   },
 ];
 
@@ -292,16 +300,16 @@ const eOdishaData = [
     alt: 'eOdisha media partner of Hackodisha',
   },
 ];
-
-const commudleData = [
+const noticeBoardData = [
   {
     id: 7,
-    className: 'logo-commudle',
-    link: 'https://www.commudle.com/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628196548/Assets/Sponsors/commudle_rzvcpj.png',
-    alt: 'commudle media partner of Hackodisha',
+    className: 'logo-noticeboard',
+    link: 'https://www.noticebard.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629098925/Assets/Sponsors/noticeboard_ikjtfr.png',
+    alt: 'Noticeboard media partner of Hackodisha',
   },
 ];
+
 
 const goldData = [
   {
@@ -316,9 +324,19 @@ const goldData = [
     className: 'logo-large',
     link: 'https://www.digitalocean.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815443/Assets/Sponsors/DigitalOcean1_sf4env.webp',
-    alt: 'Digital Ocean bronze sponsor for Hackodisha',
+    alt: 'Digital Ocean gold sponsor for Hackodisha',
   },
 ];
+
+const githubData = [
+  {
+    id: 3,
+    className: 'logo-github',
+    link: 'https://github.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628961683/Assets/Sponsors/GitHub_Logo_White_lmfoza.png',
+    alt: 'Github gold sponsor for Hackodisha',
+  },
+]
 
 const platinumData = [
   {
@@ -342,5 +360,6 @@ export {
   rourkShData,
   BbsrData,
   eOdishaData,
-  commudleData,
+  noticeBoardData,
+  githubData,
 };
