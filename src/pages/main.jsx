@@ -10,6 +10,7 @@ import Schedule from './schedule';
 // import Speakers from "./speakers";
 //import Calendly from "./calendly";
 import { useEffect } from 'react';
+import Events from './events';
 
 function Main() {
   useEffect(() => {
@@ -41,13 +42,13 @@ function Main() {
       </section>
       {/* <section id="speakers">
         <Speakers />
-      </section>
-      <section id="events">
-        <Events />
-      </section> */}
+        </section>*/}
       <section id="prizes">
         <Prizes />
       </section>
+      {/* <section id="events">
+        <Events/>
+      </section> */}
       <section id="faq">
         <Faq />
       </section>
