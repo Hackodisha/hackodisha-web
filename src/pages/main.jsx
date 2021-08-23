@@ -46,9 +46,9 @@ function Main() {
       <section id="prizes">
         <Prizes />
       </section>
-      {/* <section id="events">
+      <section id="events">
         <Events/>
-      </section> */}
+      </section>
       <section id="faq">
         <Faq />
       </section>
