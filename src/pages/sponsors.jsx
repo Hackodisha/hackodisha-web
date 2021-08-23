@@ -114,6 +114,7 @@ function githubCard(githubData) {
 
 function platinumCard(platinumData) {
   return (
+    <Col sm={12} md={6} lg={6} xl={6}>
     <Card
       key={platinumData.id}
       className={platinumData.className}
@@ -121,6 +122,7 @@ function platinumCard(platinumData) {
       img={platinumData.image}
       alt={platinumData.alt}
     />
+    </Col>
   );
 }
 
@@ -228,7 +230,7 @@ function Sponsors() {
         <Sponsors1>
           Platinum <span style={{ color: '#ff0000' }}> Sponsor </span>
         </Sponsors1>
-        {platinumData.map(platinumCard)}
+        <Row>{platinumData.map(platinumCard)}</Row>
       </Raisebox>
 
       {/* Gold Sponsor */}
