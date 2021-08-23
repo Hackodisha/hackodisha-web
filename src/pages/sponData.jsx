@@ -346,6 +346,13 @@ const platinumData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815444/Assets/Sponsors/diamondnit_j3ayw0.webp',
     alt: 'NITR Diamond Jubilee platinum sponsor of Hackodisha',
   },
+  {
+    id: 1,
+    className: 'logo-large',
+    link: 'https://www.postman.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629744357/Assets/Sponsors/postman_qwfl1u.svg',
+    alt: 'Postman platinum sponsor of Hackodisha',
+  },
 ];
 
 export {
