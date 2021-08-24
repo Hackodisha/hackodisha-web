@@ -4,3 +4,4 @@
 /build
 /.firebase
 yarn.lock
+**/.DS_Store
