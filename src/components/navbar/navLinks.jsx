@@ -93,8 +93,8 @@ export function NavLinks() {
     "sponsors",
     "schedule",
     // "speakers",
-    "events",
     "prizes",
+    "events",
     "faq",
   ];
 
