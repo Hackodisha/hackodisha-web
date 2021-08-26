@@ -74,8 +74,8 @@ export function MobileNavLinks() {
     "sponsors",
     "schedule",
     // "speakers",
-    "events",
     "prizes",
+    "events",
     "faq",
   ];
   return (

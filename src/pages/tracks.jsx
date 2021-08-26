@@ -16,7 +16,7 @@ const Abouth1 = styled.h1`
   font-weight: 900;
   color: #fff;
   font-size: 5rem;
-  line-height: 0.8em;
+  line-height: 1.1em;
   letter-spacing: -0.07em;
 
   @media screen and (max-width: 576px) {
