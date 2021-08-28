@@ -162,12 +162,12 @@ function Events() {
             <Grid item xs={12} sm={6}>
               <Image
                 src="https://res.cloudinary.com/webwiznitr/image/upload/v1629741013/Assets/Images/cyborg2_boftki.png"
-                alt="Productivity Hack"
+                alt="Auto-Potency"
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <Heading>
-                Productivity Hack<span style={{ color: '#ff0000' }}>.</span>
+                Auto-Potency<span style={{ color: '#ff0000' }}>.</span>
               </Heading>
               <Text>
                 The revolution of industry brought a drastic change in people's
