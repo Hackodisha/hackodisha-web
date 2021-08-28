@@ -227,7 +227,7 @@ const silverData = [
     id: 5,
     className: 'logo_small',
     link: 'https://streamyard.com/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629099412/Assets/Sponsors/streamyard_o6kfyi.png',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1630134474/Assets/Sponsors/logo_ytdq72.png',
     alt: 'Streamyard silver sponsor for Hackodisha',
   },
 ];

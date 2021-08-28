@@ -100,7 +100,9 @@ function Events() {
                 2021
               </Date>
               <div style={{ textAlign: 'left' }}>
+                <a href="https://dare2compete.com/p/replica-hackodisha-national-institute-of-technology-nit-rourkela-194970?lb=jDyxl0d" target="_blank" rel="noopener noreferrer">
                 <Button>Know more</Button>
+                </a>
               </div>
               <div style={{ textAlign: 'right' }}>
                 <Image2
@@ -184,7 +186,9 @@ function Events() {
                 2021
               </Date>
               <div style={{ textAlign: 'left' }}>
+              <a href="https://dare2compete.com/p/auto-potency-hackodisha-national-institute-of-technology-nit-rourkela-194981?lb=jDyxl0d" target="_blank" rel="noopener noreferrer">
                 <Button>Know more</Button>
+                </a>
               </div>
               <div style={{ textAlign: 'right' }}>
                 <Image2
