@@ -144,7 +144,9 @@ function Events() {
                 2021
               </Date>
               <div style={{ textAlign: 'left' }}>
+              <a href="https://dare2compete.com/o/OCieEpM?refId=pkfVP2s&lb=pPAoUz8" target="_blank" rel="noopener noreferrer">
                 <Button>Know more</Button>
+                </a>
               </div>
               <div style={{ textAlign: 'right' }}>
                 <Image3
