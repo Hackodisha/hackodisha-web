@@ -45,9 +45,44 @@ function PrizesCard() {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
+            className="third_prize"
+            trackname="Best use of API"
+            description={prizesData[5].description}
+          />
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <PrizesCardElement
             className="first_prize"
-            trackname="More Prizes"
-            description="To be revealed soon🥳"
+            trackname="Tezos"
+            description={prizesData[6].description}
+          />
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <PrizesCardElement
+            className="second_prize"
+            trackname="Celo"
+            description={prizesData[7].description}
+          />
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <PrizesCardElement
+            className="first_prize"
+            trackname="Polygon"
+            description={prizesData[8].description}
+          />
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <PrizesCardElement
+            className="second_prize"
+            trackname="Filecoin"
+            description={prizesData[9].description}
+          />
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <PrizesCardElement
+            className="third_prize"
+            trackname="All Participants"
+            description={prizesData[10].description}
           />
         </Col>
       </Row>

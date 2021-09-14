@@ -203,6 +203,121 @@ const prizesData = [
       </div>
     ),
   },
+  {
+    id: 6,
+    description: (
+     <div>
+        Postman Swag Bad
+        <br /> 
+        Free individual licenses to all Jetbrains desktop tools
+        <br />
+        Balsamic: 90 days extended trial promo code 
+        <br />
+        Taskade: 1 year free upgrades 
+        <br />
+        XYZ : 1 year free domain for participants
+        <br />
+        Repl.It 180 days hackerplan for everyone
+        <br />
+        Script Foundation Academy: 90 days vouchers
+        <br />
+        1Password: 1 Free Year of 1Password Families
+        <br />
+        Draftxt: Participants(40% off for 1 year)
+        <br />
+        Test Mail(3 days free)
+        <br />
+        Rosenfeld Media free book giveaways on their site and 20% discount code for attendees
+        <br />
+        Access to wolfram for 30 days
+        <br />
+        Qoom: 3-month starter plan
+        <br />
+        Showcase in Qoom’s gallery
+        <br />
+        Digital Ocean 60 days free trial
+        <br />
+      </div>
+    ),
+  },
+  {
+    id:7,
+    description: (
+      <div>
+        ₹20,000 for best Dapp built on Tezos
+        <br />
+        ₹25,000 for building a Flutter Tezos Wallet App
+        <br />
+        Continuity grant opportunity up to $5,000 for outstanding projects
+      </div>
+    ),
+  },
+  {
+    id: 8,
+    description: (
+      <div>
+        ₹20,000 for best Dapp built on Celo
+        <br />
+        Continuity Support
+      </div>
+    ),
+  },
+  
+  {
+  id: 9,
+  description: (
+    <div>
+      ₹10,000 for the best hack built on Ethereum, or
+      <br />
+      ₹15,000 for the best hack built on Ethereum + Polygon
+      <br/>
+      Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!
+    </div>
+   ),
+  },
+  {
+    id: 10,
+    description: (
+      <div>
+        ₹20000 for best use of IPFS and/or Filecoin
+      </div>
+     ),
+    },
+    {
+      id: 11,
+      description: (
+        <div>
+          Free individual licenses to all Jetbrains desktop tools
+          <br />
+          Balsamic: 90 days extended trial promo code
+          <br />
+          Taskade: 1 year free upgrades 
+          <br />
+          XYZ : 1 year free domain for participants
+          <br />
+          Repl.It 180 days hackerplan for everyone
+          <br />
+          Script Foundation Academy: 90 days vouchers
+          <br />
+          1Password: 1 Free Year of 1Password Families
+          <br />
+          Draftxt: Participants(40% off for 1 year)
+          <br />
+          Test Mail(3 days free)
+          <br />
+          Rosenfeld Media free book giveaways on their site and 20% discount code for attendees
+          <br />
+          Access to wolfram for 30 days
+          <br />
+          Qoom: 3-month starter plan
+          <br />
+          Showcase in Qoom’s gallery
+          <br />
+          Digital Ocean 60 days free trial
+          <br />
+        </div>
+      ),
+    },
 ];
 
 export default prizesData;
