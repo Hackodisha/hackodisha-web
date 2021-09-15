@@ -56,13 +56,13 @@ const CommunityData = [
         imgPath: "https://res.cloudinary.com/dke9xzbl6/image/upload/v1631621699/community-partners/DSC_NIIT_ykun1a.png",
         linkedIn: "https://www.linkedin.com/company/developer-student-club-niit-university/",
     },
-    {
-        id: 9, 
-        Name: "Team Indigo GGITS",
+    // {
+    //     id: 9, 
+    //     Name: "Team Indigo GGITS",
          
-        imgPath: "https://res.cloudinary.com/dke9xzbl6/image/upload/v1631621700/community-partners/Team_Indigo_GGITS_sqmi8h.jpg",
-        linkedIn: "https://www.linkedin.com/company/team-indigo-ggits/about/",
-    },
+    //     imgPath: "https://res.cloudinary.com/dke9xzbl6/image/upload/v1631621700/community-partners/Team_Indigo_GGITS_sqmi8h.jpg",
+    //     linkedIn: "https://www.linkedin.com/company/team-indigo-ggits/about/",
+    // },
     {
         id: 10, 
         Name: "TechDemo",
