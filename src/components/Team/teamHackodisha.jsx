@@ -45,7 +45,7 @@ const TeamHackodisha = () => {
                     TeamData.map(element => {
                        return  (
                             <div id="member-card"> 
-                            <a href={element.likedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
+                            <a href={element.linkedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
                             <span id="member-name" >{element.Name}</span>
                             <span id="member-role" >{element.Role}</span>
 
@@ -65,7 +65,7 @@ const TeamHackodisha = () => {
                     CommunityData.map(element => {
                        return  (
                             <div id="member-card"> 
-                            <a href={element.likedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
+                            <a href={element.linkedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
                             <span style = { { border: "none"}} id="member-name" >{element.Name}</span>
             
 
@@ -86,7 +86,7 @@ const TeamHackodisha = () => {
                     OutReachData.map(element => {
                        return  (
                             <div id="member-card"> 
-                            <a href={element.likedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
+                            <a href={element.linkedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
                             <span style = { 
                                 {
                                     border:"none"

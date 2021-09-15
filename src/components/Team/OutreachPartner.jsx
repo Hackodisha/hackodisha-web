@@ -5,7 +5,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631648985/HackOdisha/20210324_195644_-_Anubhab_Patnaik_ox01jd.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649209/HackOdisha/photo_-_vineet_ajmani_hztohn.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631648998/HackOdisha/Chandan_Kumar_Pradhan_-_CHANDAN_KUMAR_PRADHAN_drfvu0.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649296/HackOdisha/profilepic_-_Harshit_Aditya_jfa4ow.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649183/HackOdisha/photo_-_MANISHA_GUPTA_ioyohj.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649266/HackOdisha/Prabhav_Prefect_-_Prabhav_Khera_rng1wh.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631648987/HackOdisha/20210527_110419_-_White_Cloud_wqh0ri.png',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649015/HackOdisha/E1750672-FEDC-4C78-9AFC-405854935550_-_Khushi_Yadav_joeqcq.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649079/HackOdisha/IMG_20201025_201419_754_-_Roshan_Anduri_akn7xc.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631648991/HackOdisha/BeautyPlus_20190626140331702_save_-_Ishita_Kapoor_gj01hj.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631648985/HackOdisha/1_-_FAWAD_AHMAD_dmj2ff.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649118/HackOdisha/IMG_20210123_142508_-_Manasi_Gharai_cxku6e.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649038/HackOdisha/IMG20210726171001_-_PRIYANSHA_NAYAK_azusyw.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649098/HackOdisha/IMG_20210117_233234_074_-_Sanyam_Agrawal_w8qp5t.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649005/HackOdisha/CNCF_Profile_pic_-_Mrunank_Pawar_l7toay.png',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649141/HackOdisha/IMG_20210802_130946_-_Ayush_Jha_t06hcy.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649380/HackOdisha/Screenshot_2021-08-03_204507_-_AKASH_MISHRA_tn91e3.png',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649329/HackOdisha/PXL_20210805_101744383.PORTRAIT_-_reshab_sharma_kgqlix.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649163/HackOdisha/InShot_20210517_184155576_-_Harshi_Singhi_odsem7.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649051/HackOdisha/IMG20210809125123_-_bkj_com_xcdhcv.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649352/HackOdisha/SAVE_20210115_223306_-_Abhay_Majhi_pxyqif.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649236/HackOdisha/postspic_-_Sriniketh_J_wnkmo0.png',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649431/HackOdisha/Sonali_-_Sonali_p0lbes.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649406/HackOdisha/Snapchat-945069110_-_RATIKANTA_SWAIN_kplc07.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 25,
@@ -197,7 +197,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649025/HackOdisha/GIRIPRASATH.D_-_GIRI_PRASATH.D_wikyod.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
   {
     id: 26,
@@ -205,7 +205,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649067/HackOdisha/IMG_20200621_131124_-_Akhilesh_Khatri_zwofu2.jpg',
-    likedIn: '',
+    linkedIn: '',
   },
 ];
 
