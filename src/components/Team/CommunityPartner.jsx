@@ -5,7 +5,7 @@ const CommunityData = [
         Name: "Hack Club ITER",
          
         imgPath: "https://res.cloudinary.com/dke9xzbl6/image/upload/v1631621700/community-partners/Hack_Club_ITER_zizclp.png",
-        linkedIn: "https://www.linkedin.com/company/hackclubiter/https://www.linkedin.com/company/hackclubiter/",
+        linkedIn: "https://www.linkedin.com/company/hackclubiter/",
     },
     {
         id: 2, 
