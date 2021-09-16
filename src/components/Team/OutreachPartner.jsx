@@ -1,6 +1,6 @@
 const OutReachData = [
   {
-    id: 5,
+    id: 1,
     Name: 'Manisha Gupta',
 
     imgPath:
@@ -8,7 +8,7 @@ const OutReachData = [
     linkedIn: '',
   },
   {
-    id: 1,
+    id: 2,
     Name: 'Anubhab Patnaik',
 
     imgPath:
@@ -16,7 +16,7 @@ const OutReachData = [
     linkedIn: '',
   },
   {
-    id: 2,
+    id: 3,
     Name: 'Vineet Ajmani',
 
     imgPath:
@@ -24,7 +24,7 @@ const OutReachData = [
     linkedIn: '',
   },
   {
-    id: 3,
+    id: 4,
     Name: 'Chandan Kumar Pradhan',
 
     imgPath:
@@ -32,14 +32,14 @@ const OutReachData = [
     linkedIn: '',
   },
   {
-    id: 4,
+    id: 5,
     Name: 'Harshit Aditya',
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649296/HackOdisha/profilepic_-_Harshit_Aditya_jfa4ow.jpg',
     linkedIn: '',
   },
- 
+
   {
     id: 6,
     Name: 'Prabhav Khera',

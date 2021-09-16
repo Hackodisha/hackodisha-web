@@ -1,74 +1,85 @@
-
-
 #team-section {
-   color: white;
-   font-size: 4rem;
-   padding: 20px;
+  color: white;
+  font-size: 4rem;
+  padding: 20px;
 }
 #member-card {
-   display: flex; 
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   min-height: 350px; 
-   height: 350px; 
-   min-width: 300px; 
-   width: 300px; 
-   color: white;
-   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  height: 350px;
+  min-width: 300px;
+  width: 300px;
+  color: white;
+  margin: 10px;
 
+  #team-image {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid rgb(255, 0, 0);
 
-#member-image {
-   height: 200px;
-   width: 200px;
-   border-radius: 50%; 
-   border-left:4px solid black;
-      border-right: 4px solid black; 
-      border-bottom: 4px solid rgb(255, 0, 0);
-
-   &:hover{
-      border-top: 4px solid red; 
-      border-left:4px solid black;
-      border-right: 4px solid black; 
+    &:hover {
+      border-top: 4px solid red;
+      border-left: 4px solid black;
+      border-right: 4px solid black;
       border-bottom: 4px solid white;
-   }
+    }
+  }
+
+  #member-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid rgb(255, 0, 0);
+
+    &:hover {
+      border-top: 4px solid red;
+      border-left: 4px solid black;
+      border-right: 4px solid black;
+      border-bottom: 4px solid white;
+    }
+  }
+
+  #member-name {
+    color: rgba(255, 0, 0, 0.952);
+    font-size: 26px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.52);
+  }
+
+  #member-role {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
 }
 
-   #member-name {
-      color: rgba(255, 0, 0, 0.952);
-      font-size: 26px;
-      font-weight: 500;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.52);
-      
-    }
+#team-button {
+  border: 0;
+  outline: 0;
+  padding: 8px 1em;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #18191a;
+  border: 2px solid #ff0000;
+  transition: all 240ms ease-in-out;
+  cursor: pointer;
+  &:hover {
+    color: #000;
+    background-color: #ff0000;
+  }
 
-    #member-role {
-       color: rgb(255, 255, 255);
-       font-size: 20px;
-    }
-
+  &:not(:last-of-type) {
+    margin-right: 7px;
+  }
 }
-
-
-   #team-button{
-      border: 0;
-      outline: 0;
-      padding: 8px 1em;
-      color: #fff;
-      font-size: 18px;
-      font-weight: 600;
-      text-decoration: none;
-      border-radius: 20px;
-      background-color: #18191a;
-      border: 2px solid #ff0000;
-      transition: all 240ms ease-in-out;
-      cursor: pointer;
-      &:hover {
-        color: #000;
-        background-color: #ff0000;
-      }
-    
-      &:not(:last-of-type) {
-        margin-right: 7px;
-      }
-   }

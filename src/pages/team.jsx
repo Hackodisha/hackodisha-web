@@ -41,7 +41,7 @@ const TeamSection = () => {
                     if(element.id<=11) return  (
 
                             <div id="member-card"> 
-                            <a href={element.linkedIn} target="_blank" rel="noreferrer"> <img id ="member-image" src={element.imgPath} alt=" not found" /> </a>
+                            <a href={element.linkedIn} target="_blank" rel="noreferrer"> <img id ="team-image" src={element.imgPath} alt=" not found" /> </a>
                             <span id="member-name" >{element.Name}</span>
                             <span id="member-role" >{element.Role}</span>
 

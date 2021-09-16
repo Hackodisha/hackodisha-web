@@ -90,7 +90,7 @@ const TeamData = [
     linkedIn: 'https://www.linkedin.com/in/satyajit-panda-b824381a9',
   },
   {
-    id: 29,
+    id: 12,
     Name: 'Unagallage Nirmal Chathura Unagalle',
     linkedIn: 'https://www.linkedin.com/in/nirmal-chathura/',
     imgPath:
@@ -98,7 +98,7 @@ const TeamData = [
     Role: 'Tech Team',
   },
   {
-    id: 15,
+    id: 13,
     Name: 'Chirra Anshu Teja',
     linkedIn: 'https://www.linkedin.com/in/anshu-teja-chirra-72a687215',
     imgPath:
@@ -106,7 +106,7 @@ const TeamData = [
     Role: 'Publicity Team',
   },
   {
-    id: 16,
+    id: 14,
     Name: 'Midatana Sai Praneetha',
     linkedIn: 'https://www.linkedin.com/in/midatana-sai-praneetha-9a587420b/',
     imgPath:
@@ -114,7 +114,7 @@ const TeamData = [
     Role: 'Publicity Team',
   },
   {
-    id: 17,
+    id: 15,
     Name: 'Sayambika Das',
     linkedIn: 'https://www.linkedin.com/in/sayambika-das-398666203',
     imgPath:
@@ -122,7 +122,7 @@ const TeamData = [
     Role: 'Publicity Team',
   },
   {
-    id: 18,
+    id: 16,
     Name: 'Gourab Nanda',
     linkedIn: 'https://www.linkedin.com/in/gourab-nanda-0b27aa173/',
     imgPath:
@@ -130,7 +130,7 @@ const TeamData = [
     Role: 'Publicity Team',
   },
   {
-    id: 19,
+    id: 17,
     Name: 'Insha Mustafa ',
     linkedIn: 'https://www.linkedin.com/in/insha-mustafa-5b4965200/',
     imgPath:
@@ -138,7 +138,7 @@ const TeamData = [
     Role: 'Publicity Team',
   },
   {
-    id: 20,
+    id: 18,
     Name: 'Abhishek Ranjan Prusty',
     linkedIn: 'https://www.linkedin.com/in/abhishek-ranjan-2002/',
     imgPath:
@@ -146,10 +146,8 @@ const TeamData = [
     Role: 'Publicity Team',
   },
 
-
-
   {
-    id: 13,
+    id: 19,
     Name: 'Krishna Agrawal',
     linkedIn: 'https://www.linkedin.com/in/krishna-agrawal-6370b3218',
     imgPath:
@@ -157,7 +155,7 @@ const TeamData = [
     Role: 'Sponsorship Team',
   },
   {
-    id: 14,
+    id: 20,
     Name: 'Aporanta Mukhopadhyay',
     linkedIn: 'https://www.linkedin.com/in/aporanta-mukhopadhyay-744892210',
     imgPath:
@@ -166,7 +164,7 @@ const TeamData = [
   },
 
   {
-    id: 28,
+    id: 21,
     Name: 'Swagat Raj',
     linkedIn: 'https://www.linkedin.com/mwlite/in/swagat-raj-8924691b7',
     imgPath:
@@ -174,7 +172,7 @@ const TeamData = [
     Role: 'Design Team',
   },
   {
-    id: 12,
+    id: 22,
     Name: 'Sai Ashish',
     linkedIn: 'https://www.linkedin.com/in/sai-ashish-anshuman-5b4007194/',
     imgPath:
@@ -182,7 +180,7 @@ const TeamData = [
     Role: 'Design Team ',
   },
   {
-    id: 21,
+    id: 23,
     Name: 'Ankush Kumar Lohani',
     linkedIn: 'https://www.linkedin.com/in/iamakl',
     imgPath:
@@ -190,7 +188,7 @@ const TeamData = [
     Role: 'Outreach Team',
   },
   {
-    id: 22,
+    id: 24,
     Name: 'Lakshmi Haritha',
     linkedIn: 'https://www.linkedin.com/in/lakshmi-haritha-annadanam-4b8632201',
     imgPath:
@@ -198,7 +196,7 @@ const TeamData = [
     Role: 'Outreach Team',
   },
   {
-    id: 24,
+    id: 25,
     Name: 'Awantika Mallick',
     linkedIn: 'https://www.linkedin.com/in/awantika-mallick-33ab40207/',
     imgPath:
@@ -206,7 +204,7 @@ const TeamData = [
     Role: 'Outreach Team',
   },
   {
-    id: 27,
+    id: 26,
     Name: 'Komal Deegwal',
     linkedIn: 'https://www.linkedin.com/in/komal-deegwal-35b31a206',
     imgPath:
@@ -214,7 +212,7 @@ const TeamData = [
     Role: 'Outreach Team',
   },
   {
-    id: 25,
+    id: 27,
     Name: 'Sayantan Chatterjee',
     linkedIn: 'https://www.linkedin.com/in/sayantan-chatterjee-400784208/',
     imgPath:
@@ -222,7 +220,7 @@ const TeamData = [
     Role: 'Outreach Team',
   },
   {
-    id: 30,
+    id: 28,
     Name: 'Pratika Mishra',
     linkedIn: 'https://www.linkedin.com/in/pratika-mishra-400b39198',
     imgPath:
@@ -230,7 +228,7 @@ const TeamData = [
     Role: 'Outreach Team',
   },
   {
-    id: 26,
+    id: 29,
     Name: 'Priti Kumari',
     linkedIn: 'https://www.linkedin.com/in/priti-kumari-1b47a1203',
     imgPath:
