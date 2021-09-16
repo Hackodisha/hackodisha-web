@@ -22,7 +22,7 @@ function Main() {
     };
   });
   return (
-    <>
+    <div>
       <section id="home">
         <Home />
       </section>
@@ -56,7 +56,7 @@ function Main() {
       {/*<section id="calendly">
         <Calendly />
       </section>*/}
-    </>
+    </div>
   );
 }
 

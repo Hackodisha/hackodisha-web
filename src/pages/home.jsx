@@ -86,7 +86,7 @@ const Discord = styled.img`
 
 function Home() {
   return (
-    <>
+    <div>
       <Raisebox style={{ minHeight: '20vh', marginTop: '5vh' }}>
         <Container>
           <Row>
@@ -129,7 +129,7 @@ function Home() {
           </Row>
         </Container>
       </Raisebox>
-    </>
+    </div>
   );
 }
 

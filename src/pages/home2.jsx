@@ -185,7 +185,7 @@ export const Discord = styled.img`
 
 function Home() {
   return (
-    <>
+    <div>
       <Raisebox style={{ marginTop: '5vh' }}>
         <Container>
           <Image
@@ -222,7 +222,7 @@ function Home() {
           </Buttons>
         </Container>
       </Raisebox>
-    </>
+    </div>
   );
 }
 

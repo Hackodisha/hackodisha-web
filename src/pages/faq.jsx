@@ -70,7 +70,7 @@ const styles = {
 
 function home2() {
   return (
-    <>
+    <div>
       <meta
         name="description"
         content="Do I need to pay any money to register for the Hackathon?"
@@ -92,7 +92,7 @@ function home2() {
           </Row>
         </Container>
       </Raisebox>
-    </>
+    </div>
   );
 }
 

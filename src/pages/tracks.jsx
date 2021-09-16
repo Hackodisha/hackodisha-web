@@ -26,7 +26,7 @@ const Abouth1 = styled.h1`
 
 function home2() {
   return (
-    <>
+    <div>
       <meta name="description" content="Lets solve the problems of Odisha" />
       <Raisebox>
         <Container>
@@ -45,7 +45,7 @@ function home2() {
           </Row>
         </Container>
       </Raisebox>
-    </>
+    </div>
   );
 }
 

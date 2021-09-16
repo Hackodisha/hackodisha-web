@@ -7,7 +7,7 @@ import './style.css'
 
 function Prizes() {
   return (
-    <>
+    <div>
       <Raisebox>
         <div className="prizes_container">
           <h1 className="prizes_h1">
@@ -22,7 +22,7 @@ function Prizes() {
           </Row>
         </Container>
       </Raisebox>
-    </>
+    </div>
   );
 }
 
