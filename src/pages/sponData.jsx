@@ -198,17 +198,18 @@ const silverData = [
   {
     id: 1,
     className: 'logo-mid',
-    link: 'https://celo.org/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815442/Assets/Sponsors/celo1_uuuxcv.webp',
-    alt: 'Celo silver sponsor for Hackodisha',
-  },
-  {
-    id: 2,
-    className: 'logo-mid',
     link: 'https://polygon.technology/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815445/Assets/Sponsors/poly1_bfplcf.webp',
     alt: 'Polygon silver sponsor for Hackodisha',
   },
+  {
+    id: 2,
+    className: 'logo-mid',
+    link: 'https://celo.org/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815442/Assets/Sponsors/celo1_uuuxcv.webp',
+    alt: 'Celo silver sponsor for Hackodisha',
+  },
+
   {
     id: 3,
     className: 'logo-mid',
@@ -219,16 +220,23 @@ const silverData = [
   {
     id: 4,
     className: 'logo_small',
-    link: 'https://sudans.tech/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815439/Assets/Sponsors/ST_new_vrfmco.webp',
-    alt: 'Sudan Tech silver sponsor for Hackodisha',
+    link: 'https://filecoin.io/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1630429922/Assets/Sponsors/Filecoin_Coloured_White_Text-1_o5jnhl.png',
+    alt: 'Filecoin silver sponsor for Hackodisha',
   },
   {
     id: 5,
     className: 'logo_small',
     link: 'https://streamyard.com/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629099412/Assets/Sponsors/streamyard_o6kfyi.png',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1630134474/Assets/Sponsors/logo_ytdq72.png',
     alt: 'Streamyard silver sponsor for Hackodisha',
+  },
+  {
+    id: 6,
+    className: 'logo_small',
+    link: 'https://sudans.tech/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815439/Assets/Sponsors/ST_new_vrfmco.webp',
+    alt: 'Sudan Tech silver sponsor for Hackodisha',
   },
 ];
 
@@ -345,6 +353,13 @@ const platinumData = [
     link: 'https://www.nitrkl.ac.in/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815444/Assets/Sponsors/diamondnit_j3ayw0.webp',
     alt: 'NITR Diamond Jubilee platinum sponsor of Hackodisha',
+  },
+  {
+    id: 1,
+    className: 'logo-large',
+    link: 'https://www.postman.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629744357/Assets/Sponsors/postman_qwfl1u.svg',
+    alt: 'Postman platinum sponsor of Hackodisha',
   },
 ];
 

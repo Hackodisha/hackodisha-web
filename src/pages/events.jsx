@@ -12,18 +12,30 @@ const Image = styled.img`
   width: 100%;
 `;
 
+const Image2 = styled.img`
+  width: 40%;
+  margin-top: -15%;
+`;
+
+const Image3 = styled.img`
+  width: 20%;
+  margin-top: -20%;
+`;
+
 const Text = styled.h3`
   color: white;
   text-align: left;
   margin-left: 2%;
-  line-height: 1.7rem;
-  font-weight:400;
+  line-height: 1.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 `;
 
-const Date = styled.h2`
+const Date = styled.h3`
   color: white;
   text-align: left;
   margin-left: 2%;
+  margin-top: 5%;
   font-weight: 500;
 `;
 
@@ -50,7 +62,6 @@ const Button = styled.button`
   transition: all 240ms ease-in-out;
   cursor: pointer;
   margin-right: 5%;
-
   &:hover {
     color: #000;
     background-color: #ff0000;
@@ -69,8 +80,8 @@ function Events() {
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <Image
-                src={require('../assets/images/event8.png').default}
-                alt="Image"
+                src="https://res.cloudinary.com/webwiznitr/image/upload/v1629741012/Assets/Images/cyborg1_n1txwu.png"
+                alt="Replica Event"
               />
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -88,8 +99,16 @@ function Events() {
                 <span style={{ color: '#ff0000' }}>Date: </span>4th September
                 2021
               </Date>
-              <div style={{ textAlign: 'right' }}>
+              <div style={{ textAlign: 'left' }}>
+                <a href="https://dare2compete.com/p/replica-hackodisha-national-institute-of-technology-nit-rourkela-194970?lb=jDyxl0d" target="_blank" rel="noopener noreferrer">
                 <Button>Know more</Button>
+                </a>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <Image2
+                  src="https://res.cloudinary.com/webwiznitr/image/upload/v1629741729/Assets/Images/Cy_logo_W_qolj9o.png"
+                  alt="Cyborg"
+                />
               </div>
             </Grid>
           </Grid>
@@ -100,8 +119,8 @@ function Events() {
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <Image
-                src={require('../assets/images/event4.png').default}
-                alt="Image"
+                src="https://res.cloudinary.com/webwiznitr/image/upload/v1629741013/Assets/Images/finance1_gdqncl.png"
+                alt="Cryptoquest"
               />
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -109,18 +128,31 @@ function Events() {
                 Crypt-o-quest<span style={{ color: '#ff0000' }}>.</span>
               </Heading>
               <Text>
-                Aliens are trying to communicate with us by sending signals. You
-                have been given waveforms, and you have to decode what circuitry
-                the aliens might be using. Your task is to replicate those
-                waveforms as closely as possible by simulating your circuit
-                before they attack us.
+                Cryptocurrency trading or crypto trading involves buying and
+                selling cryptocurrencies to earn profit. We speculate mainly on
+                the price movement of cryptocurrency. As of recently, this field
+                is pretty hyped up, and people are driven towards it.
+                <br />
+                When we talk about the competition, the RSTO game token comes
+                into account. It is the driving force of the competitions. Top
+                rankers will get the reward in terms of RSTO, while low rankers
+                will face some loss. Thus it builds up a reward system where you
+                play more to earn more.
               </Text>
               <Date>
                 <span style={{ color: '#ff0000' }}>Date: </span>10th September
                 2021
               </Date>
-              <div style={{ textAlign: 'right' }}>
+              <div style={{ textAlign: 'left' }}>
+              <a href="https://dare2compete.com/o/OCieEpM?refId=pkfVP2s&lb=pPAoUz8" target="_blank" rel="noopener noreferrer">
                 <Button>Know more</Button>
+                </a>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <Image3
+                  src="https://res.cloudinary.com/webwiznitr/image/upload/v1629740711/Assets/Images/Finance_club.png"
+                  alt="Finance Club NITR"
+                />
               </div>
             </Grid>
           </Grid>
@@ -131,39 +163,40 @@ function Events() {
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <Image
-                src={require('../assets/images/event5.png').default}
-                alt="Image"
+                src="https://res.cloudinary.com/webwiznitr/image/upload/v1629741013/Assets/Images/cyborg2_boftki.png"
+                alt="Auto-Potency"
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <Heading>
-                Productivity Hack<span style={{ color: '#ff0000' }}>.</span>
+                Auto-Potency<span style={{ color: '#ff0000' }}>.</span>
               </Heading>
               <Text>
-                Create a productivity hack that can help automate daily or
-                mundane tasks. It can be a web or mobile app or anything related
-                to the theme. You may use ML/DL according to your need.
-                <br />
-                1. A team of a maximum of 4 members is allowed.
-                <br />
-                2. The project should be hosted if possible. If not hosted then,
-                instructions must be mentioned in a README file to run the
-                program locally.
-                <br />
-                3. GitHub link of the project files needs to be provided during
-                submission.
-                <br />
-                4. A 3-minute video of the project should be there stating it's
-                working.
-                <br />
-                5. Plagiarism would lead to direct disqualification of the team.
+                The revolution of industry brought a drastic change in people's
+                living standard and culture. The increase in number of jobs from
+                various sectors, increase in production activities helped people
+                grow to an ever increasing level that it seems A.I. is going to
+                take over our work force. This 21st century has given the people
+                the needs to fulfill anything they can dream of. Starting from a
+                small needle to huge machines. The obsession with productivity
+                has run our lives. Collective work has always been a wise
+                principle to improve our productivity in this modern era of
+                machines.
               </Text>
               <Date>
                 <span style={{ color: '#ff0000' }}>Date: </span>11th September
                 2021
               </Date>
-              <div style={{ textAlign: 'right' }}>
+              <div style={{ textAlign: 'left' }}>
+              <a href="https://dare2compete.com/p/auto-potency-hackodisha-national-institute-of-technology-nit-rourkela-194981?lb=jDyxl0d" target="_blank" rel="noopener noreferrer">
                 <Button>Know more</Button>
+                </a>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <Image2
+                  src="https://res.cloudinary.com/webwiznitr/image/upload/v1629741729/Assets/Images/Cy_logo_W_qolj9o.png"
+                  alt="Cyborg"
+                />
               </div>
             </Grid>
           </Grid>

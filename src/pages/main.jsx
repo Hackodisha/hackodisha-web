@@ -4,13 +4,11 @@ import Tracks from './tracks';
 import About from './about';
 import Home from './home';
 import Faq from './faq';
-// import Events from "./events";
 import Prizes from './prizes';
 import Schedule from './schedule';
-// import Speakers from "./speakers";
-//import Calendly from "./calendly";
 import { useEffect } from 'react';
 import Events from './events';
+import Team from './team';
 
 function Main() {
   useEffect(() => {
@@ -46,9 +44,12 @@ function Main() {
       <section id="prizes">
         <Prizes />
       </section>
-      {/* <section id="events">
+      <section id="events">
         <Events/>
-      </section> */}
+      </section>
+      <section id= "team">
+        <Team/>
+      </section>
       <section id="faq">
         <Faq />
       </section>

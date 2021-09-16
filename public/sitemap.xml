@@ -6,52 +6,52 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://hackodisha.xyz/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://guide.hackodisha.xyz/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
-  <priority>0.95</priority>
-</url>
-<url>
   <loc>https://links.hackodisha.xyz/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
-  <priority>0.94</priority>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
  <url>
   <loc>https://leaderboard.hackodisha.xyz/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
-  <priority>0.94</priority>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://guide.hackodisha.xyz/</loc>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/introduction/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/rules/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/conduct/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/faq/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/more-questions/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/tc/</loc>
-  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
+  <lastmod>2021-08-23T19:38:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -71,7 +71,7 @@
 </url>
 <url>
   <loc>https://guide.hackodisha.xyz/docs/project-submission/</loc>
-  <lastmod>2021-08-20T06:32:01+00:000</lastmod>
+  <lastmod>2021-08-20T06:32:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 </urlset>

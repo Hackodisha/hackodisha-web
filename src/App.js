@@ -8,6 +8,8 @@ import { Navbar } from "./components/navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Main from "./pages/main";
 import NotFound from "./pages/404";
+import TeamHackodisha from "./components/Team/teamHackodisha";
+
 
 const loadercss = css`
   display: block;
@@ -41,7 +43,9 @@ function App() {
         <main className="main">
           <Switch>
             <Route path="/" exact component={Main} />
+            <Route path="/team" exact component = {TeamHackodisha} />
             <Route component={NotFound} />
+            
           </Switch>
         </main>
         <MessengerCustomerChat

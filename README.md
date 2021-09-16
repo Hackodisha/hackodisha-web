@@ -1,10 +1,10 @@
-<p align='center'><img src='https://github.com/Hackodisha/hackodisha-web/blob/main/src/assets/images/logo.png' width='400' /></p>
+<p align='center'><img src='https://res.cloudinary.com/webwiznitr/image/upload/v1627814996/Assets/Images/logo_vimywi.png' width='400' /></p>
 
 <h1 align='center'> HackOdisha </h1>
 
 <p align='center'>Hackodisha brings an enterprising platform where hackers can showcase their unique ideas and expand boundaries with their creativity and proficiency. Webwiz, the technical club of NIT Rourkela is proud to host the hackathon on the eve of the diamond jubilee celebration of NIT Rourkela and strives to make it exciting, edifying, and educational. We will also be having many Pre-hack events for around a month where multiple communities will be organizing workshops and competitions. In this 36 hours </p>
 
-<img src='HackOdishaBanner.jpeg' >
+<img width="1250" alt="Screenshot 2021-09-16 at 1 17 30 PM" src="https://user-images.githubusercontent.com/67703407/133572024-825f2f7c-2844-4116-bbd1-c3092917deaf.png">
 
 [![Starware](https://img.shields.io/badge/⭐-Starware-f5a91a?labelColor=black)](https://github.com/zepfietje/starware)
 
