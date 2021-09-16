@@ -21,7 +21,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649209/HackOdisha/photo_-_vineet_ajmani_hztohn.jpg',
-    linkedIn: '',
+    linkedIn: 'https://www.linkedin.com/in/vineet-ajmani01/',
   },
   {
     id: 4,
