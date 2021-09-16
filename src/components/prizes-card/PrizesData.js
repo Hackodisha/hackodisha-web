@@ -207,7 +207,7 @@ const prizesData = [
     id: 6,
     description: (
      <div>
-        Postman Swag Bad
+        Postman Swag Pack
         <br /> 
         Free individual licenses to all Jetbrains desktop tools
         <br />

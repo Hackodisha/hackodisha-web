@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Raisebox from '../raisebox/raisebox';
 import styled from 'styled-components';
 import TeamData from './TeamData';
@@ -34,6 +34,9 @@ const TeamGrid = styled.div`
 
 
 const TeamHackodisha = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
 

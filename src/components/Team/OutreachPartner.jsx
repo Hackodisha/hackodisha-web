@@ -1,5 +1,13 @@
 const OutReachData = [
   {
+    id: 5,
+    Name: 'Manisha Gupta',
+
+    imgPath:
+      'https://res.cloudinary.com/nightfury/image/upload/v1631649183/HackOdisha/photo_-_MANISHA_GUPTA_ioyohj.jpg',
+    linkedIn: '',
+  },
+  {
     id: 1,
     Name: 'Anubhab Patnaik',
 
@@ -31,14 +39,7 @@ const OutReachData = [
       'https://res.cloudinary.com/nightfury/image/upload/v1631649296/HackOdisha/profilepic_-_Harshit_Aditya_jfa4ow.jpg',
     linkedIn: '',
   },
-  {
-    id: 5,
-    Name: 'Manisha Gupta',
-
-    imgPath:
-      'https://res.cloudinary.com/nightfury/image/upload/v1631649183/HackOdisha/photo_-_MANISHA_GUPTA_ioyohj.jpg',
-    linkedIn: '',
-  },
+ 
   {
     id: 6,
     Name: 'Prabhav Khera',

@@ -53,28 +53,28 @@ function PrizesCard() {
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
             className="first_prize"
-            trackname="Tezos"
+            trackname="Best use of Tezos"
             description={prizesData[6].description}
           />
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
             className="second_prize"
-            trackname="Celo"
+            trackname="Best use of Celo"
             description={prizesData[7].description}
           />
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
             className="first_prize"
-            trackname="Polygon"
+            trackname="Best use of Polygon"
             description={prizesData[8].description}
           />
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
             className="second_prize"
-            trackname="Filecoin"
+            trackname="Best use of Filecoin"
             description={prizesData[9].description}
           />
         </Col>

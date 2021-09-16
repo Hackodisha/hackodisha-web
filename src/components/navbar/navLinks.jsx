@@ -95,6 +95,7 @@ export function NavLinks() {
     // "speakers",
     "prizes",
     "events",
+    "team",
     "faq",
   ];
 

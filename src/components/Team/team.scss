@@ -19,10 +19,8 @@
 
 
 #member-image {
-   min-width: 200px; 
-   min-height: 200px; 
-   max-height: 200px; 
-   max-width: 200px; 
+   height: 200px;
+   width: 200px;
    border-radius: 50%; 
    border-left:4px solid black;
       border-right: 4px solid black; 
@@ -38,7 +36,7 @@
 
    #member-name {
       color: rgba(255, 0, 0, 0.952);
-      font-size: 30px;
+      font-size: 26px;
       font-weight: 500;
       border-bottom: 2px solid rgba(255, 255, 255, 0.52);
       
