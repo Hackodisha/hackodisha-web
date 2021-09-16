@@ -1,4 +1,4 @@
-<p align='center'><img src='https://github.com/Hackodisha/hackodisha-web/blob/main/src/assets/images/logo.png' width='400' /></p>
+<p align='center'><img src='https://res.cloudinary.com/webwiznitr/image/upload/v1627814996/Assets/Images/logo_vimywi.png' width='400' /></p>
 
 <h1 align='center'> HackOdisha </h1>
 
