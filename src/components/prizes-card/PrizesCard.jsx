@@ -66,21 +66,21 @@ function PrizesCard() {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
-            className="first_prize"
+            className="third_prize"
             trackname="Best use of Polygon"
             description={prizesData[8].description}
           />
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
-            className="second_prize"
+            className="first_prize"
             trackname="Best use of Filecoin"
             description={prizesData[9].description}
           />
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <PrizesCardElement
-            className="third_prize"
+            className="second_prize"
             trackname="All Participants"
             description={prizesData[10].description}
           />
