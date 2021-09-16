@@ -62,7 +62,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649015/HackOdisha/E1750672-FEDC-4C78-9AFC-405854935550_-_Khushi_Yadav_joeqcq.jpg',
-    linkedIn: '',
+    linkedIn: 'https://www.linkedin.com/in/khushi-yadav-559412202',
   },
   {
     id: 9,
