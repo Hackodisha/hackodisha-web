@@ -145,9 +145,16 @@ const TeamData = [
       'https://res.cloudinary.com/webwiznitr/image/upload/v1631693179/Hackodisha-Team/20210103_162858_-_abhishek_ranjan_prusty_cvhuyh.jpg',
     Role: 'Publicity Team',
   },
-
   {
     id: 19,
+    Name: 'Lakshmi Haritha',
+    linkedIn: 'https://www.linkedin.com/in/lakshmi-haritha-annadanam-4b8632201',
+    imgPath:
+      'https://res.cloudinary.com/webwiznitr/image/upload/v1631693314/Hackodisha-Team/IMG-20210914-WA0070__01_-_Haritha_Haritha_wrusr8.jpg',
+    Role: 'Outreach Team',
+  },
+  {
+    id: 20,
     Name: 'Krishna Agrawal',
     linkedIn: 'https://www.linkedin.com/in/krishna-agrawal-6370b3218',
     imgPath:
@@ -155,7 +162,7 @@ const TeamData = [
     Role: 'Sponsorship Team',
   },
   {
-    id: 20,
+    id: 21,
     Name: 'Aporanta Mukhopadhyay',
     linkedIn: 'https://www.linkedin.com/in/aporanta-mukhopadhyay-744892210',
     imgPath:
@@ -164,7 +171,7 @@ const TeamData = [
   },
 
   {
-    id: 21,
+    id: 22,
     Name: 'Swagat Raj',
     linkedIn: 'https://www.linkedin.com/mwlite/in/swagat-raj-8924691b7',
     imgPath:
@@ -172,7 +179,7 @@ const TeamData = [
     Role: 'Design Team',
   },
   {
-    id: 22,
+    id: 23,
     Name: 'Sai Ashish',
     linkedIn: 'https://www.linkedin.com/in/sai-ashish-anshuman-5b4007194/',
     imgPath:
@@ -180,19 +187,11 @@ const TeamData = [
     Role: 'Design Team ',
   },
   {
-    id: 23,
+    id: 24,
     Name: 'Ankush Kumar Lohani',
     linkedIn: 'https://www.linkedin.com/in/iamakl',
     imgPath:
       'https://res.cloudinary.com/webwiznitr/image/upload/v1631693411/Hackodisha-Team/WhatsApp_Image_2021-07-26_at_1.44.28_AM_-_Ankush_Lohani_khkylq.jpg',
-    Role: 'Outreach Team',
-  },
-  {
-    id: 24,
-    Name: 'Lakshmi Haritha',
-    linkedIn: 'https://www.linkedin.com/in/lakshmi-haritha-annadanam-4b8632201',
-    imgPath:
-      'https://res.cloudinary.com/webwiznitr/image/upload/v1631693314/Hackodisha-Team/IMG-20210914-WA0070__01_-_Haritha_Haritha_wrusr8.jpg',
     Role: 'Outreach Team',
   },
   {
