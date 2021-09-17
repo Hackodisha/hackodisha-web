@@ -25,24 +25,30 @@ const Day1 = [
   },
   {
     id: 5,
-    time: '18:00',
+    time: '16:30',
     date: '18 Sept',
-    title: 'Dino game',
+    title: 'Fun event with Voice Over Artist, Adi Shetty',
   },
   {
     id: 6,
-    time: '20:00',
-    date: '18 Sept',
-    title: 'Initial Submission',
-  },
-  {
-    id: 7,
-    time: '20:30',
+    time: '18:00',
     date: '18 Sept',
     title: 'Game Time',
   },
   {
+    id: 7,
+    time: '20:00',
+    date: '18 Sept',
+    title: 'Initial Submission Starts',
+  },
+  {
     id: 8,
+    time: '22:00',
+    date: '18 Sept',
+    title: 'Game Time',
+  },
+  {
+    id: 9,
     time: '22:30',
     date: '18 Sept',
     title: 'Workshop by Koren Grinshpoon, CEO of EchoAR',
@@ -50,12 +56,6 @@ const Day1 = [
 ];
 
 const Day2 = [
-  {
-    id: 9,
-    time: '10:00',
-    date: '19 Sept',
-    title: 'Game Time',
-  },
   {
     id: 10,
     time: '17:00',
