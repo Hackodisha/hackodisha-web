@@ -191,6 +191,13 @@ const bronzeData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628196548/Assets/Sponsors/commudle_rzvcpj.png',
     alt: 'commudle bronze sponsor of Hackodisha',
   },
+  {
+    id: 28,
+    className: 'logo_small',
+    link: 'https://sites.google.com/view/cyb3rjunk/home/',
+    image: 'https://res.cloudinary.com/cyberjunk/image/upload/v1632293760/logo_transparent_ijppgh.png',
+    alt: 'commudle bronze sponsor of Hackodisha',
+  },
   
 ];
 
