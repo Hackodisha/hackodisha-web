@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^13.2.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.0.2",
-    "codyhouse-framework": "^2.9.0",
+    "codyhouse-framework": "^3.0.2",
     "framer-motion": "^4.1.17",
     "grid-system": "^0.1.0",
     "node-sass": "6.0.1",
