@@ -1,15 +1,14 @@
-import MessengerCustomerChat from "react-messenger-customer-chat";
-import React, { useState, useEffect } from "react";
-import { css } from "@emotion/react";
-import HashLoader from "react-spinners/HashLoader";
-import Footer from "./components/footer/footer";
-import "./App.css";
-import { Navbar } from "./components/navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Main from "./pages/main";
-import NotFound from "./pages/404";
-import TeamHackodisha from "./components/Team/teamHackodisha";
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+import React, { useState, useEffect } from 'react';
+import { css } from '@emotion/react';
+import HashLoader from 'react-spinners/HashLoader';
+import Footer from './components/footer/footer';
+import './App.css';
+import { Navbar } from './components/navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Main from './pages/main';
+import NotFound from './pages/404';
+import TeamHackodisha from './components/Team/teamHackodisha';
 
 const loadercss = css`
   display: block;
@@ -35,7 +34,7 @@ function App() {
   }, []);
 
   return loading ? (
-    <HashLoader color={"#ff0000"} loading={loading} css={loadercss} size={80} />
+    <HashLoader color={'#ff0000'} loading={loading} css={loadercss} size={80} />
   ) : (
     <Router>
       <div className="App">
@@ -43,9 +42,8 @@ function App() {
         <main className="main">
           <Switch>
             <Route path="/" exact component={Main} />
-            <Route path="/team" exact component = {TeamHackodisha} />
+            <Route path="/team" exact component={TeamHackodisha} />
             <Route component={NotFound} />
-            
           </Switch>
         </main>
         <MessengerCustomerChat
