@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { Logo } from "../logo";
-import Accessibility from "./accessibility";
+// import Accessibility from "./accessibility";
 import { NavLinks } from "./navLinks";
 import { DeviceSize } from "../responsive";
 import { MobileNavLinks } from "./mobileNavLinks";
@@ -51,7 +51,7 @@ export function Navbar(props) {
       </LeftSection>
       <MiddleSection>{!isMobile && <NavLinks />}</MiddleSection>
       <RightSection>
-        {!isMobile && <Accessibility />}
+        {/* {!isMobile && <Accessibility />} */}
         {isMobile && <MobileNavLinks />}
       </RightSection>
     </NavbarContainer>
