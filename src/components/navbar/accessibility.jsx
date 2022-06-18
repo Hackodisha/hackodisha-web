@@ -1,71 +1,50 @@
-import React from "react";
-import { ReactTypeformEmbed } from "react-typeform-embed";
-import styled from "styled-components";
+// import React from "react";
+// import styled from "styled-components";
 
-const AccessibilityContainer = styled.div`
-  display: flex;
-  margin-left: 10px;
-`;
+// const AccessibilityContainer = styled.div`
+//   display: flex;
+//   margin-left: 10px;
+// `;
 
-const Button = styled.button`
-  border: 0;
-  outline: 0;
-  padding: 8px 1em;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 20px;
-  background-color: transparent;
-  border: 2px solid #ff0000;
-  transition: all 240ms ease-in-out;
-  cursor: pointer;
+// const Button = styled.button`
+//   border: 0;
+//   outline: 0;
+//   padding: 8px 1em;
+//   color: #fff;
+//   font-size: 18px;
+//   font-weight: 600;
+//   border-radius: 20px;
+//   background-color: transparent;
+//   border: 2px solid #ff0000;
+//   transition: all 240ms ease-in-out;
+//   cursor: pointer;
 
-  &:hover {
-    color: #000;
-    background-color: #ff0000;
-  }
+//   &:hover {
+//     color: #000;
+//     background-color: #ff0000;
+//   }
 
-  &:not(:last-of-type) {
-    margin-right: 7px;
-  }
-`;
+//   &:not(:last-of-type) {
+//     margin-right: 7px;
+//   }
+// `;
 
-class Accessibility extends React.Component {
-  constructor(props) {
-    super(props);
-    this.openForm = this.openForm.bind(this);
-  }
+// class Accessibility extends React.Component {
+ 
+//   render() {
+//     return (
+//       <div className="Accessibility">
+//         <AccessibilityContainer>
+//           <Button
+//             className="btn"
+//             onClick={alert('We are no longer acception Join Us Request! Go to Hackodisa 2.0 !')}
+//             style={{ cursor: "pointer" }}>
+//             Closed!
+//           </Button>
+//         </AccessibilityContainer>
+//       </div>
+//     );
+//   }
+// }
 
-  openForm() {
-    this.typeformEmbed.typeform.open();
-  }
-
-  render() {
-    return (
-      <div className="Accessibility">
-        <ReactTypeformEmbed
-          popup
-          autoOpen={false}
-          url="https://hackodisha.typeform.com/to/N19eeAoC"
-          hideHeaders
-          hideFooter
-          buttonText="Go!"
-          style={{ top: 100, zIndex: -10 }}
-          ref={(tf) => {
-            this.typeformEmbed = tf;
-          }}
-        />
-        <AccessibilityContainer>
-          <Button
-            className="btn"
-            onClick={this.openForm}
-            style={{ cursor: "pointer" }}>
-            Join us!
-          </Button>
-        </AccessibilityContainer>
-      </div>
-    );
-  }
-}
-
-export default Accessibility;
+// export default Accessibility;
