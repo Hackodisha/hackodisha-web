@@ -25,17 +25,15 @@ const loadercss = css`
 `;
 
 function App() {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2500);
-  }, []);
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2500);
+  // }, []);
 
-  return loading ? (
-    <HashLoader color={'#ff0000'} loading={loading} css={loadercss} size={80} />
-  ) : (
+  return (
     <Router>
       <div className="App">
         <Navbar />
