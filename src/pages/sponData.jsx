@@ -191,6 +191,13 @@ const bronzeData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628196548/Assets/Sponsors/commudle_rzvcpj.png',
     alt: 'commudle bronze sponsor of Hackodisha',
   },
+  {
+    id: 28,
+    className: 'logo_small',
+    link: 'https://slingshotahead.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1631896327/Assets/Sponsors/Logo_Dark_Bg_mltzx7.png',
+    alt: 'Slingshot bronze sponsor of Hackodisha',
+  },
   
 ];
 
