@@ -5,7 +5,7 @@ const OutReachData = [
 
     imgPath:
       'https://res.cloudinary.com/nightfury/image/upload/v1631649183/HackOdisha/photo_-_MANISHA_GUPTA_ioyohj.jpg',
-    linkedIn: '',
+    linkedIn: 'https://www.linkedin.com/in/manisha-gupta-here/',
   },
   {
     id: 2,
